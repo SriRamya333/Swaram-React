@@ -2,7 +2,7 @@ import 'bootstrap/dist/css/bootstrap.min.css';
 
 const Future = () => {
     return (
-      <div className="container text-center py-5">
+      <div className="container text-center">
       {/* Heading */}
       <div className="popular mb-4">
         <h2>We Featured on Popular Partners Like</h2>
