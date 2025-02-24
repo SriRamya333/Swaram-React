@@ -17,7 +17,7 @@ const Ourservice = () => {
         <div className="col-lg-6 col-md-6 col-12 mt-4 mt-md-0">
           {/* Section Header */}
           <div className="d-flex align-items-center justify-content-center justify-content-md-start">
-            <span className="content bg-success bg-opacity-25 text-success fw-bold px-3 py-2 rounded">
+            <span className="bg-success bg-opacity-25 text-success fw-bold px-3 py-2 rounded">
              <h4> OUR SERVICES</h4>
             </span>
             <div className="border border-success border-1 opacity-100 w-15 ms-3"></div>
