@@ -9,8 +9,8 @@ const Future = () => {
       </div>
     
       {/* Logo Grid */}
-      <div className="row justify-content-center g-3">
-        <div className="col-6 col-md-3 d-flex justify-content-center">
+      <div className="row justify-content-center g-3 mt-5">
+        <div className="partner col-6 col-md-3 d-flex justify-content-center">
           <img src="/Fortune.png" className="img-fluid" alt="Fortune" style={{ maxWidth: "150px", height: "auto" }} />
         </div>
         <div className="col-6 col-md-3 d-flex justify-content-center">
