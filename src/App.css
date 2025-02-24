@@ -418,10 +418,15 @@ section {
   text-align: center;
   padding-top: 10px;
 }
-
-.partner {
-  width: 75px;
+.popular h2{
+  font-size:24px;
+  font-weight: 600;
+  text-align: center;
+  padding-top: 30px;
 }
+/* .partner {
+  width: 75px;
+} */
 .btn1{
   border:2px solid #184A92;
   color: #184A92;
