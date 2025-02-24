@@ -1,6 +1,10 @@
 body {
-  font-family: "Nota", Sans;
+  font-family: 'Noto Sans';
 
+}
+#navbarNav .nav-item{
+font-family: "Poppins";
+padding-right:20px;
 }
 
 a {
@@ -20,9 +24,9 @@ h6 {
   font-family: "Poppins";
 }
 
-p {
+/* p {
   font-family: "Nota", Sans;
-}
+} */
 
 
 section {
@@ -182,6 +186,17 @@ section {
   color: #0CAE4B;
   padding:8px;
 }
+.line img{
+  padding-top: 17px;
+  width: 9px;
+}
+.line1 img{
+  padding-top: 8px;
+  width: 9px;
+}
+.class_child_div{
+  width:10px !important;
+}
 .logic{
   font-size:24px;
   font-weight:700;
@@ -276,11 +291,11 @@ section {
 
 /* Quote Icon */
 .quote-icon {
-  font-size: 24px;
-  color: #007bff;
+  font-size: 51px;
+  color: #184a92;
   position: absolute;
-  bottom: 10px;
-  right: 10px;
+  bottom: -28px;
+  right: 28px;
 }
 
 /* Carousel Control Buttons */
@@ -527,6 +542,25 @@ color: #184A92;
 font-weight: 700;
 }
 .test p{
-  font-size: 18px;
+  font-size: 16px;
   font-weight: 500;
+}
+
+.why-bg{
+  background-image: url(/public/why-choose-bg.png);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.div1{
+  position: relative;
+  align-items: end;
+}
+
+.side-tri img{
+  position: absolute;
+  top: -400px;
+
+  z-index: 999;
+  right: 0;
 }

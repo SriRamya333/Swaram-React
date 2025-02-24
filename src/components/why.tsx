@@ -3,6 +3,7 @@ import 'bootstrap/dist/css/bootstrap.min.css';
 const Why = () => {
   return (
     <>
+   
       <div className="container">
         <div className="row align-items-center">
           <div className="content col-lg-12 col-md-12 mx-auto col-sm-12">
@@ -13,7 +14,10 @@ const Why = () => {
           </div>
         </div>
         <div className="row mt-3">
-          <div className="decade col-lg-6 col-md-6 col-12">
+          <div className="col-1 class_child_div">
+            <span className="line1"><img src="/line.svg" /></span>
+          </div>
+          <div className="decade col-lg-5 col-md-5 col-12">
             <h2>Decades of experience, global reach, and a commitment to <span className='why-content'>excellence</span></h2>
           </div>
         </div>

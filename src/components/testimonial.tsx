@@ -27,7 +27,10 @@ const Testimonial = () => {
         </div>
         <div className="col-6">
           <div className="row">
-            <div className="test">
+          <div className="col-1 class_child_div">
+                  <span className="line"><img src="/line.svg" /></span>
+                </div>
+            <div className="col-11 test">
               <h2>What Our Customers Say</h2>
               <p>Discover the Success Stories and Satisfaction of Clients Who Have Benefited from Our Expertise and Personalized Financial Guidance</p>
             </div>
@@ -43,17 +46,19 @@ const Testimonial = () => {
             <div className="carousel-item active">
               <div className="row">
                 <div className="col-lg-4 col-md-6 col-12">
+
                   <div className="testimonial-card p-4 shadow-sm">
-                    <img src="/profile1.jpg" className="testimonial-img" alt="User 1" />
+                    <img src="/test-1.png" className="testimonial-img" alt="User 3" />
                     <h5 className="fw-bold">Grace Turner</h5>
                     <p className="text-muted">Director</p>
                     <p>Financial expertise has made a significant impact on our nonprofit financial stability, allowing us to better serve our community.</p>
                     <span className="quote-icon">❝</span>
                   </div>
                 </div>
+
                 <div className="col-lg-4 col-md-6 col-12">
                   <div className="testimonial-card p-4 shadow-sm">
-                    <img src="/profile2.jpg" className="testimonial-img" alt="User 2" />
+                    <img src="/test-2.png" className="testimonial-img" alt="User 2" />
                     <h5 className="fw-bold">Linda Carter</h5>
                     <p className="text-muted">Analyst</p>
                     <p>Financial planning and investment advice I received from this team completely transformed my future. I couldn't be happier with the results.</p>
@@ -62,7 +67,7 @@ const Testimonial = () => {
                 </div>
                 <div className="col-lg-4 col-md-6 col-12">
                   <div className="testimonial-card p-4 shadow-sm">
-                    <img src="/profile1.jpg" className="testimonial-img" alt="User 3" />
+                    <img src="/test-1.png" className="testimonial-img" alt="User 3" />
                     <h5 className="fw-bold">Grace Turner</h5>
                     <p className="text-muted">Director</p>
                     <p>Financial expertise has made a significant impact on our nonprofit financial stability, allowing us to better serve our community.</p>
@@ -77,7 +82,7 @@ const Testimonial = () => {
               <div className="row">
                 <div className="col-lg-4 col-md-6 col-12">
                   <div className="testimonial-card p-4 shadow-sm">
-                    <img src="/profile3.jpg" className="testimonial-img" alt="User 4" />
+                    <img src="/test-2.png" className="testimonial-img" alt="User 4" />
                     <h5 className="fw-bold">Robert Williams</h5>
                     <p className="text-muted">CEO</p>
                     <p>Exceptional service! Their insights helped our business grow tremendously.</p>
@@ -86,7 +91,7 @@ const Testimonial = () => {
                 </div>
                 <div className="col-lg-4 col-md-6 col-12">
                   <div className="testimonial-card p-4 shadow-sm">
-                    <img src="/profile4.jpg" className="testimonial-img" alt="User 5" />
+                    <img src="/test-1.png" className="testimonial-img" alt="User 5" />
                     <h5 className="fw-bold">Emily Davis</h5>
                     <p className="text-muted">Marketing Lead</p>
                     <p>Professional, insightful, and dedicated to providing the best financial guidance.</p>
@@ -95,7 +100,7 @@ const Testimonial = () => {
                 </div>
                 <div className="col-lg-4 col-md-6 col-12">
                   <div className="testimonial-card p-4 shadow-sm">
-                    <img src="/profile5.jpg" className="testimonial-img" alt="User 6" />
+                    <img src="/test-2.png" className="testimonial-img" alt="User 6" />
                     <h5 className="fw-bold">Michael Brown</h5>
                     <p className="text-muted">Financial Advisor</p>
                     <p>I've never worked with a team so committed to success. Highly recommended!</p>

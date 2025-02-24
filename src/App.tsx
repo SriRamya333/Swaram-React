@@ -12,6 +12,7 @@ import OurService from './components/our-service';
 import Why from './components/why';
 import Connect from './components/connect';
 import Testimonial from './components/testimonial';
+import Side from './components/side';
 
 function App() {
 
@@ -61,9 +62,15 @@ function App() {
         <OurService />
       </div>
     </section>
+
+    <section className=''>
+      <div className="class">
+        <Side/>
+      </div>
+    </section>
     
     {/* Why Section */}
-    <section className='why position-relative d-flex flex-column'>
+    <section className='why position-relative d-flex flex-column why-bg'>
       <div>
         <Why />
       </div>

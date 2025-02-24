@@ -12,10 +12,8 @@ const Navbar = () => {
         {/* Logo */}
         <a className="navbar-brand" href="#">
           <img
-            src="logo.png"
+            src="logo.svg"
             alt="Logo"
-            width="160"
-            height="30"
             className="d-inline-block align-top"
           />
         </a>
