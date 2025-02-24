@@ -156,12 +156,12 @@ section {
   background: linear-gradient(#B6D4FF, #FFFFFF);
   border-radius: 50%;
 }
-.oval-blue{
+/* .oval-blue{
   background: linear-gradient(#B6D4FF, #FFFFFF);
   border-top-right-radius:45%;
   border-top-left-radius: 45%;
   border-radius: 50%;
-}
+} */
 .graph-image img {
 
   width: 400px;
