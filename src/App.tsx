@@ -16,62 +16,78 @@ import Testimonial from './components/testimonial';
 function App() {
 
   return (
-    <>
+    <div className='d-flex flex-column'>
+    {/* Navbar Section */}
+    <section className='nav-bar'>
+      <Navbar />
+    </section>
     
-      <section className='nav-bar'>
-        <Navbar />
-      </section>
-      
-      <section className='home-section '>
-        <img src="/bg-green-1.png" alt="" className='color-img'/>
-        <img src='/green-tri.png' className='green-tri' />
-        {/* <img src="./blue-tri.png" alt="" className='blue=tri' /> */}
-        <img src="./Frame-3.png" alt="" className='img-fream' />
-        <img src="./Frame-4.png" alt="" className='img-fream1' />
-        <div className="container">
-          <Home />
-        </div>
-      </section>
-      <section className='future'>
-        <div className="oval">
-          <Future />
-        </div>
-      </section>
-      <section className='our-service'>
-        
-        <div className="oval2">
-          <OurService/>
-        </div>
-      </section>
-      <section className='why'>
-        <div className=" ">
-          <Why/>
-        </div>
-      </section>
-      <section className='third-section'>
-        <div className=" ">
-          <Connect/>
-        </div>
-      </section>
-      <section className=' '>
-        <div className=" ">
-          <Testimonial/>
-        </div>
-      </section>
-      
-      <section className='footer-section'>
-        <Footer />
-      </section>
-      <Router>
-        <Routes>
-          <Route path="/about" element={<About />} />
-          <Route path="/service" element={<Service />} />
-        </Routes>
-      </Router>
+    {/* Home Section */}
+    <section className='home-section position-relative d-flex flex-column'>
+  {/* Background Images */}
+  <img src="/bg-green-1.png" alt="" 
+    className="color-img position-absolute top-0 end-0"
+    style={{ width: '50%', maxWidth: '280px', height: 'auto', objectFit: 'contain' }} 
+  />
 
+  <img src="/green-tri.png" alt="" 
+    className="green-tri position-absolute top-0 start-0" 
+    style={{ width: '30%', maxWidth: '280px', height: 'auto', objectFit: 'contain' }} 
+  />
 
+  <img src="./Frame-3.png" alt="" 
+    className="img-frame position-absolute bottom-0 start-0" 
+    style={{ width: '25%', maxWidth: '180px', height: 'auto', objectFit: 'contain' }} 
+  />
 
-    </>
+  <img src="./Frame-4.png" alt="" 
+    className="img-frame1 position-absolute bottom-0 end-0" 
+    style={{ width: '25%', maxWidth: '220px', height: 'auto', objectFit: 'contain' }} 
+  />
+    <Home />
+</section>
+
+    
+    {/* Future Section */}
+    <section className='position-relative d-flex flex-column'>
+      <div className='oval'>
+        <Future />
+      </div>
+    </section>
+    
+    {/* Our Services Section */}
+    <section className='position-relative d-flex flex-column'>
+      <div className='oval-blue'>
+        <OurService />
+      </div>
+    </section>
+    
+    {/* Why Section */}
+    <section className='why position-relative d-flex flex-column'>
+      <div>
+        <Why />
+      </div>
+    </section>
+    
+    {/* Third Section */}
+    <section className='position-relative d-flex flex-column bg-gray'>
+      <div>
+        <Connect />
+      </div>
+    </section>
+    
+    {/* Testimonial Section */}
+    <section className='position-relative d-flex flex-column'>
+      <div>
+        <Testimonial />
+      </div>
+    </section>
+    
+    {/* Footer Section */}
+    <section className='footer-section position-relative d-flex flex-column'>
+      <Footer />
+    </section>
+  </div>
   )
 }
 
