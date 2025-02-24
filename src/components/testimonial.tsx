@@ -25,13 +25,16 @@ const Testimonial = () => {
             <div className="border border-success border-1 w-25"></div>
           </div>
         </div>
-        <div className="row">
-          <div className="test">
-            <h2>What Our Customers Say</h2>
-            <p>Discover the Success Stories and Satisfaction of Clients Who Have Benefited from Our Expertise and Personalized Financial Guidance</p>
-          </div>
+        <div className="col-6">
+          <div className="row">
+            <div className="test">
+              <h2>What Our Customers Say</h2>
+              <p>Discover the Success Stories and Satisfaction of Clients Who Have Benefited from Our Expertise and Personalized Financial Guidance</p>
+            </div>
 
+          </div>
         </div>
+
 
         {/* Bootstrap Carousel */}
         <div id="testimonialCarousel" className="carousel slide mt-5" data-bs-ride="carousel">
