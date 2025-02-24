@@ -5,8 +5,8 @@ const Ourservice = () => {
   return (
 <>
   {/* Full-width Background Section */}
-  <div className="container-fluid bg-light position-relative py-5">
-    <div className="container py-5">
+  <div className="container-fluid bg-light position-relative">
+    <div className="container">
       <div className="row align-items-center">
         {/* Image Section */}
         <div className="col-lg-6 col-md-6 col-12 text-center text-md-start">

@@ -57,7 +57,7 @@ function App() {
     
     {/* Our Services Section */}
     <section className='position-relative d-flex flex-column'>
-      <div className='oval-blue'>
+      <div className=''>
         <OurService />
       </div>
     </section>
