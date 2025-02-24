@@ -20,7 +20,7 @@ const Ourservice = () => {
             <span className="bg-success bg-opacity-25 text-success fw-bold px-3 py-2 rounded">
              OUR SERVICES
             </span>
-            <div className="border border-success border-1 opacity-100 w-25 ms-3"></div>
+            <div className="border border-success border-1 opacity-100 w-20 ms-3"></div>
           </div>
 
           {/* Title */}
