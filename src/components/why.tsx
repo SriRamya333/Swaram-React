@@ -4,14 +4,14 @@ const Why = () => {
   return (
     <>
       <div className="container">
-      <div className="row align-items-center">
-      <div className="content col-lg-12 col-md-12 mx-auto col-sm-12">
-               <h4>why choose us</h4>
-                </div>
-            <div className="col">
-              <div className="border border-success border-1 opacity-100 w-25"></div>
-            </div>
+        <div className="row align-items-center">
+          <div className="content col-lg-12 col-md-12 mx-auto col-sm-12">
+            <h4>why choose us</h4>
           </div>
+          <div className="col">
+            <div className="border border-success border-1 opacity-100 w-25"></div>
+          </div>
+        </div>
         <div className="row mt-3">
           <div className="decade col-lg-6 col-md-6 col-12">
             <h2>Decades of experience, global reach, and a commitment to <span className='why-content'>excellence</span></h2>
