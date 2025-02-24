@@ -52,7 +52,7 @@ const Ourservice = () => {
 
           {/* Explore Button */}
           <div className="explore d-flex justify-content-center justify-content-md-start mt-4">
-            <a href="#" className="btn1 btn-primary px-4 py-2">Explore Services</a>
+            <a href="#" className="btn1 btn-primary mt-2 px-4 py-2">Explore Services</a>
           </div>
         </div>
       </div>
