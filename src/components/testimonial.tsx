@@ -17,8 +17,8 @@ const Testimonial = () => {
     {/* Heading Section */}
     <div className="row align-items-center mt-4">
       <div className="col-auto">
-        <span className="bg-success bg-opacity-25 text-success fw-bold px-3 py-2 rounded">
-          TESTIMONIALS
+        <span className="content fw-bold px-3 py-2 rounded">
+         <h4>TESTIMONIALS</h4> 
         </span>
       </div>
       <div className="col">
