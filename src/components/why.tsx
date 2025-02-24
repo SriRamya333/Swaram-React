@@ -5,11 +5,9 @@ const Why = () => {
     <>
       <div className="container">
       <div className="row align-items-center">
-            <div className="col-auto">
-              <span className="content">
-               <h4>WHY CHOOSE US</h4> 
-              </span>
-            </div>
+      <div className="content col-lg-12 col-md-12 mx-auto col-sm-12">
+               <h4>why choose us</h4>
+                </div>
             <div className="col">
               <div className="border border-success border-1 opacity-100 w-25"></div>
             </div>
