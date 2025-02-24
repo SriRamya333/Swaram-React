@@ -1,10 +1,10 @@
 
 import './App.css';
 import 'bootstrap/dist/css/bootstrap.min.css';
-import About from './components/about';
+// import About from './components/about';
 import Navbar from './components/Navbar';
-import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
-import Service from './components/service';
+// import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
+// import Service from './components/service';
 import Home from './components/home';
 import Footer from './components/footer';
 import Future from './components/future';

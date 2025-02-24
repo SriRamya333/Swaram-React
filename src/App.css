@@ -564,3 +564,13 @@ font-weight: 700;
   z-index: 999;
   right: 0;
 }
+.bg{
+  background-image: linear-gradient(#B6D4FF, #FFFFFF);
+  border-radius: 50% / 142px 178px 0 0;
+
+}
+/* .bg{
+  width:500px; height:100px;  
+  border:solid 5px #000;
+  border-color:#000 transparent transparent transparent;
+} */

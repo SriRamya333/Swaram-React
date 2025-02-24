@@ -5,7 +5,7 @@ const Ourservice = () => {
   return (
     <>
       {/* Full-width Background Section */}
-      <div className="container-fluid bg-light position-relative">
+      <div className="container-fluid bg position-relative">
         <div className="container">
           <div className="row align-items-center">
             {/* Image Section */}
