@@ -38,8 +38,8 @@ const Connect = () => {
             </div>
 
             {/* Button Section */}
-            <div className="connect-btn ">
-              <a href="#" className="btn btn-success px-4 py-2">Connect Us</a>
+            <div className="connect-btn">
+              <a href="#" className="btn2 px-4 py-2">Connect Us</a>
             </div>
           </div>
         </div>
