@@ -6,7 +6,7 @@ const Why = () => {
       <div className="container">
       <div className="row align-items-center">
             <div className="col-auto">
-              <span className="content bg-opacity-25 fw-bold px-3 py-2 rounded">
+              <span className="content">
                <h4>WHY CHOOSE US</h4> 
               </span>
             </div>
