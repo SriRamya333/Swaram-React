@@ -26,7 +26,7 @@ const Ourservice = () => {
               {/* Title */}
               <div className="row">
                 <div className="col-1 class_child_div">
-                  <span className="line"><img src="/line.svg" /></span>
+                  <span className="line"><img src="line.svg" /></span>
                 </div>
                 <div className="col-11">
                   <h2 className="logic text-center text-md-start mt-3">
