@@ -1,5 +1,5 @@
-
 import 'bootstrap/dist/css/bootstrap.min.css';
+
 
 const About = () => {
     return (
@@ -7,6 +7,7 @@ const About = () => {
         
           <div className="container mt-5 pt-5">
             <h1>About us Page</h1>
+            <h2>hi</h2>
             {/* <p>This content is pushed down to avoid overlapping with the navbar.</p> */}
           </div>
         </>
