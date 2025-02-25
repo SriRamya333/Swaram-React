@@ -10,7 +10,7 @@ const Home = () => {
   return (
     <>
     
- <section>
+ <section className='home-section position-relative d-flex flex-column'>
  <img src="bg-green-1.png" alt="" 
     className="color-img position-absolute top-0 end-0"
     style={{ width: '50%', maxWidth: '280px', height: 'auto', objectFit: 'contain' }} 
