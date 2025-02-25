@@ -10,7 +10,7 @@ const Ourservice = () => {
           <div className="row align-items-center">
             {/* Image Section */}
             <div className="col-lg-6 col-md-6 col-12 text-center text-md-start mt-5">
-              <img src="/graph.png" className="img-fluid" style={{ maxWidth: "80%", height: "auto" }} />
+              <img src="graph.png" className="img-fluid" style={{ maxWidth: "80%", height: "auto" }} />
             </div>
 
             {/* Content Section */}
@@ -41,19 +41,19 @@ const Ourservice = () => {
               <div className="mt-4">
                 <div className="row row-cols-1 row-cols-md-2 g-3">
                   <div className="col d-flex align-items-center">
-                    <img src="/dollar.png" className="me-2" style={{ width: "30px", height: "30px" }} />
+                    <img src="dollar.png" className="me-2" style={{ width: "30px", height: "30px" }} />
                     <p className="trade mb-0">Global Trading</p>
                   </div>
                   <div className="col d-flex align-items-center">
-                    <img src="/coin.png" className="me-2" style={{ width: "30px", height: "30px" }} />
+                    <img src="coin.png" className="me-2" style={{ width: "30px", height: "30px" }} />
                     <p className="trade mb-0">Logistics & Supply Chain Management</p>
                   </div>
                   <div className="col d-flex align-items-center">
-                    <img src="/house.png" className="me-2" style={{ width: "30px", height: "30px" }} />
+                    <img src="house.png" className="me-2" style={{ width: "30px", height: "30px" }} />
                     <p className="trade mb-0">Energy Solutions</p>
                   </div>
                   <div className="col d-flex align-items-center">
-                    <img src="/office.png" className="me-2" style={{ width: "30px", height: "30px" }} />
+                    <img src="office.png" className="me-2" style={{ width: "30px", height: "30px" }} />
                     <p className="trade mb-0">Infrastructure & Construction</p>
                   </div>
                 </div>

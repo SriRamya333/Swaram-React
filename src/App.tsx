@@ -26,22 +26,22 @@ function App() {
     {/* Home Section */}
     <section className='home-section position-relative d-flex flex-column'>
   {/* Background Images */}
-  <img src="/bg-green-1.png" alt="" 
+  <img src="bg-green-1.png" alt="" 
     className="color-img position-absolute top-0 end-0"
     style={{ width: '50%', maxWidth: '280px', height: 'auto', objectFit: 'contain' }} 
   />
 
-  <img src="/green-tri.png" alt="" 
+  <img src="green-tri.png" alt="" 
     className="green-tri position-absolute top-0 start-0" 
     style={{ width: '30%', maxWidth: '280px', height: 'auto', objectFit: 'contain' }} 
   />
 
-  <img src="./Frame-3.png" alt="" 
+  <img src="Frame-3.png" alt="" 
     className="img-frame position-absolute bottom-0 start-0" 
     style={{ width: '25%', maxWidth: '180px', height: 'auto', objectFit: 'contain' }} 
   />
 
-  <img src="./Frame-4.png" alt="" 
+  <img src="Frame-4.png" alt="" 
     className="img-frame1 position-absolute bottom-0 end-0" 
     style={{ width: '25%', maxWidth: '220px', height: 'auto', objectFit: 'contain' }} 
   />

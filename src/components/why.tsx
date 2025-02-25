@@ -15,7 +15,7 @@ const Why = () => {
         </div>
         <div className="row mt-3">
           <div className="col-1 class_child_div">
-            <span className="line1"><img src="/line.svg" /></span>
+            <span className="line1"><img src="line.svg" /></span>
           </div>
           <div className="decade col-lg-5 col-md-5 col-12">
             <h2>Decades of experience, global reach, and a commitment to <span className='why-content'>excellence</span></h2>
@@ -24,7 +24,7 @@ const Why = () => {
         <div className="row mt-4">
           <div className="col-lg-4 col-md-4 col-12">
             <div className='global' >
-              <img src="/global.png" className="why-icon" />
+              <img src="global.png" className="why-icon" />
             </div>
             <div className="icon-content mt-2">
               <h6>Global Expertise</h6>
@@ -33,7 +33,7 @@ const Why = () => {
           </div>
           <div className="col-lg-4 col-md-4 col-12">
             <div className='global1'>
-              <img src="/setting.png" className="why-icon1" />
+              <img src="setting.png" className="why-icon1" />
             </div>
             <div className="icon-content mt-2">
               <h6>End-to-End Solutions</h6>
@@ -43,7 +43,7 @@ const Why = () => {
           </div>
           <div className="col-lg-4 col-md-4 col-12">
             <div className='global' >
-              <img src="/bulb.png" className="why-icon2" />
+              <img src="bulb.png" className="why-icon2" />
             </div>
             <div className="icon-content mt-2">
               <h6>Global Expertise</h6>

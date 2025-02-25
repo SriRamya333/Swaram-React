@@ -8,16 +8,16 @@ const Future = () => {
       </div>
        <div className="row text-center mt-5">
         <div className="partner col-lg-3 col-md-3 col-12">
-           <img src="/Fortune.png"/>
+           <img src="Fortune.png"/>
         </div>
         <div className="col-lg-3  col-md-3 col-12">
-          <img src="/Forbes.png"/>
+          <img src="Forbes.png"/>
         </div>
         <div className="col-lg-3 col-md-3 col-12">
-        <img src="/invest-detroit.png"/>
+        <img src="invest-detroit.png"/>
         </div>
         <div className="col-3 col-md-3 col-12">
-        <img src="/Robinhood.png"/>
+        <img src="Robinhood.png"/>
         </div>
        </div>
     </div>

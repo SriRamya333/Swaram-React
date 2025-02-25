@@ -30,7 +30,7 @@ const Home = () => {
         {/* Image Section */}
         <div className='row mt-5 justify-content-center'>
           <div className='img col-md-6 col-10 d-flex justify-content-center'>
-            <img src='/Group-0.png' alt='Description' className='img-fluid' style={{ maxWidth: '100%', height: 'auto' }} />
+            <img src='Group-0.png' alt='Description' className='img-fluid' style={{ maxWidth: '100%', height: 'auto' }} />
           </div>
         </div>
       </div>
@@ -38,7 +38,7 @@ const Home = () => {
 
     {/* Background Image (Centered and Responsive) */}
     <img 
-      src='./Group-5.png' 
+      src='Group-5.png' 
       alt='' 
       className='bg-main mt-5 position-absolute top-50 start-50 translate-middle' 
       style={{ 
