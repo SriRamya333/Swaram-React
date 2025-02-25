@@ -9,8 +9,8 @@ const Ourservice = () => {
         <div className="container">
           <div className="row align-items-center">
             {/* Image Section */}
-            <div className="col-lg-6 col-md-6 col-12 text-center text-md-start">
-              <img src="/graph.png" className="img-fluid" style={{ maxWidth: "100%", height: "auto" }} />
+            <div className="col-lg-6 col-md-6 col-12 text-center text-md-start mt-5">
+              <img src="/graph.png" className="img-fluid" style={{ maxWidth: "80%", height: "auto" }} />
             </div>
 
             {/* Content Section */}

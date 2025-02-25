@@ -6,7 +6,7 @@ const Side = () => {
         <>
         
          <div className="div1">
-            <div className="side-tri">
+            <div className="side-tri d-lg-block d-md-none d-none">
                 <img src="/side-tri.png"/>
             </div>
          </div>

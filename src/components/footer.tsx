@@ -8,7 +8,7 @@ const Footer = () => {
             <div className="container">
     <div className="card">
         <div className="row d-flex flex-wrap">
-            <div className="col-12 col-md-3 d-flex flex-column align-items-center text-center">
+            <div className="col-12 col-md-3 d-flex flex-column">
                 <div className="foot-img">
                     <img src="foot.png" alt="Logo" className="img-fluid" />
                 </div>
@@ -16,7 +16,7 @@ const Footer = () => {
                     <p>Massa blandit semper varius faucibus. Suspendisse viverra venenatis placerat nam ut. Pellentesque sit id tempor turpis.</p>
                 </div>
             </div>
-            <div className="col-12 col-md-2 d-flex flex-column align-items-center text-center">
+            <div className="col-12 col-md-2 d-flex flex-column">
                 <div className="foot-head">
                     <h2>LINKS</h2>
                 </div>
@@ -30,7 +30,7 @@ const Footer = () => {
                     </ul>
                 </div>
             </div>
-            <div className="col-12 col-md-2 footer-bg d-flex flex-column align-items-center text-center">
+            <div className="col-12 col-md-2 footer-bg d-flex flex-column">
                 <div className="foot-head">
                     <h2>LEGAL</h2>
                 </div>
