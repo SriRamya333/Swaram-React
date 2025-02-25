@@ -7,12 +7,7 @@ import Navbar from './components/Navbar';
 // import Service from './components/service';
 import Home from './components/home';
 import Footer from './components/footer';
-import Future from './components/future';
-import OurService from './components/our-service';
-import Why from './components/why';
-import Connect from './components/connect';
-import Testimonial from './components/testimonial';
-import Side from './components/side';
+
 
 function App() {
 
@@ -24,7 +19,7 @@ function App() {
     </section>
     
     {/* Home Section */}
-    <section className='home-section position-relative d-flex flex-column'>
+    <div className='home-section position-relative d-flex flex-column'>
   {/* Background Images */}
   <img src="bg-green-1.png" alt="" 
     className="color-img position-absolute top-0 end-0"
@@ -46,49 +41,10 @@ function App() {
     style={{ width: '25%', maxWidth: '220px', height: 'auto', objectFit: 'contain' }} 
   />
     <Home />
-</section>
+</div>
 
     
-    {/* Future Section */}
-    <section className='position-relative d-flex flex-column'>
-      <div className='oval'>
-        <Future />
-      </div>
-    </section>
-    
-    {/* Our Services Section */}
-    <section className='position-relative d-flex flex-column'>
-      <div className=''>
-        <OurService />
-      </div>
-    </section>
-
-    <section className=''>
-      <div className="class">
-        <Side/>
-      </div>
-    </section>
-    
-    {/* Why Section */}
-    <section className='why position-relative d-flex flex-column why-bg'>
-      <div>
-        <Why />
-      </div>
-    </section>
-    
-    {/* Third Section */}
-    <section className='position-relative d-flex flex-column bg-gray'>
-      <div>
-        <Connect />
-      </div>
-    </section>
-    
-    {/* Testimonial Section */}
-    <section className='position-relative d-flex flex-column'>
-      <div>
-        <Testimonial />
-      </div>
-    </section>
+   
     
     {/* Footer Section */}
     <section className='footer-section position-relative d-flex flex-column'>

@@ -1,11 +1,18 @@
 import 'bootstrap/dist/css/bootstrap.min.css';
+import Future from './future';
+import OurService from './our-service';
+import Why from './why';
+import Connect from './connect';
+import Testimonial from './testimonial';
+import Side from './side';
 
 const Home = () => {
   return (
     <>
     
-  {/* Container for Content */}
-  <div className='container position-relative d-flex flex-column align-items-center text-center py-5'>
+ <section>
+   {/* Container for Content */}
+   <div className='container position-relative d-flex flex-column align-items-center text-center py-5'>
     {/* Content */}
     <div className='row justify-content-center w-100 position-relative' style={{ zIndex: 1 }}>
       <div className='col-lg-10 col-md-12 col-12'>
@@ -50,6 +57,48 @@ const Home = () => {
       }} 
     />
   </div>
+ </section>
+
+   {/* Future Section */}
+   <section className='position-relative d-flex flex-column'>
+      <div className='oval'>
+        <Future />
+      </div>
+    </section>
+    
+    {/* Our Services Section */}
+    <section className='position-relative d-flex flex-column'>
+      <div className=''>
+        <OurService />
+      </div>
+    </section>
+
+    <section className=''>
+      <div className="class">
+        <Side/>
+      </div>
+    </section>
+    
+    {/* Why Section */}
+    <section className='why position-relative d-flex flex-column why-bg'>
+      <div>
+        <Why />
+      </div>
+    </section>
+    
+    {/* Third Section */}
+    <section className='position-relative d-flex flex-column bg-gray'>
+      <div>
+        <Connect />
+      </div>
+    </section>
+    
+    {/* Testimonial Section */}
+    <section className='position-relative d-flex flex-column'>
+      <div>
+        <Testimonial />
+      </div>
+    </section>
     </>
 
   )
