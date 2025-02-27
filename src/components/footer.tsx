@@ -4,7 +4,7 @@ import { FaFacebook, FaTwitter, FaInstagram, FaLinkedin } from "react-icons/fa";
 const Footer = () => {
     return (
         <>
-            <div className="container">
+            <div className="container mt-3">
     <div className="card">
         <div className="row d-flex flex-wrap">
             <div className="col-12 col-md-3 d-flex flex-column">

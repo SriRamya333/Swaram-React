@@ -17,10 +17,10 @@ const Ourservice = () => {
             <div className="col-lg-6 col-md-6 col-12 mt-4 mt-md-0">
               {/* Section Header */}
               <div className="d-flex align-items-center justify-content-center justify-content-md-start">
-                <span className="bg-success bg-opacity-25 text-success fw-bold px-3 py-2 rounded">
-                  OUR SERVICES
-                </span>
-                <div className="border border-success border-1 opacity-100 w-25 ms-3"></div>
+                <div className="content">
+                  <h4>OUR SERVICES</h4>
+                </div>
+                <div className="border border-success border-1 opacity-100 ms-3"></div>
               </div>
 
               {/* Title */}

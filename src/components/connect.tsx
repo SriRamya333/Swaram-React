@@ -3,10 +3,10 @@ import 'bootstrap/dist/css/bootstrap.min.css';
 const Connect = () => {
     return (
         <>
-  <div className="container py-5 ">
+  <div className="container py-5">
     <div className="row justify-content-center align-items-center">
       {/* Background Image Section */}
-      <div className="col-lg-12 col-md-12 col-12 ">
+      <div className="col-lg-12 col-md-12 col-12">
         <div className="connect-image d-flex flex-column justify-content-center align-items-center ">
           <div className="overall">
             <div className="connect-content">

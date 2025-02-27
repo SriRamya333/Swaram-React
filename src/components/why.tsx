@@ -10,7 +10,7 @@ const Why = () => {
             <h4>why choose us</h4>
           </div>
           <div className="col">
-            <div className="border border-success border-1 opacity-100 w-25"></div>
+            <div className="border border-success border-1 opacity-100"></div>
           </div>
         </div>
         <div className="row mt-3">

@@ -50,7 +50,6 @@ const Home = () => {
          <div className="para-button1">
          <a href='#' className='btn px-4 py-2'>Contact Us</a>
          </div>
-         
         </div>
 
         {/* Image Section */}

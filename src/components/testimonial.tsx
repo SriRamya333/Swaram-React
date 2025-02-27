@@ -22,7 +22,7 @@ const Testimonial = () => {
             </div>
           </div>
           <div className="col">
-            <div className="border border-success border-1 w-25"></div>
+            <div className="border border-success border-1"></div>
           </div>
         </div>
         <div className="col-6">
