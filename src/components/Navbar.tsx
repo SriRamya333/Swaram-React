@@ -1,8 +1,7 @@
 import "bootstrap/dist/css/bootstrap.min.css";
 // import About from "./about";
 // import { Link } from "react-router-dom";
-import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import { faChevronDown } from "@fortawesome/free-solid-svg-icons";
+
 
 const Navbar = () => {
   return (
@@ -35,42 +34,10 @@ const Navbar = () => {
                 About Us
               </a>
             </li>
-            {/* <li className="nav-item">
-              <a className="nav-link" href="/service">Services & Solutions</a>
-            </li> */}
-            <li className="nav-item dropdown">
-              <a
-                className="nav-link d-flex align-items-center text-dark"
-                href="#"
-                id="servicesDropdown"
-                role="button"
-                data-bs-toggle="dropdown"
-                aria-expanded="false"
-              >
-                Services & Solutions
-                <FontAwesomeIcon
-                  icon={faChevronDown}
-                  className="ms-1 text-dark"
-                />
-              </a>
-              <ul className="dropdown-menu" aria-labelledby="servicesDropdown">
-                <li>
-                  <a className="dropdown-item" href="/web-development">
-                    Web Development
-                  </a>
-                </li>
-                <li>
-                  <a className="dropdown-item" href="/cloud">
-                    Cloud Solutions
-                  </a>
-                </li>
-                <li>
-                  <a className="dropdown-item" href="/ai">
-                    AI & ML Services
-                  </a>
-                </li>
-              </ul>
+            <li className="nav-item">
+              <a className="nav-link active" href="/service">Services & Solutions</a>
             </li>
+            
 
             <li className="nav-item">
               <a className="nav-link" href="#">
@@ -78,7 +45,7 @@ const Navbar = () => {
               </a>
             </li>
             <li className="nav-item">
-              <a className="nav-link" href="#">
+              <a className="nav-link active" href="/contact-us">
                 Contact Us
               </a>
             </li>

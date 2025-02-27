@@ -42,7 +42,7 @@ section {
 
 @media (min-width:1020px) {
   section {
-    padding: 20px 0px;
+    padding: 40px 0px;
   }
 }
 
@@ -718,4 +718,173 @@ section {
   font-weight: 700;
   font-size: 24px;
   line-height: 40px;
+}
+
+
+
+/* contact us page */
+.contact h2{
+  font-weight: 700;
+  font-size: 43px;
+}
+
+
+.social-buttons {
+  position: absolute;
+  top: 4rem;
+  display: flex;
+  flex-direction: column;
+}
+.social-buttons a {
+  display: inline-flex;
+  text-decoration: none;
+  font-size: 12px;
+  width: 60px;
+  height: 60px;
+  color: #212529;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+  margin: 0px 0;
+}
+
+.social-buttons a::before {
+  content: "";
+  position: absolute;
+  width: 40px;
+  height: 40px;
+  border: 1px solid #B7B7B7;
+  border-radius: 50%;
+  z-index: -1;
+  /* transition: 0.3s ease-in; */
+}
+.social{
+  text-align: right;
+}
+/* .social-buttons a:hover::before {
+  transform: scale(0);
+} */
+
+/* .social-buttons a i {
+  transition: 0.3s ease-in;
+} */
+
+/* .social-buttons a:hover i {
+  background: linear-gradient(45deg, #a3a1a1, #0f0f0f);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  transform: scale(2.2);
+} */
+
+
+.green-tri-1 {
+  position: absolute;
+  /* Enables absolute positioning */
+  top: 0;
+  /* Positions it at the top */
+  right: 0;
+  /* Positions it at the right */
+}
+.contact-bg{
+  background-image: url(contact-info.png);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.contact-border{
+  border:2px solid #58AC57;
+  width:25px;
+}
+.email h4{
+  font-weight: 600;
+    font-size: 22px;
+}
+.help a{
+  font-weight: 600;
+  font-size: 22px;
+  color: #000;
+}
+.help a:hover{
+  color:#28a745;
+}
+.last-section{
+  background-color: #184A92;
+  border-radius: 20px;
+}
+.contact-content h3{
+  font-weight: 700;
+  color: #F5F5F5;
+  font-size: 32px;
+}
+.contact-content p{
+  font-weight: 400;
+  color: #F5F5F5;
+  font-size: 15px;
+}
+.content-center{
+  text-align: center;
+}
+
+
+
+/* Service Page */
+
+#service-bg{
+  background-color: #fffdf2;
+}
+.first-image img{
+  width:100%;
+}
+.service-text h2{
+  font-weight: 700;
+  font-size: 32px;
+}
+.better{
+  font-weight: 700;
+  font-size: 32px;
+  background-color: #dd633a;
+  color: #F4F4F4;
+}
+.context p{
+  padding-top:25px;
+  font-size: 18px;
+  font-weight: 400;
+}
+.space{
+  padding:0;
+}
+.trading-text img{
+  width:100%;
+  padding-right:0;
+}
+.global-trade img {
+  width: 38px;
+}
+.solution{
+  padding-top:10px;
+}
+.service-sol {
+  background-color:#F15A2959;
+  padding: 7px;
+  border-radius: 4px;
+  width: 100px;
+}
+
+.infra {
+  background-color:#C3DBFF;
+  padding: 7px;
+  border-radius: 4px;
+  width: 100px;
+}
+.truck {
+  background-color:#C3ECD6;
+  padding: 7px;
+  border-radius: 4px;
+  width: 100px;
+}
+.world {
+  background-color:#E0D4FE;
+  padding: 7px;
+  border-radius: 4px;
+  width: 100px;
 }
