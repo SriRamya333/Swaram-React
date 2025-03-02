@@ -447,8 +447,8 @@ section {
 }
 
 .input-group {
-  border: 1px solid #7bb786ab;
-  padding: 10px;
+  border: 1px solid #0CAE4B;
+  padding: 5px;
   border-radius: 25px;
 }
 
@@ -887,4 +887,45 @@ section {
   padding: 7px;
   border-radius: 4px;
   width: 100px;
+}
+.service-last-section{
+  background-color: #F4F4F4;
+}
+
+
+
+
+/* Partner Page Start */
+.partner-bg{
+  background-image: url(partner-background.png);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  
+}
+.partner-title h2{
+  font-weight: 700;
+  font-size: 22px;
+}
+.partner-title p{
+  font-size: 18px;
+}
+.better-1{
+    font-weight: 700;
+    font-size: 22px;
+    background-color: #dd633a;
+    color: #F4F4F4;
+  }
+  .part {
+    font-weight: 600;
+    font-size: 28px;
+}
+.success{
+  padding: 4px;
+  width: fit-content;
+  background-color: #d6f1e0;
+  font-size: 16px;
+  border-radius: 20px;
+  font-weight: 400;
+    
 }

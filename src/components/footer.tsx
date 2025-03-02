@@ -9,10 +9,10 @@ const Footer = () => {
         <div className="row d-flex flex-wrap">
             <div className="col-12 col-md-3 d-flex flex-column">
                 <div className="foot-img">
-                    <img src="foot.png" alt="Logo" className="img-fluid" />
+                    <img src="logo.svg" alt="Logo" className="img-fluid" />
                 </div>
                 <div className="foot-links mt-2">
-                    <p>Massa blandit semper varius faucibus. Suspendisse viverra venenatis placerat nam ut. Pellentesque sit id tempor turpis.</p>
+                    <p>Swaram continues to grow as a trusted global partner, driving impactful solutions across multiple industries.</p>
                 </div>
             </div>
             <div className="col-12 col-md-2 d-flex flex-column">

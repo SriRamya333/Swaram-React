@@ -3,6 +3,8 @@ import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 
 import { faFacebookF, faTwitter, faInstagram } from '@fortawesome/free-brands-svg-icons';
 
+import ContactForm from './mailer'
+
 
 
 const Contact = () => {
@@ -39,7 +41,9 @@ const Contact = () => {
                 <img src="contact-orange.png" alt=""
                     className="img-frame1 position-absolute bottom-0 start-0"
                 />
+                
             </section>
+            <ContactForm />
 
             <section className='contact-bg'>
                 <div className="container">

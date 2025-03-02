@@ -110,7 +110,7 @@ const Service = () => {
         </div>
       </section>
 
-      <section>
+      <section className='service-last-section'>
         <div className="container-fluid">
         <div className="row align-items-center">
             <div className="content col-lg-12 col-md-12 mx-auto col-sm-12">
