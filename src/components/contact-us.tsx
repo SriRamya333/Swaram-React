@@ -1,112 +1,139 @@
-import 'bootstrap/dist/css/bootstrap.min.css';
-import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-
-import { faFacebookF, faTwitter, faInstagram } from '@fortawesome/free-brands-svg-icons';
-
-import ContactForm from './mailer'
-
-
+import "bootstrap/dist/css/bootstrap.min.css";
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import { faFacebookF, faTwitter, faInstagram } from "@fortawesome/free-brands-svg-icons";
+import ContactForm from "./mailer";
 
 const Contact = () => {
-    return (
-        <>
-            <img src="contact-green.png" alt=""
-                className="green-tri-1 position-absolute top-0 end-0"
-                style={{ width: '30%', maxWidth: '280px', height: 'auto', objectFit: 'contain' }}
-            />
-            <section className='home-section position-relative d-flex flex-column'>
-                <img src="bg-green-1.png" alt=""
-                    className="color-img position-absolute top-0 end-0"
-                    style={{ width: '50%', maxWidth: '280px', height: 'auto', objectFit: 'contain' }}
-                />
-                <div className="container mt-5">
-                    <div className="row">
-                        <div className="col-lg-12 col-md-12 col-12">
-                            <p>Get Started</p>
-                        </div>
-                    </div>
-                    <div className="row">
-                        <div className="contact col-lg-8 col-md-8 col-12">
-                            <h2>Get in touch with us. We're here to assist you.</h2>
-                        </div>
-                        <div className="col-4 col-md-4 col-12 social">
-                            <div className="social-buttons">
-                                <a href="#"><FontAwesomeIcon icon={faFacebookF} /></a>
-                                <a href="#"><FontAwesomeIcon icon={faInstagram} /></a>
-                                <a href="#"><FontAwesomeIcon icon={faTwitter} /></a>
-                            </div>
-                        </div>
-                    </div>
+  return (
+    <>
+      {/* Top Decorative Image */}
+      <img
+        src="contact-green.png"
+        alt=""
+        className="position-absolute top-0 end-0 d-none d-md-block"
+        style={{ width: "30%", maxWidth: "280px", height: "auto" }}
+      />
+
+      {/* Main Contact Section */}
+      <section className="home-section position-relative d-flex flex-column">
+        <img
+          src="bg-green-1.png"
+          alt=""
+          className="position-absolute top-0 end-0 d-none d-md-block"
+          style={{ width: "50%", maxWidth: "280px", height: "auto" }}
+        />
+
+        <div className="container mt-5">
+          {/* Header */}
+          <div className="row text-center text-md-start">
+            <div className="col-12">
+              <p className="fw-bold">Get Started</p>
+            </div>
+          </div>
+
+          {/* Title and Social Icons */}
+          <div className="row align-items-center">
+            <div className="col-lg-8">
+              <h2>Get in touch with us. We're here <br />to assist you.</h2>
+            </div>
+            <div className="col-lg-4 d-flex justify-content-lg-end justify-content-center mt-3 mt-lg-0">
+              <div className="social-buttons">
+                <a href="#" className="me-3">
+                  <FontAwesomeIcon icon={faFacebookF} />
+                </a>
+                <a href="#" className="me-3">
+                  <FontAwesomeIcon icon={faInstagram} />
+                </a>
+                <a href="#">
+                  <FontAwesomeIcon icon={faTwitter} />
+                </a>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        {/* Contact Form */}
+        <div className="container">
+          <ContactForm />
+          <img
+          src="about-tri.png"
+          alt=""
+          className="position-absolute top-0 end-0 d-none d-md-block"
+          style={{ width: "50%", maxWidth: "280px", height: "auto" }}
+        />
+        </div>
+
+        {/* Bottom Decorative Image */}
+        <img
+          src="contact-orange.png"
+          alt=""
+          className="position-absolute bottom-0 start-0 d-none d-md-block"
+        />
+        
+      </section>
+
+      {/* Contact Info Section */}
+      <section className="contact-bg py-5">
+        <div className="container">
+          <div className="row text-center text-md-start">
+            <div className="col-12">
+              <p className="fw-bold">Contact Info</p>
+            </div>
+          </div>
+
+          <div className="row align-items-start">
+            <div className="col-lg-6">
+              <h2>We are always happy to assist you</h2>
+            </div>
+
+            {/* Email Info */}
+            <div className="col-lg-3 col-md-6 mt-4 mt-md-0">
+              <h4>Email Address</h4>
+              <div className="contact-border"></div>
+              <p><a href="mailto:help@info.com">help@info.com</a></p>
+              <p>Assistance hours:<br /> Mon - Fri: 6 AM - 8 PM EST</p>
+            </div>
+
+            {/* Phone Info */}
+            <div className="col-lg-3 col-md-6 mt-4 mt-md-0">
+              <h4>Phone Number</h4>
+              <div className="contact-border"></div>
+              <p><a href="tel:+180899834256">(808) 998-34256</a></p>
+              <p>Assistance hours:<br /> Mon - Fri: 6 AM - 8 PM EST</p>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      {/* Newsletter Section */}
+      <section className="py-5">
+        <div className="container">
+          <div className="row">
+            <div className="col">
+              <div className="card p-4 border-0 shadow">
+                <div className="row align-items-center">
+                  <div className="col-lg-6">
+                    <h3>Subscribe to our Newsletter</h3>
+                    <p>
+                      Stay informed about the latest investor updates, financial results, and announcements by subscribing to our newsletter.
+                    </p>
+                  </div>
+                  <div className="col-lg-6 d-flex justify-content-center">
+                    <input
+                      type="email"
+                      className="form-control w-75"
+                      placeholder="Enter your email"
+                    />
+                    <button className="btn btn-primary ms-2">Subscribe</button>
+                  </div>
                 </div>
-                <img src="contact-orange.png" alt=""
-                    className="img-frame1 position-absolute bottom-0 start-0"
-                />
-                
-            </section>
-            <ContactForm />
-
-            <section className='contact-bg'>
-                <div className="container">
-                    <div className="row">
-                        <div className="col-lg-12 col-md-12 col-12">
-                            <p>Contact Info</p>
-                        </div>
-                    </div>
-                    <div className="row">
-                        <div className="contact col-lg-6 col-md-4 col-12">
-                            <h2>We are always happy to assist you</h2>
-                        </div>
-                        <div className="col-lg-3 col-md-4 col-12 email">
-                            <h4>Email Address</h4>
-                            <div className="contact-border"></div>
-                            <div className='help'>
-                                <a href="#">help@info.com</a>
-                            </div>
-                            <div className=" ">
-                                <p>Assistance hours:<br />
-                                    Monday - Friday 6 am to 8 <br />pm EST</p>
-                            </div>
-
-                        </div>
-                        <div className="col-lg-3 col-md-4 col-12 email">
-                            <h4>Number</h4>
-                            < div className="contact-border"></div>
-                            <div className='help'>
-                                <a href="#">(808) 998-34256</a>
-                            </div>
-                            <div className=" ">
-                                <p>Assistance hours:<br />
-                                    Monday - Friday 6 am to 8 <br />pm EST</p>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </section>
-
-            <section>
-                <div className="container">
-                    <div className="row">
-                        <div className="col">
-                            <div className="card last-section">
-                                <div className="row">
-                                    <div className="col-lg-6 col-md-6 col-12 contact-content">
-                                        <h3>Subcribe to our Newsletter</h3>
-                                        <p>Subscribe for Updates: Stay informed about the latest investor updates, financial results, and announcements by subscribing to our newsletter. </p>
-                                    </div>
-                                    <div className="col-lg-6 col-md-6 col-12">
-
-                                    </div>
-                                </div>
-
-
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </section>
-        </>
-    )
-
-}
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+    </>
+  );
+};
 
 export default Contact;
