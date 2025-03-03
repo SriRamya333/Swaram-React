@@ -1,20 +1,15 @@
+import React from "react";
+import { NavLink } from "react-router-dom";
 import "bootstrap/dist/css/bootstrap.min.css";
-// import About from "./about";
-// import { Link } from "react-router-dom";
 
-
-const Navbar = () => {
+const Navbar: React.FC = () => {
   return (
     <nav className="navbar navbar-expand-lg navbar-light bg-light fixed-top">
       <div className="container">
         {/* Logo */}
-        <a className="navbar-brand" href="/">
-          <img
-            src="logo.svg"
-            alt="Logo"
-            className="d-inline-block align-top"
-          />
-        </a>
+        <NavLink className="navbar-brand" to="/">
+          <img src="logo.svg" alt="Logo" className="d-inline-block align-top" />
+        </NavLink>
 
         {/* Navbar Toggle Button (for mobile) */}
         <button
@@ -22,6 +17,9 @@ const Navbar = () => {
           type="button"
           data-bs-toggle="collapse"
           data-bs-target="#navbarNav"
+          aria-controls="navbarNav"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
         >
           <span className="navbar-toggler-icon"></span>
         </button>
@@ -30,26 +28,27 @@ const Navbar = () => {
         <div className="collapse navbar-collapse" id="navbarNav">
           <ul className="navbar-nav ms-auto">
             <li className="nav-item">
-              <a className="nav-link active" href="/about">
+              <NavLink className="nav-link" to="/about">
                 About Us
-              </a>
+              </NavLink>
             </li>
 
             <li className="nav-item">
-              <a className="nav-link active" href="/service">
-                Services & Solutions</a>
+              <NavLink className="nav-link" to="/service">
+                Services & Solutions
+              </NavLink>
             </li>
 
-
             <li className="nav-item">
-              <a className="nav-link active" href="/partner">
+              <NavLink className="nav-link" to="/partner">
                 Partnership
-              </a>
+              </NavLink>
             </li>
+
             <li className="nav-item">
-              <a className="nav-link active" href="/contact-us">
+              <NavLink className="nav-link" to="/contact-us">
                 Contact Us
-              </a>
+              </NavLink>
             </li>
           </ul>
         </div>
