@@ -587,6 +587,7 @@ section {
 .navbar-nav .nav-link.active {
   border-bottom: 3px solid #184A92;
   padding-bottom: 5px;
+  color: #184A92;
 }
 
 

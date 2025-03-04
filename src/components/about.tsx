@@ -73,7 +73,120 @@ const About = () => {
               <p>Swaram is a dynamic and innovative global trading and service solutions company operating in infrastructure, construction, logistics, energy, healthcare, and general trading. We emphasize growth, strategic expansion, and long-term partnerships.</p>
             </div>
           </div>
+          
         </div>
+        <div id="cardCarousel" className="carousel slide" data-bs-ride="carousel">
+      {/* Indicators (Three Dots at the Bottom) */}
+      <div className="carousel-indicators">
+        <button
+          type="button"
+          data-bs-target="#cardCarousel"
+          data-bs-slide-to="0"
+          className="active"
+          aria-current="true"
+          aria-label="Slide 1"
+        ></button>
+        <button
+          type="button"
+          data-bs-target="#cardCarousel"
+          data-bs-slide-to="1"
+          aria-label="Slide 2"
+        ></button>
+      </div>
+
+      {/* Carousel Inner */}
+      <div className="carousel-inner">
+        {/* Slide 1 */}
+        <div className="carousel-item active">
+          <div className="d-flex justify-content-center">
+            <div className="card mx-2 shadow p-3 rounded border-0" style={{ width: "400px" }}>
+              <div className="card-body text-center">
+                <div className="row">
+                  <div className="col-2">
+                  <div className="mb-3">
+                  <img src="11.png" alt="Integrity" className="img-fluid" />
+                </div>
+                  </div>
+                  <div className="col-6">
+                  <h5 className="fw-bold">Integrity</h5>
+                  </div>
+                </div>
+                
+                
+                <p className="mt-2 text-muted">
+                  Conducting business with the highest ethical standards and transparency.
+                </p>
+              </div>
+            </div>
+
+            <div className="card mx-2 shadow p-3 rounded border-0" style={{ width: "400px" }}>
+              <div className="card-body text-center">
+                <div className="mb-3">
+                  <img src="12.png" alt="Innovation" className="img-fluid" />
+                </div>
+                <h5 className="fw-bold">Innovation</h5>
+                <p className="mt-2 text-muted">
+                  Embracing the latest technologies and creative solutions to drive progress.
+                </p>
+              </div>
+            </div>
+
+            <div className="card mx-2 shadow p-3 rounded border-0" style={{ width: "400px" }}>
+              <div className="card-body text-center">
+                <div className="mb-3">
+                  <img src="13.png" alt="Sustainability" className="img-fluid" />
+                </div>
+                <h5 className="fw-bold">Sustainability</h5>
+                <p className="mt-2 text-muted">
+                  Committed to environmentally and socially responsible business practices.
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        {/* Slide 2 */}
+        <div className="carousel-item">
+          <div className="d-flex justify-content-center">
+            <div className="card mx-2 shadow p-3 rounded border-0" style={{ width: "400px" }}>
+              <div className="card-body text-center">
+                <div className="mb-3">
+                  <img src="11.png" alt="Integrity" className="img-fluid" />
+                </div>
+                <h5 className="fw-bold">Integrity</h5>
+                <p className="mt-2 text-muted">
+                  Conducting business with the highest ethical standards and transparency.
+                </p>
+              </div>
+            </div>
+
+            <div className="card mx-2 shadow p-3 rounded border-0" style={{ width: "400px" }}>
+              <div className="card-body text-center">
+                <div className="mb-3">
+                  <img src="12.png" alt="Innovation" className="img-fluid" />
+                </div>
+                <h5 className="fw-bold">Innovation</h5>
+                <p className="mt-2 text-muted">
+                  Embracing the latest technologies and creative solutions to drive progress.
+                </p>
+              </div>
+            </div>
+
+            <div className="card mx-2 shadow p-3 rounded border-0" style={{ width: "400px" }}>
+              <div className="card-body text-center">
+                <div className="mb-3">
+                  <img src="13.png" alt="Sustainability" className="img-fluid" />
+                </div>
+                <h5 className="fw-bold">Sustainability</h5>
+                <p className="mt-2 text-muted">
+                  Committed to environmentally and socially responsible business practices.
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
       </section>
       <section>
         <div className="container">
