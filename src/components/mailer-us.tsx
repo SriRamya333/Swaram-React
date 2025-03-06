@@ -4,9 +4,11 @@ import { useRef, useState } from "react";
 import "bootstrap/dist/css/bootstrap.min.css"; // Import Bootstrap styles
 
 interface FormInputs {
-  name: string;
+  firstName: string;
+  lastName: string;
   email: string;
-  phone: string;
+  phone?: string;
+  industry: string;
   message: string;
 }
 
@@ -28,7 +30,7 @@ const ContactForm = () => {
     try {
       await emailjs.sendForm(
         "service_ifopmdt",
-        "template_0x47ntp",
+        "template_3vqxwb8",
         formRef.current,
         "3kiu5MP7z5FDKcjXT"
       );
@@ -38,32 +40,40 @@ const ContactForm = () => {
       console.error("FAILED...", error);
       alert("Failed to send message. Please try again.");
     }
-    console.log(data);
-    
+
     setLoading(false);
   };
 
   return (
     <div className="container">
       <form ref={formRef} onSubmit={handleSubmit(onSubmit)} className="p-4 rounded">
-        {/* Inline Fields */}
         <div className="row mb-3">
-          {/* Name */}
-          <div className="col-md-4">
-            <label className="form-label">Your Name</label>
+          {/* First Name */}
+          <div className="col-md-6">
             <input
               type="text"
-              {...register("name", { required: "Name is required" })}
+              {...register("firstName", { required: "First name is required" })}
               className="form-control border-0 border-bottom"
+              placeholder="First Name"
             />
-            {errors.name && <small className="text-danger">{errors.name.message}</small>}
+            {errors.firstName && <small className="text-danger">{errors.firstName.message}</small>}
           </div>
 
+          {/* Last Name */}
+          <div className="col-md-6">
+            <input
+              type="text"
+              {...register("lastName", { required: "Last name is required" })}
+              className="form-control border-0 border-bottom"
+              placeholder="Last Name"
+            />
+            {errors.lastName && <small className="text-danger">{errors.lastName.message}</small>}
+          </div>
+        </div>
+
+        <div className="row mb-3">
           {/* Email */}
-          <div className="col-md-4">
-            <label className="form-label">
-              Email Address <span className="text-danger">*</span>
-            </label>
+          <div className="col-md-6">
             <input
               type="email"
               {...register("email", {
@@ -71,38 +81,52 @@ const ContactForm = () => {
                 pattern: { value: /^[^\s@]+@[^\s@]+\.[^\s@]+$/, message: "Invalid email" },
               })}
               className="form-control border-0 border-bottom"
+              placeholder="Email Address *"
             />
             {errors.email && <small className="text-danger">{errors.email.message}</small>}
           </div>
 
           {/* Phone */}
-          <div className="col-md-4">
-            <label className="form-label">Phone Number (optional)</label>
+          <div className="col-md-6">
             <input
               type="tel"
               {...register("phone", {
                 pattern: { value: /^\+?[0-9]{7,15}$/, message: "Invalid phone number" },
               })}
               className="form-control border-0 border-bottom"
+              placeholder="Phone Number (optional)"
             />
             {errors.phone && <small className="text-danger">{errors.phone.message}</small>}
           </div>
         </div>
 
+        <div className="row mb-3">
+          {/* Industry */}
+          <div className="col-md-12">
+            <input
+              type="text"
+              {...register("industry", { required: "Industry is required" })}
+              className="form-control border-0 border-bottom"
+              placeholder="Industry"
+            />
+            {errors.industry && <small className="text-danger">{errors.industry.message}</small>}
+          </div>
+        </div>
+
         {/* Message */}
         <div className="mb-3">
-          <label className="form-label">Message</label>
           <textarea
             {...register("message", { required: "Message is required" })}
             className="form-control border-0 border-bottom"
             rows={3}
+            placeholder="Tell About Your Project"
           />
           {errors.message && <small className="text-danger">{errors.message.message}</small>}
         </div>
 
         {/* Submit Button */}
-        <button type="submit" className="btn w-10" disabled={loading}>
-          {loading ? "Sending..." : "Leave us a Message"}
+        <button type="submit" className="btn btn-primary w-100" disabled={loading}>
+          {loading ? "Sending..." : "Submit"}
         </button>
       </form>
     </div>

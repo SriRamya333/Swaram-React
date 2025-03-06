@@ -1,6 +1,6 @@
 import 'bootstrap/dist/css/bootstrap.min.css';
 
-
+import ConnectForm from './mailer-us';
 
 
 
@@ -29,6 +29,7 @@ const Partner = () => {
               <div className="content">
                 <h4>Key Themes and Take aways</h4>
               </div>
+              
             </div>
             <div className="col">
               <div className="border border-success border-1"></div>
@@ -136,26 +137,20 @@ const Partner = () => {
               <div className="connect1-image d-flex flex-column justify-content-center align-items-center ">
                 <div className="overall">
                   <div className="connect-content">
-                    <h2>
+                    <h2 className='text-center'>
                       Let’s Work Together
                     </h2>
                   </div>
-                  <div>
-                    <p className='success'>🤝 Our Success in Numbers</p>
+                  
+                  <div className='text-start'>
+                    <p className='success' >🤝 Our Success in Numbers</p>
                   </div>
-                 
-                   <div className="row">
-                    <div className="col-4">
-                       
-                    </div>
-                   </div>
-               
-               
+                  <ConnectForm />
 
                   {/* Button Section */}
-                  <div className="connect-btn">
+                  {/* <div className="connect-btn">
                     <a href="#" className="btn2 px-4 py-2">Submit</a>
-                  </div>
+                  </div> */}
                 </div>
               </div>
             </div>
