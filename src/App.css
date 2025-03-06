@@ -178,7 +178,6 @@ section {
   border-radius: 50%;
 } */
 .graph-image img {
-
   width: 400px;
 }
 
@@ -504,7 +503,9 @@ section {
 .decade {
   color: #184A92;
 }
-
+.together{
+  margin-top:25px;
+}
 .decade h2 {
   line-height: 36px;
   font-size: 20px;
@@ -961,6 +962,7 @@ section {
     font-size: 28px;
 }
 .success{
+  margin-left:45px;
   padding: 4px;
   width: fit-content;
   background-color: #d6f1e0;

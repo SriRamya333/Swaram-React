@@ -230,7 +230,7 @@ const Home = () => {
       </section>
 
       {/* Third Section */}
-      <section className="position-relative d-flex flex-column bg-gray">
+      <section className="position-relative d-flex flex-column bg-gray d-none d-md-block">
         <div className="container py-5">
           <div className="row justify-content-center align-items-center text-center text-md-start">
             {/* Background Image Section */}

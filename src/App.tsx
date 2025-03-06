@@ -8,10 +8,13 @@ import Footer from "./components/footer";
 import Contact from "./components/contact-us";
 import Partner from "./components/partner";
 import Service from "./components/service";
+import ScrollToTop from "./components/ScrollToTop";
+
 
 function App() {
   return (
     <Router>
+      <ScrollToTop />
       <Header />
       <Routes>
         <Route path="/" element={<Home />} />
@@ -19,6 +22,8 @@ function App() {
         <Route path="/service" element={<Service />} />
         <Route path="/partner" element={<Partner />} />
         <Route path="/contact-us" element={<Contact />} />
+        <Route path="/ScrollToTop" element={<ScrollToTop />} />
+       
       </Routes>
       <div className="footer-section position-relative d-flex flex-column">
         <Footer />

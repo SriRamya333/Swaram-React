@@ -125,7 +125,7 @@ const ContactForm = () => {
         </div>
 
         {/* Submit Button */}
-        <button type="submit" className="btn btn-primary w-100" disabled={loading}>
+        <button type="submit" className="btn" disabled={loading}>
           {loading ? "Sending..." : "Submit"}
         </button>
       </form>

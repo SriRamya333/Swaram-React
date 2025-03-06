@@ -119,11 +119,11 @@ const Partner = () => {
 
       <section className='position-relative d-flex flex-column bg-gray'>
         <div className="container">
-          <div className="row align-items-center">
+          <div className="row align-items-center mb-3">
           <div className="col-5"></div>
             <div className="col-auto">
               <div className="content">
-                <h4>Key Themes and Take aways</h4>
+                <h4>Partner With Us</h4>
               </div>
             </div>
             <div className="col">
@@ -137,7 +137,7 @@ const Partner = () => {
               <div className="connect1-image d-flex flex-column justify-content-center align-items-center ">
                 <div className="overall">
                   <div className="connect-content">
-                    <h2 className='text-center'>
+                    <h2 className='text-center together'>
                       Let’s Work Together
                     </h2>
                   </div>
