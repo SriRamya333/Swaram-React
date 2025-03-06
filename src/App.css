@@ -185,7 +185,11 @@ section {
 .second-section {
   margin-top: 100px;
 }
-
+.btn{
+  background-color: transparent;
+  color:#184A92;
+  border: 2px solid #184A92;
+}
 .content {
   background-color: #0CAE4B2B;
   border-radius: 4px;
@@ -255,20 +259,15 @@ section {
   background-size: cover;
   width: 100%;
   height: 440px;
-  /* Adjust as needed */
   display: flex;
   justify-content: center;
   align-items: center;
   position: relative;
-  /* padding: 20px; */
 }
 
 /* Ensure text is readable over the image */
 .overall {
-  /* background: rgba(0, 0, 0, 0.5);  */
-  /* padding: 30px; */
   border-radius: 10px;
-  /* color: white; */
   text-align: center;
   max-width: 80%;
 
@@ -431,7 +430,10 @@ section {
 .foot-head p {
   font-size: 16px;
 }
-
+/* .form-control {
+  background-color: #92aacc;
+  color: whitesmoke;
+} */
 .form-subscribe .form-control {
   background-color: #ffffff;
   border: none;
@@ -440,7 +442,7 @@ section {
 }
 
 .form-subscribe .btn {
-
+   color:#FFFFFF;
   background: #184A92;
   border-color: #7bb786ab;
   border-radius: 25px;
@@ -734,11 +736,27 @@ section {
   font-weight: 700;
   font-size: 43px;
 }
-
-
+.touch h2{
+  font-size: 35px;
+  font-weight: 700;
+}
+.assist h2{
+  font-size: 40px;
+  font-weight: 700;
+}
+.address h4{
+  font-size:22px;
+  font-weight: 600;
+}
+.address a{
+  color: #000;
+  font-size:22px;
+  font-weight: 600;
+}
 .social-buttons {
+  right:140px;
   position: absolute;
-  top: 4rem;
+  top: 6rem;
   display: flex;
   flex-direction: column;
 }
@@ -831,7 +849,11 @@ section {
 .content-center{
   text-align: center;
 }
-
+.sub{
+  background-color: #184A92;
+  color: #FFFFFF;
+  border-radius: 20px;
+}
 
 
 /* Service Page */
@@ -946,4 +968,15 @@ section {
   border-radius: 20px;
   font-weight: 400;
     
+}
+
+.connect1-image {
+  background: url('girl.png') no-repeat center center;
+  background-size: cover;
+  width: 100%;
+  height: 440px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
 }

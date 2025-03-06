@@ -3,6 +3,7 @@ import 'bootstrap/dist/css/bootstrap.min.css';
 
 
 
+
 const Partner = () => {
   return (
     <>
@@ -23,6 +24,7 @@ const Partner = () => {
       <section className='home-section position-relative d-flex flex-column'>
         <div className="container">
           <div className="row align-items-center mt-4">
+          <div className="col-5"></div>
             <div className="col-auto">
               <div className="content">
                 <h4>Key Themes and Take aways</h4>
@@ -76,6 +78,7 @@ const Partner = () => {
       <section>
         <div className="container">
           <div className="row align-items-center mt-4">
+          <div className="col-5"></div>
             <div className="col-auto">
               <div className="content">
                 <h4>Market Potential & Outlook</h4>
@@ -105,7 +108,7 @@ const Partner = () => {
               </div>
             </div>
             <div className="col-lg-6 col-md-6 col-12">
-              <img src="data.png" alt="description" />
+              <img src="data.png" alt="description" className='img-fluid' />
             </div>
           </div>
         </div>
@@ -116,6 +119,7 @@ const Partner = () => {
       <section className='position-relative d-flex flex-column bg-gray'>
         <div className="container">
           <div className="row align-items-center">
+          <div className="col-5"></div>
             <div className="col-auto">
               <div className="content">
                 <h4>Key Themes and Take aways</h4>
@@ -129,7 +133,7 @@ const Partner = () => {
 
             {/* Background Image Section */}
             <div className="col-lg-12 col-md-12 col-12">
-              <div className="connect-image d-flex flex-column justify-content-center align-items-center ">
+              <div className="connect1-image d-flex flex-column justify-content-center align-items-center ">
                 <div className="overall">
                   <div className="connect-content">
                     <h2>
@@ -139,7 +143,12 @@ const Partner = () => {
                   <div>
                     <p className='success'>🤝 Our Success in Numbers</p>
                   </div>
-
+                 
+                   <div className="row">
+                    <div className="col-4">
+                       
+                    </div>
+                   </div>
                
                
 

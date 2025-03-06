@@ -48,9 +48,11 @@ const About = () => {
         </div>
       </section>
 
-      <section>
-        <div className="container">
-          <div className="row align-items-center mt-4">
+      <section className='mt-4' style={{ backgroundImage: "linear-gradient(to bottom, #B6D4FF, #FFFFFF)",
+    borderTopRightRadius: "40%", borderTopLeftRadius: "40%" }}>
+        <div className="container" >
+          <div className="row align-items-center mt-4" >
+            <div className="col-5"></div>
             <div className="col-auto">
               <div className="content">
                 <h4>Core values</h4>
@@ -73,9 +75,8 @@ const About = () => {
               <p>Swaram is a dynamic and innovative global trading and service solutions company operating in infrastructure, construction, logistics, energy, healthcare, and general trading. We emphasize growth, strategic expansion, and long-term partnerships.</p>
             </div>
           </div>
-          
-        </div>
-        <div id="cardCarousel" className="carousel slide" data-bs-ride="carousel">
+
+          <div id="cardCarousel" className="carousel slide" data-bs-ride="carousel">
       {/* Indicators (Three Dots at the Bottom) */}
       <div className="carousel-indicators">
         <button
@@ -97,13 +98,13 @@ const About = () => {
       {/* Carousel Inner */}
       <div className="carousel-inner">
         {/* Slide 1 */}
-        <div className="carousel-item active">
+        <div className="carousel-item">
           <div className="d-flex justify-content-center">
-            <div className="card mx-2 shadow p-3 rounded border-0" style={{ width: "400px" }}>
+            <div className="card mx-2 shadow-sm p-3 rounded border-0" style={{ width: "350px" }}>
               <div className="card-body text-center">
                 <div className="row">
-                  <div className="col-2">
-                  <div className="mb-3">
+                  <div className="col-2" style={{ background: "#FAC5B4", borderRadius: "5px"}}>
+                  <div className="mt-1 mb-1">
                   <img src="11.png" alt="Integrity" className="img-fluid" />
                 </div>
                   </div>
@@ -111,32 +112,42 @@ const About = () => {
                   <h5 className="fw-bold">Integrity</h5>
                   </div>
                 </div>
-                
-                
                 <p className="mt-2 text-muted">
                   Conducting business with the highest ethical standards and transparency.
                 </p>
               </div>
             </div>
 
-            <div className="card mx-2 shadow p-3 rounded border-0" style={{ width: "400px" }}>
+            <div className="card mx-2 shadow-sm p-3 rounded border-0" style={{ width: "350px" }}>
               <div className="card-body text-center">
-                <div className="mb-3">
-                  <img src="12.png" alt="Innovation" className="img-fluid" />
+                <div className="row">
+                  <div className="col-2" style={{ background: "#DAFAFC", borderRadius: "5px"}}>
+                  <div className="mt-1 mb-1">
+                  <img src="13.png" alt="Innovation" className="img-fluid" />
                 </div>
-                <h5 className="fw-bold">Innovation</h5>
+                  </div>
+                  <div className="col-8">
+                  <h5 className="fw-bold">Innovation</h5>
+                  </div>
+                </div>
                 <p className="mt-2 text-muted">
                   Embracing the latest technologies and creative solutions to drive progress.
                 </p>
               </div>
             </div>
 
-            <div className="card mx-2 shadow p-3 rounded border-0" style={{ width: "400px" }}>
+            <div className="card mx-2 shadow-sm p-3 rounded border-0" style={{ width: "350px" }}>
               <div className="card-body text-center">
-                <div className="mb-3">
-                  <img src="13.png" alt="Sustainability" className="img-fluid" />
+                <div className="row">
+                  <div className="col-2" style={{ background: "#C3DBFF", borderRadius: "5px", height: "100%"}}>
+                  <div className="mt-1 mb-1" >
+                  <img src="12.png" alt="Sustainability" className="img-fluid" />
                 </div>
-                <h5 className="fw-bold">Sustainability</h5>
+                  </div>
+                  <div className="col-9">
+                  <h5 className="fw-bold">Sustainability</h5>
+                  </div>
+                </div>
                 <p className="mt-2 text-muted">
                   Committed to environmentally and socially responsible business practices.
                 </p>
@@ -146,38 +157,56 @@ const About = () => {
         </div>
 
         {/* Slide 2 */}
-        <div className="carousel-item">
+        <div className="carousel-item active">
           <div className="d-flex justify-content-center">
-            <div className="card mx-2 shadow p-3 rounded border-0" style={{ width: "400px" }}>
+            <div className="card mx-2 shadow-sm p-3 rounded border-0" style={{ width: "350px" }}>
               <div className="card-body text-center">
-                <div className="mb-3">
+                <div className="row">
+                  <div className="col-2" style={{ background: "#FAC5B4", borderRadius: "5px"}}>
+                  <div className="mt-1 mb-1">
                   <img src="11.png" alt="Integrity" className="img-fluid" />
                 </div>
-                <h5 className="fw-bold">Integrity</h5>
+                  </div>
+                  <div className="col-6">
+                  <h5 className="fw-bold">Integrity</h5>
+                  </div>
+                </div>
                 <p className="mt-2 text-muted">
                   Conducting business with the highest ethical standards and transparency.
                 </p>
               </div>
             </div>
 
-            <div className="card mx-2 shadow p-3 rounded border-0" style={{ width: "400px" }}>
+            <div className="card mx-2 shadow-sm p-3 rounded border-0" style={{ width: "350px" }}>
               <div className="card-body text-center">
-                <div className="mb-3">
-                  <img src="12.png" alt="Innovation" className="img-fluid" />
+                <div className="row">
+                  <div className="col-2" style={{ background: "#DAFAFC", borderRadius: "5px"}}>
+                  <div className="mt-1 mb-1">
+                  <img src="13.png" alt="Innovation" className="img-fluid" />
                 </div>
-                <h5 className="fw-bold">Innovation</h5>
+                  </div>
+                  <div className="col-8">
+                  <h5 className="fw-bold">Innovation</h5>
+                  </div>
+                </div>
                 <p className="mt-2 text-muted">
                   Embracing the latest technologies and creative solutions to drive progress.
                 </p>
               </div>
             </div>
 
-            <div className="card mx-2 shadow p-3 rounded border-0" style={{ width: "400px" }}>
+            <div className="card mx-2 shadow-sm p-3 rounded border-0" style={{ width: "350px" }}>
               <div className="card-body text-center">
-                <div className="mb-3">
-                  <img src="13.png" alt="Sustainability" className="img-fluid" />
+                <div className="row">
+                  <div className="col-2" style={{ background: "#C3DBFF", borderRadius: "5px", height: "100%"}}>
+                  <div className="mt-1 mb-1" >
+                  <img src="12.png" alt="Sustainability" className="img-fluid" />
                 </div>
-                <h5 className="fw-bold">Sustainability</h5>
+                  </div>
+                  <div className="col-9">
+                  <h5 className="fw-bold">Sustainability</h5>
+                  </div>
+                </div>
                 <p className="mt-2 text-muted">
                   Committed to environmentally and socially responsible business practices.
                 </p>
@@ -187,6 +216,8 @@ const About = () => {
         </div>
       </div>
     </div>
+        </div>
+        
       </section>
       <section>
         <div className="container">
@@ -231,6 +262,7 @@ const About = () => {
       <section className='bg-gray'>
         <div className="container">
           <div className="row align-items-center mt-4">
+          <div className="col-5"></div>
             <div className="col-auto">
               <div className="content">
                 <h4>Founders</h4>
@@ -279,6 +311,7 @@ const About = () => {
 
         <div className="container">
           <div className="row align-items-center mt-4">
+          <div className="col-5"></div>
             <div className="col-auto">
               <div className="content">
                 <h4>Co-Founder</h4>
@@ -299,7 +332,7 @@ const About = () => {
 
                     {/* List Section */}
                     <div className="vector ">
-                      <ul className="align list-unstyled">
+                      <ul className=" ">
                         <li className="d-flex">
                           <span className="vector-text">Over 34 years of experience in power, energy, and infrastructure sectors.</span>
                           <img src="right-vector.png" className="vector-icon" />

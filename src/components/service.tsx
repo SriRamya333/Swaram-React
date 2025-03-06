@@ -31,9 +31,10 @@ const Service = () => {
         </div>
       </section>
 
-      <section className='home-section position-relative d-flex flex-column'>
+      <section className='home-section position-relative d-flex flex-column' >
         <div className="container-fluid">
           <div className="row align-items-center">
+          <div className="col-5"></div>
             <div className="content col-lg-12 col-md-12 mx-auto col-sm-12">
               <h4>Global Trading</h4>
             </div>
@@ -113,6 +114,7 @@ const Service = () => {
       <section className='service-last-section'>
         <div className="container-fluid">
         <div className="row align-items-center">
+        <div className="col-5"></div>
             <div className="content col-lg-12 col-md-12 mx-auto col-sm-12">
               <h4>Healthcare</h4>
             </div>

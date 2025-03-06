@@ -100,7 +100,7 @@ const ContactForm = () => {
         </div>
 
         {/* Submit Button */}
-        <button type="submit" className="btn btn-primary w-10" disabled={loading}>
+        <button type="submit" className="btn w-10" disabled={loading}>
           {loading ? "Sending..." : "Leave us a Message"}
         </button>
       </form>
