@@ -69,7 +69,7 @@ const Contact = () => {
           alt=""
           className="position-absolute bottom-0 start-0 d-none d-md-block"
         />
-        
+
       </section>
 
       {/* Contact Info Section */}
@@ -91,7 +91,7 @@ const Contact = () => {
               <h4>Email Address</h4>
               <div className="contact-border"></div>
               <p><a href="mailto:help@info.com">help@info.com</a></p>
-              <p>Assistance hours:<br /> Mon - Fri: 6 AM - 8 <br/> PM EST</p>
+              <p>Assistance hours:<br /> Mon - Fri: 6 AM - 8 <br /> PM EST</p>
             </div>
 
             {/* Phone Info */}
@@ -99,7 +99,7 @@ const Contact = () => {
               <h4>Phone Number</h4>
               <div className="contact-border"></div>
               <p><a href="tel:+180899834256">(808) 998-34256</a></p>
-              <p>Assistance hours:<br /> Mon - Fri: 6 AM - 8 <br/> PM EST</p>
+              <p>Assistance hours:<br /> Mon - Fri: 6 AM - 8 <br /> PM EST</p>
             </div>
           </div>
         </div>
@@ -119,12 +119,10 @@ const Contact = () => {
                     </p>
                   </div>
                   <div className="col-lg-6 d-flex justify-content-center">
-                    <input
-                      type="email"
-                      className="form-control w-75"
-                      placeholder="Enter your email"
-                    />
-                    <button className="btn2 btn-primary ms-2">Subscribe</button>
+                    <div className="subscribe-container">
+                      <input type="email" placeholder="Enter your email" />
+                      <button>Subscribe</button>
+                    </div>
                   </div>
                 </div>
               </div>

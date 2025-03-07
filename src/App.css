@@ -761,6 +761,22 @@ section {
   display: flex;
   flex-direction: column;
 }
+@media(min-width:320px){
+  .social-buttons{
+    right:0px;
+  }
+}
+@media(min-width:720px){
+  .social-buttons{
+    top: 4rem;
+    right:107px;
+  }
+}
+@media(min-width:1020px){
+  .social-buttons{
+    right:140px;
+  }
+}
 .social-buttons a {
   display: inline-flex;
   text-decoration: none;
@@ -856,6 +872,41 @@ section {
   border-radius: 20px;
 }
 
+
+.subscribe-container {
+  padding:0px;
+  display: flex;
+  width: 300px;
+  background-color: #92aacc; /* Adjust color as needed */
+  border-radius: 8px;
+  overflow: hidden;
+}
+
+.subscribe-container input {
+  flex: 1;
+  border: none;
+  padding: 10px;
+  font-size: 14px;
+  outline: none;
+  background-color: #A0B8D1; /* Adjust for placeholder contrast */
+  color: #ffffff !important;
+ 
+}
+
+.subscribe-container button {
+  background-color: #fff;
+  border: none;
+  padding: 10px 15px;
+  cursor: pointer;
+  font-size: 14px;
+  color: #184A92;
+  font-weight: bold;
+
+}
+
+.subscribe-container button:hover {
+  background-color: #ddd;
+}
 
 /* Service Page */
 
