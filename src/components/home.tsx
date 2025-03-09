@@ -80,16 +80,16 @@ const Home = () => {
               <h2 className="fs-1 fw-bold text-center ">We Featured on Popular Partners Like</h2>
             </div>
             <div className="row text-center mt-5 justify-content-center align-items-center">
-              <div className="col-lg-3 col-md-4 col-6 mb-4">
+              <div className="col-lg-3 col-md-4 col-12 mb-4">
                 <img src="Fortune.png" className="img-fluid partner-logo" alt="Fortune" />
               </div>
-              <div className="col-lg-3 col-md-4 col-6 mb-4">
+              <div className="col-lg-3 col-md-4 col-12 mb-4">
                 <img src="Forbes.png" className="img-fluid partner-logo" alt="Forbes" />
               </div>
-              <div className="col-lg-3 col-md-4 col-6 mb-4">
+              <div className="col-lg-3 col-md-4 col-12 mb-4">
                 <img src="invest-detroit.png" className="img-fluid partner-logo" alt="Invest Detroit" />
               </div>
-              <div className="col-lg-3 col-md-4 col-6 mb-4">
+              <div className="col-lg-3 col-md-4 col-12 mb-4">
                 <img src="Robinhood.png" className="img-fluid partner-logo" alt="Robinhood" />
               </div>
             </div>
@@ -97,9 +97,9 @@ const Home = () => {
         </div>
       </section>
 
-
+{/* Desktop */}
       {/* Our Services Section */}
-      <section className="position-relative d-flex flex-column">
+      <section className="position-relative d-flex flex-column d-none d-md-block">
         <div className="container-fluid bg position-relative py-5">
           <div className="container">
             <div className="row align-items-center">
@@ -115,12 +115,14 @@ const Home = () => {
                   <div className="content">
                     <h4 className="fw-bold">OUR SERVICES</h4>
                   </div>
-                  <div className="border border-success border-1 opacity-100 ms-3"></div>
+                  <div className="border border-success border-1 opacity-100 ms-3 d-none d-md-block">
+
+                  </div>
                 </div>
 
                 {/* Title */}
                 <div className="row">
-                  <div className="col-1 class_child_div">
+                  <div className="col-1 class_child_div d-none d-md-block">
                     <span className="line"><img src="line.svg" alt="Line" /></span>
                   </div>
                   <div className="col-11">
@@ -166,6 +168,77 @@ const Home = () => {
 
       </section>
 
+{/* Mobile */}
+
+<section className="position-relative d-flex flex-column d-block d-md-none">
+        <div className="container-fluid position-relative">
+          <div className="container">
+            <div className="row align-items-center">
+              {/* Image Section */}
+             
+
+              {/* Content Section */}
+              <div className="col-lg-6 col-md-6 col-12 mt-4 mt-md-0">
+                {/* Section Header */}
+                <div className="d-flex align-items-center justify-content-center justify-content-md-start">
+                  <div className="content">
+                    <h4 className="fw-bold">OUR SERVICES</h4>
+                  </div>
+                  <div className="border border-success border-1 opacity-100 ms-3 d-none d-md-block">
+
+                  </div>
+                </div>
+
+                {/* Title */}
+                <div className="row">
+                  <div className="col-1 class_child_div d-none d-md-block">
+                    <span className="line"><img src="line.svg" alt="Line" /></span>
+                  </div>
+                  <div className="col-11">
+                    <h2 className="logic text-center text-md-start mt-3 responsive-heading">
+                      Explore our expertise in Trading, Infrastructure, Logistics, and Energy
+                    </h2>
+                  </div>
+                </div>
+                <div className="col-lg-6 col-md-6 col-12 text-center text-md-start mt-3">
+                <img src="graph.png" className="img-fluid w-75" alt="Graph" />
+              </div>
+
+                {/* Service List */}
+                <div className="mt-4">
+                  <div className="row row-cols-1 row-cols-md-2 g-3">
+                    <div className="col d-flex align-items-center">
+                      <img src="dollar.png" className="me-2 service-icon" alt="Dollar Icon" />
+                      <p className="trade mb-0">Global Trading</p>
+                    </div>
+                    <div className="col d-flex align-items-center">
+                      <img src="coin.png" className="me-2 service-icon" alt="Coin Icon" />
+                      <p className="trade mb-0">Logistics & Supply Chain Management</p>
+                    </div>
+                    <div className="col d-flex align-items-center">
+                      <img src="house.png" className="me-2 service-icon" alt="House Icon" />
+                      <p className="trade mb-0">Energy Solutions</p>
+                    </div>
+                    <div className="col d-flex align-items-center">
+                      <img src="office.png" className="me-2 service-icon" alt="Office Icon" />
+                      <p className="trade mb-0">Infrastructure & Construction</p>
+                    </div>
+                  </div>
+                </div>
+
+                {/* Explore Button */}
+                <div className="explore d-flex justify-content-center justify-content-md-start mt-4">
+                  <a href="#" className="btn mt-2 px-4 py-2">Explore Services</a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        {/* Background Image */}
+        <div className="bg-overlay"></div>
+
+      </section>
 
       {/* Why Section */}
       <section className="why position-relative d-flex flex-column why-bg">
@@ -178,7 +251,9 @@ const Home = () => {
             <div className="col-5">
             </div>
             <div className="content col-lg-12 col-md-12 mx-auto col-sm-12">
-              <h4>Why Choose Us</h4></div><div className="col">
+              <h4>Why Choose Us</h4>
+            </div>
+            <div className="col d-none d-md-block">
               <div className="border border-success border-1 opacity-100">
               </div>
             </div>
@@ -186,7 +261,7 @@ const Home = () => {
 
           {/* Subtitle Section */}
           <div className="row mt-3 align-items-center text-center text-md-start">
-            <div className="col-auto">
+            <div className="col-auto d-none d-md-block">
               <img src="line.svg" className="line1 img-fluid" />
             </div>
             <div className="decade col-lg-5 col-md-5 col-12">
@@ -229,6 +304,7 @@ const Home = () => {
         </div>
       </section>
 
+      {/* Desktop */}
       {/* Third Section */}
       <section className="position-relative d-flex flex-column bg-gray d-none d-md-block">
         <div className="container py-5">
@@ -279,6 +355,55 @@ const Home = () => {
       </section>
 
 
+      {/* Mobile */}
+      <section className="position-relative d-flex flex-column bg-gray d-block d-md-none">
+        <div className="container py-5">
+          <div className="row justify-content-center align-items-center text-center text-md-start">
+            {/* Background Image Section */}
+            <div className="col-lg-12 col-md-12 col-12">
+              <div className="d-flex flex-column justify-content-center align-items-center w-100">
+                <div className="overall w-100 px-3 px-md-5 d-flex flex-column align-items-center align-items-md-start">
+
+                  {/* Heading Section */}
+                  <div className="connect-content mb-3 text-center text-md-start">
+                    <h2 className="fw-bold text-wrap text-break">
+                      The company was founded as a partnership to <br className="d-none d-md-block" /> combine our expertise.
+                    </h2>
+                  </div>
+
+                  {/* List Section */}
+                  <div className="vector w-100">
+                    <ul className="list-unstyled d-flex flex-column align-items-center align-items-md-start w-100">
+                      <li className="d-flex align-items-center mb-2 w-100">
+                        <img src="vector.png" className="vector-icon img-fluid me-2" style={{ width: '24px', height: '24px' }} />
+                        <span className="vector-text flex-grow-1 text-center text-md-start">Global Ambition</span>
+                      </li>
+                      <li className="d-flex align-items-center mb-2 w-100">
+                        <img src="vector.png" className="vector-icon img-fluid me-2" style={{ width: '24px', height: '24px' }} />
+                        <span className="vector-text flex-grow-1 text-center text-md-start">Integrated Solutions</span>
+                      </li>
+                      <li className="d-flex align-items-center mb-2 w-100">
+                        <img src="vector.png" className="vector-icon img-fluid me-2" style={{ width: '24px', height: '24px' }} />
+                        <span className="vector-text flex-grow-1 text-center text-md-start">Emphasis on Expertise</span>
+                      </li>
+                      <li className="d-flex align-items-center mb-2 w-100">
+                        <img src="vector.png" className="vector-icon img-fluid me-2" style={{ width: '24px', height: '24px' }} />
+                        <span className="vector-text flex-grow-1 text-center text-md-start">Focus on Innovation & Sustainability</span>
+                      </li>
+                    </ul>
+                  </div>
+
+                  {/* Button Section */}
+                  <div className="connect-btn text-center text-md-start">
+                    <a href="#" className="btn2">Connect Us</a>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
 
 
       {/* Testimonial Section */}
@@ -293,21 +418,19 @@ const Home = () => {
 
           {/* Heading Section */}
           <div className="row align-items-center mt-4">
-            <div className="col-auto">
-              <div className="content">
-                <h4>TESTIMONIALS</h4>
-              </div>
+            <div className="col-auto content">
+              <h4>TESTIMONIALS</h4>
             </div>
-            <div className="col">
+            <div className="col d-none d-md-block">
               <div className="border border-success border-1"></div>
             </div>
           </div>
-          <div className="col-6">
+          <div className="col-lg-6 col-md-6 col-sm-12">
             <div className="row">
-              <div className="col-1 class_child_div">
+              <div className="col-1 class_child_div d-none d-md-block">
                 <span className="line"><img src="line.svg" /></span>
               </div>
-              <div className="col-11 test">
+              <div className="col-lg-11 col-md-11 col-12 test">
                 <h2>What Our Customers Say</h2>
                 <p>Discover the Success Stories and Satisfaction of Clients Who Have Benefited from Our Expertise and Personalized Financial Guidance</p>
               </div>

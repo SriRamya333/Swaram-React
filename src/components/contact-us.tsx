@@ -11,7 +11,7 @@ const Contact = () => {
         src="contact-green.png"
         alt=""
         className="position-absolute top-0 end-0 d-none d-md-block"
-        style={{ width: "30%", maxWidth: "280px", height: "auto" }}
+        style={{ width: "30%", maxWidth: "200px", height: "auto" }}
       />
 
       {/* Main Contact Section */}
@@ -53,7 +53,7 @@ const Contact = () => {
         </div>
 
         {/* Contact Form */}
-        <div className="container">
+        <div className="container mt-5">
           <ContactForm />
           {/* <img
           src="about-tri.png"

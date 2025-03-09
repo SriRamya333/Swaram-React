@@ -30,20 +30,20 @@ const Service = () => {
           </div>
         </div>
       </section>
-
-      <section className='home-section position-relative d-flex flex-column' >
+{/* Desktop */}
+      <section className='home-section position-relative d-flex flex-column d-none d-md-block' >
         <div className="container-fluid">
           <div className="row align-items-center">
           <div className="col-5"></div>
             <div className="content col-lg-12 col-md-12 mx-auto col-sm-12">
               <h4>Global Trading</h4>
             </div>
-            <div className="col">
+            <div className="col d-none d-md-block">
               <div className="border border-success border-1 opacity-100"></div>
             </div>
           </div>
           <div className="row">
-            <div className="col-lg-6 col-md-6 col-12 solution">
+            <div className="col-lg-6 col-md-6 col-12 solution gb">
               <div className="global-trade"><img className="service-sol" src="globe.png" /></div>
               <div className="icon-content mt-2"><h6>Global Trading</h6>
                 <ul className='space'>
@@ -76,7 +76,7 @@ const Service = () => {
             </div>
           </div>
           <div className="row">
-            <div className="col-lg-6 col-md-6 col-12 solution">
+            <div className="col-lg-6 col-md-6 col-12 solution gb">
               <div className="global-trade"><img className="truck" src="truck.png" /></div>
               <div className="icon-content mt-2"><h6>Logistics & Supply Chain Management</h6>
                 <ul className='space'>
@@ -111,6 +111,85 @@ const Service = () => {
         </div>
       </section>
 
+{/* Mobile */}
+      <section className='home-section position-relative d-flex flex-column d-block d-md-none' >
+        <div className="container-fluid">
+          <div className="row align-items-center">
+          <div className="col-5"></div>
+            <div className="content col-lg-12 col-md-12 mx-auto col-sm-12">
+              <h4>Global Trading</h4>
+            </div>
+            <div className="col d-none d-md-block">
+              <div className="border border-success border-1 opacity-100"></div>
+            </div>
+          </div>
+          <div className="row">
+            <div className="col-lg-6 d-flex col-md-6 col-12 solution gb">
+              <div className="global-trade"><img className="service-sol" src="globe.png" /></div>
+              <div className="icon-content mt-2"><h6>Global Trading</h6>
+                <ul className='space'>
+                  <li>· Import/Export services</li>
+                  <li>· Sourcing & Distribution</li>
+                  <li>· Trading in various materials, including construction materials, energy resources, and machinery</li>
+                  <li>· Custom solutions for international clients</li>
+                </ul>
+              </div>
+            </div>
+            <div className="trading-text col-lg-6 col-md-6 col-12 p-0">
+              <img src="trading.png" alt="description" />
+            </div>
+          </div>
+          <div className="row">
+            <div className="col-lg-6 d-flex col-md-6 col-12 solution">
+              <div className="global-trade"><img className="infra" src="infrastructure.png" /></div>
+              <div className="icon-content mt-2"><h6>Infrastructure & Construction</h6>
+                <ul className='space'>
+                  <li>· Large-scale infrastructure projects</li>
+                  <li>· Residential, commercial, and industrial construction</li>
+                  <li>· Project management and consultancy</li>
+                  <li>· Infrastructure development for transport, energy, and urbanization</li>
+                </ul>
+              </div>
+            </div>
+            <div className="trading-text col-lg-6 col-md-6 col-12 p-0">
+              <img src="site.png" alt="description" />
+            </div>
+          </div>
+          <div className="row">
+            <div className="col-lg-6 d-flex col-md-6 col-12 solution gb">
+              <div className="global-trade"><img className="truck" src="truck.png" /></div>
+              <div className="icon-content mt-2"><h6>Logistics & Supply Chain Management</h6>
+                <ul className='space'>
+                  <li>· Freight forwarding and shipping solutions</li>
+                  <li>· Warehousing & inventory management</li>
+                  <li>· Cross-border logistics</li>
+                  <li>· Last-mile delivery solutions</li>
+                </ul>
+              </div>
+            </div>
+            <div className="trading-text col-lg-6 col-md-6 col-12 p-0">
+              <img src="supply.png" alt="description" />
+            </div>
+          </div>
+          <div className="row">
+            <div className="col-lg-6 d-flex col-md-6 col-12 solution">
+              <div className="global-trade"><img className="world" src="renewable-energy.png" /></div>
+              <div className="icon-content mt-2"><h6>Energy Solutions</h6>
+                <ul className='space'>
+                  <li>· Renewable Energy Projects (Solar, Wind, etc.)</li>
+                  <li>· Energy Efficiency Solutions</li>
+                  <li>· Power Distribution & Infrastructure</li>
+                  <li>· Consulting & Engineering Services</li>
+                </ul>
+              </div>
+            </div>
+            <div className="trading-text col-lg-6 col-md-6 col-12 p-0">
+              <img src="world.png" alt="description" />
+            </div>
+          </div>
+        </div>
+      </section>
+
       <section className='service-last-section'>
         <div className="container-fluid">
         <div className="row align-items-center">
@@ -118,12 +197,12 @@ const Service = () => {
             <div className="content col-lg-12 col-md-12 mx-auto col-sm-12">
               <h4>Healthcare</h4>
             </div>
-            <div className="col">
+            <div className="col d-none d-md-block">
               <div className="border border-success border-1 opacity-100"></div>
             </div>
           </div>
           <div className="row">
-            <div className="col-lg-6 col-md-6 col-12 solution">
+            <div className="col-lg-6 col-md-6 col-12 solution gb">
               <div className="icon-content mt-2"><h6>Preventive & Supportive Solutions</h6>
                 <ul className='space'>
                   <li>· Medical equipment and healthcare supplies trading</li>

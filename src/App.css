@@ -31,7 +31,7 @@ h6 {
 
 
 section {
-  padding: 40px;
+  padding: 20px;
 }
 
 @media (min-width:690px) {
@@ -242,6 +242,24 @@ section {
   font-size: 24px;
   font-weight: 700;
 }
+.mob p{
+  text-align: center;
+}
+@media (min-width:320px){
+  .mob p{
+    text-align: center;
+  }
+}
+@media (min-width:720px){
+  .mob p{
+    text-align: left;
+  }
+}
+@media (min-width:1020px){
+  .mob p{
+    text-align: left;
+  }
+}
 
 .trade {
   font-weight: 500;
@@ -443,7 +461,6 @@ section {
 .form-subscribe .btn {
    color:#FFFFFF;
   background: #184A92;
-  border-color: #7bb786ab;
   border-radius: 25px;
   font-size: 12px;
 }
@@ -550,8 +567,23 @@ section {
 .icon-content h6 {
   font-size: 20px;
   font-weight: 700;
+  padding-left:10px;
 }
-
+@media (min-width:320px){
+  .icon-content h6{
+    padding-left:10px;
+  }
+}
+@media (min-width:720px){
+  .icon-content h6{
+    padding-left:0px;
+  }
+}
+@media (min-width:1020px){
+  .icon-content h6{
+    padding-left:0px;
+  }
+}
 .icon-content p {
   line-height: 28px;
 }
@@ -565,16 +597,32 @@ section {
 }
 
 .connect-content h2 {
-  text-align: left;
+  text-align: center;
   font-weight: 700;
-  font-size: 24px;
-  line-height: 40px;
-}
-
-.vector-text {
-  font-weight: 400;
   font-size: 18px;
   line-height: 40px;
+}
+@media(min-width:320px){
+  .connect-content h2{
+    text-align: center;
+    font-size: 18px;
+  }
+}
+@media(min-width:720px){
+  .connect-content h2{
+    text-align: left;
+    font-size: 24px;
+  }
+}
+@media(min-width:1020px){
+  .connect-content h2{
+    text-align: left;
+    font-size: 24px;
+  }
+}
+.vector-text {
+  font-weight: 400;
+  font-size: 16px;
 }
 
 .connect-btn {
@@ -686,7 +734,22 @@ section {
   font-weight: 700;
 }
 .about-para p{
-  text-align: right;
+  text-align: center;
+}
+@media (min-width:320px){
+  .about-para p{
+    text-align: center;
+  }
+}
+@media (min-width:720px){
+  .about-para p{
+    text-align: right;
+  }
+}
+@media (min-width:1020px){
+  .about-para p{
+    text-align: right;
+  }
 }
 .sys img{
   width:100%;
@@ -724,11 +787,30 @@ section {
   position: relative;
 }
 .about h2 {
-  text-align: right;
+  text-align: center;
   font-weight: 700;
-  font-size: 24px;
+  font-size: 20px;
   line-height: 40px;
 }
+@media(min-width:320px){
+  .about h2{
+    text-align: center;
+    font-size: 20px;
+  }
+}
+@media(min-width:720px){
+  .about h2{
+    text-align: right;
+    font-size: 24px;
+  }
+}
+@media(min-width:1020px){
+  .about h2{
+    text-align: right;
+    font-size: 24px;
+  }
+}
+
 
 
 
@@ -755,26 +837,28 @@ section {
   font-weight: 600;
 }
 .social-buttons {
-  right:140px;
+  right:0px;
   position: absolute;
-  top: 6rem;
+  top: 8rem;
   display: flex;
   flex-direction: column;
 }
 @media(min-width:320px){
   .social-buttons{
     right:0px;
+    top: 8rem;
   }
 }
 @media(min-width:720px){
   .social-buttons{
-    top: 4rem;
-    right:107px;
+    right:60px;
+    top: 7rem;
   }
 }
 @media(min-width:1020px){
   .social-buttons{
-    right:140px;
+    right:60px;
+    top: 7rem;
   }
 }
 .social-buttons a {
@@ -921,6 +1005,7 @@ section {
   font-size: 32px;
 }
 .better{
+  padding: 0px 5px 0px 5px;
   font-weight: 700;
   font-size: 32px;
   background-color: #dd633a;
@@ -943,6 +1028,9 @@ section {
 }
 .solution{
   padding-top:10px;
+}
+.gb{
+  padding-left:40px;
 }
 .service-sol {
   background-color:#F15A2959;
@@ -993,7 +1081,9 @@ section {
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
-  
+}
+.partnerwithus{
+  background-color: #fffdf2;
 }
 .partner-title h2{
   font-weight: 700;
@@ -1010,17 +1100,54 @@ section {
   }
   .part {
     font-weight: 600;
-    font-size: 28px;
+    font-size: 18px;
+}
+@media(min-width:320px){
+  .part{
+    font-size:18px;
+  }
+}
+@media(min-width:720px){
+  .part{
+    font-size:28px;
+  }
+}
+@media(min-width:1020px){
+  .part{
+    font-size:28px;
+  }
 }
 .success{
-  margin-left:45px;
-  padding: 4px;
+  margin-left:28px;
+  padding: 7px;
   width: fit-content;
   background-color: #d6f1e0;
-  font-size: 16px;
+  font-size: 14px;
   border-radius: 20px;
   font-weight: 400;
     
+}
+
+@media(min-width:320px){
+  .success{
+    margin-left: 28px;
+    padding: 7px;
+    font-size: 14px;
+  }
+}
+@media(min-width:720px){
+  .success{
+    margin-left: 45px;
+    padding: 4px;
+    font-size: 16px;
+  }
+}
+@media(min-width:1020px){
+  .success{
+    margin-left: 45px;
+    padding: 4px;
+    font-size: 16px;
+  }
 }
 
 .connect1-image {

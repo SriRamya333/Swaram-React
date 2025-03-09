@@ -7,8 +7,21 @@ import ConnectForm from './mailer-us';
 const Partner = () => {
   return (
     <>
-
-      <section className='partner-bg'>
+{/* Desktop */}
+      <section className='partner-bg d-none d-md-block'>
+        <div className="container mt-5">
+          <div className="row">
+            <div className="col-lg-6 col-md-6 col-12 partner-title">
+              <h2><span className='better-1'>Partner with Swaram:</span> Driving Growth & Innovation Together</h2>
+              <p>Join us in shaping the future of global trade, infrastructure, energy, and healthcare through strategic partnerships and innovation</p>
+            </div>
+            <div>
+            </div>
+          </div>
+        </div>
+      </section>
+{/* Mobile */}
+      <section className='partnerwithus d-block d-md-none'>
         <div className="container mt-5">
           <div className="row">
             <div className="col-lg-6 col-md-6 col-12 partner-title">
@@ -31,7 +44,7 @@ const Partner = () => {
               </div>
               
             </div>
-            <div className="col">
+            <div className="col d-none d-md-block">
               <div className="border border-success border-1"></div>
             </div>
           </div>
@@ -85,7 +98,7 @@ const Partner = () => {
                 <h4>Market Potential & Outlook</h4>
               </div>
             </div>
-            <div className="col">
+            <div className="col d-none d-md-block">
               <div className="border border-success border-1"></div>
             </div>
           </div>
@@ -115,9 +128,9 @@ const Partner = () => {
         </div>
       </section>
 
+{/* Desktop */}
 
-
-      <section className='position-relative d-flex flex-column bg-gray'>
+      <section className='position-relative d-flex flex-column bg-gray d-none d-md-block'>
         <div className="container">
           <div className="row align-items-center mb-3">
           <div className="col-5"></div>
@@ -126,7 +139,7 @@ const Partner = () => {
                 <h4>Partner With Us</h4>
               </div>
             </div>
-            <div className="col">
+            <div className="col d-none d-md-block">
               <div className="border border-success border-1"></div>
             </div>
           </div>
@@ -135,6 +148,50 @@ const Partner = () => {
             {/* Background Image Section */}
             <div className="col-lg-12 col-md-12 col-12">
               <div className="connect1-image d-flex flex-column justify-content-center align-items-center ">
+                <div className="overall">
+                  <div className="connect-content">
+                    <h2 className='text-center together'>
+                      Let’s Work Together
+                    </h2>
+                  </div>
+                  
+                  <div className='text-start'>
+                    <p className='success' >🤝 Our Success in Numbers</p>
+                  </div>
+                  <ConnectForm />
+
+                  {/* Button Section */}
+                  {/* <div className="connect-btn">
+                    <a href="#" className="btn2 px-4 py-2">Submit</a>
+                  </div> */}
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+
+      {/* Mobile */}
+
+      <section className='position-relative d-flex flex-column bg-gray d-block d-md-none'>
+        <div className="container">
+          <div className="row align-items-center mb-3">
+          <div className="col-5"></div>
+            <div className="col-auto">
+              <div className="content">
+                <h4>Partner With Us</h4>
+              </div>
+            </div>
+            <div className="col d-none d-md-block">
+              <div className="border border-success border-1"></div>
+            </div>
+          </div>
+          <div className="row justify-content-center align-items-center">
+
+            {/* Background Image Section */}
+            <div className="col-lg-12 col-md-12 col-12">
+              <div className="d-flex flex-column justify-content-center align-items-center ">
                 <div className="overall">
                   <div className="connect-content">
                     <h2 className='text-center together'>
