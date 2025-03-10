@@ -21,7 +21,7 @@ const ContactForm = () => {
     reset,
   } = useForm<FormInputs>();
 
-  const onSubmit: SubmitHandler<FormInputs> = async (data) => {
+ const onSubmit: SubmitHandler<FormInputs> = async (data : any) => {
     if (!formRef.current) return;
     setLoading(true);
 

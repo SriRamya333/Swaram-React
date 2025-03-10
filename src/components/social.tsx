@@ -1,4 +1,4 @@
-import React from 'react';
+
 import './SocialSidebar.css'; // Custom CSS for styling
 
 const SocialSidebar = () => {

@@ -23,9 +23,9 @@ const ContactForm = () => {
     reset,
   } = useForm<FormInputs>();
 
-  const onSubmit: SubmitHandler<FormInputs> = async (data) => {
-    if (!formRef.current) return;
-    setLoading(true);
+  const onSubmit: SubmitHandler<FormInputs> = async (data : any) => {
+      if (!formRef.current) return;
+      setLoading(true);
 
     try {
       await emailjs.sendForm(
@@ -40,7 +40,7 @@ const ContactForm = () => {
       console.error("FAILED...", error);
       alert("Failed to send message. Please try again.");
     }
-
+    console.log(data);
     setLoading(false);
   };
 
