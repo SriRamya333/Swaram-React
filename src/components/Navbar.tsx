@@ -1,17 +1,39 @@
-import React from "react";
+import React, { useEffect } from "react";
 import { NavLink } from "react-router-dom";
 import "bootstrap/dist/css/bootstrap.min.css";
+import Collapse from "bootstrap/js/dist/collapse"; // Correct import for Collapse
 
 const Navbar: React.FC = () => {
+  useEffect(() => {
+    const navLinks = document.querySelectorAll('.nav-link');
+    const navbarNav = document.getElementById('navbarNav');
+
+    navLinks.forEach((link) => {
+      link.addEventListener('click', () => {
+        if (window.innerWidth < 992 && navbarNav) {
+          const bsCollapse = new Collapse(navbarNav, {
+            toggle: false
+          });
+          bsCollapse.hide(); // Auto-close navbar after clicking
+        }
+      });
+    });
+
+    // Cleanup event listeners
+    return () => {
+      navLinks.forEach((link) =>
+        link.removeEventListener('click', () => {})
+      );
+    };
+  }, []);
+
   return (
     <nav className="navbar navbar-expand-lg navbar-light bg-light fixed-top">
       <div className="container">
-        {/* Logo */}
         <NavLink className="navbar-brand" to="/">
           <img src="logo.svg" alt="Logo" className="d-inline-block align-top" />
         </NavLink>
 
-        {/* Navbar Toggle Button (for mobile) */}
         <button
           className="navbar-toggler"
           type="button"
@@ -24,7 +46,6 @@ const Navbar: React.FC = () => {
           <span className="navbar-toggler-icon"></span>
         </button>
 
-        {/* Navbar Links */}
         <div className="collapse navbar-collapse" id="navbarNav">
           <ul className="navbar-nav ms-auto">
             <li className="nav-item">
@@ -32,19 +53,16 @@ const Navbar: React.FC = () => {
                 About Us
               </NavLink>
             </li>
-
             <li className="nav-item">
               <NavLink className="nav-link" to="/service">
                 Services & Solutions
               </NavLink>
             </li>
-
             <li className="nav-item">
               <NavLink className="nav-link" to="/partner">
                 Partnership
               </NavLink>
             </li>
-
             <li className="nav-item">
               <NavLink className="nav-link" to="/contact-us">
                 Contact Us

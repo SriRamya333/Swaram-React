@@ -9,7 +9,7 @@ import Contact from "./components/contact-us";
 import Partner from "./components/partner";
 import Service from "./components/service";
 import ScrollToTop from "./components/ScrollToTop";
-
+import SocialSidebar from "./components/social";
 
 
 function App() {
@@ -17,6 +17,7 @@ function App() {
     <Router>
       <ScrollToTop />
       <Header />
+      <SocialSidebar />
       <Routes>
         <Route path="/" element={<Home />} />
         <Route path="/about" element={<About />} />
