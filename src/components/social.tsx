@@ -3,7 +3,8 @@ import './SocialSidebar.css'; // Custom CSS for styling
 
 const SocialSidebar = () => {
   return (
-    <div className="social-sidebar">
+    <section className='d-block d-md-none'>
+      <div className="social-sidebar">
       <div className="social-link instagram">
         <i className="fab fa-instagram"></i>
         <span className="social-name">Instagram</span>
@@ -24,6 +25,10 @@ const SocialSidebar = () => {
         <span className="social-name">YouTube</span>
       </div>
     </div>
+    </section>
+    
+
+    
   );
 };
 

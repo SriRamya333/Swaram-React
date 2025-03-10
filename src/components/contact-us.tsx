@@ -36,7 +36,7 @@ const Contact = () => {
             <div className="col-lg-8 touch">
               <h2>Get in touch with us. We're here <br />to assist you.</h2>
             </div>
-            <div className="col-lg-4 d-flex justify-content-lg-end justify-content-center mt-3 mt-lg-0">
+            <div className="col-lg-4 d-flex justify-content-lg-end justify-content-center mt-3 mt-lg-0 d-none d-md-block">
               <div className="social-buttons">
                 <a href="#" className="me-3">
                   <FontAwesomeIcon icon={faFacebookF} />
