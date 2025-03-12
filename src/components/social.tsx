@@ -3,7 +3,7 @@ import './SocialSidebar.css'; // Custom CSS for styling
 
 const SocialSidebar = () => {
   return (
-    <section className='d-block d-md-none'>
+    <section className='d-none d-md-none'>
       <div className="social-sidebar">
       <div className="social-link instagram">
         <i className="fab fa-instagram"></i>

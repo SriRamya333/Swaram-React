@@ -4,26 +4,24 @@ import 'bootstrap/dist/css/bootstrap.min.css';
 const Home = () => {
   return (
     <>
-
-      <section className='home-section position-relative d-flex flex-column'>
+{/* Desktop */}
+      <section className='home-section position-relative d-flex flex-column d-none d-md-block'>
         <img src="bg-green-1.png" alt=""
           className="color-img position-absolute top-0 end-0"
-          style={{ width: '50%', maxWidth: '280px', height: 'auto', objectFit: 'contain' }}
         />
 
         <img src="green-tri.png" alt=""
           className="green-tri position-absolute top-0 start-0"
-          style={{ width: '30%', maxWidth: '280px', height: 'auto', objectFit: 'contain' }}
         />
 
         <img src="Frame-3.png" alt=""
           className="img-frame position-absolute bottom-0 start-0"
-          style={{ width: '25%', maxWidth: '180px', height: 'auto', objectFit: 'contain' }}
+          
         />
 
         <img src="Frame-4.png" alt=""
           className="img-frame1 position-absolute bottom-0 end-0"
-          style={{ width: '25%', maxWidth: '220px', height: 'auto', objectFit: 'contain' }}
+          
         />
         {/* Container for Content */}
         <div className='container position-relative d-flex flex-column align-items-center text-center py-5'>
@@ -31,7 +29,55 @@ const Home = () => {
           <div className='row justify-content-center w-100 position-relative' style={{ zIndex: 1 }}>
             <div className='col-lg-10 col-md-12 col-12'>
               <div className='bg-text mt-5'>
-                <h3 className="fs-1 fw-bold text-center ">Shaping the Future of Global Trade & Services</h3>
+                <h3 className="text-center ">Shaping the Future of Global Trade & Services</h3>
+              </div>
+              <div className='para-text'>
+                <p >Explore our solutions in Infrastructure, Logistics, Energy, and Trading.</p>
+              </div>
+
+              {/* Buttons */}
+              <div className='d-flex flex-wrap justify-content-center gap-3 mt-3'>
+                <div className="para-button">
+                  <a href='#' className='btn px-4 py-2'>Discover More</a>
+                </div>
+                <div className="para-button1">
+                  <a href='#' className='btn px-4 py-2'>Contact Us</a>
+                </div>
+              </div>
+
+              {/* Image Section */}
+              <div className='row mt-5 justify-content-center'>
+                <div className='img col-md-6 col-10 d-flex justify-content-center'>
+                  <img src='Group-0.png' alt='Description' className='img-fluid' style={{ maxWidth: '100%', height: 'auto' }} />
+                </div>
+              </div>
+            </div>
+          </div>
+
+          {/* Background Image (Centered and Responsive) */}
+          <img
+            src='Group-5.png'
+            alt=''
+            className='bg-main mt-5 position-absolute top-50 start-50 translate-middle'
+            style={{
+              zIndex: 0,
+              height: 'auto',
+              maxHeight: '105vh',
+              objectFit: 'contain',
+              width: '52vh',
+            }}
+          />
+        </div>
+      </section>
+{/* Mobile */}
+<section className='home-section position-relative d-flex flex-column d-block d-md-none'>
+        {/* Container for Content */}
+        <div className='container position-relative d-flex flex-column align-items-center text-center py-5'>
+          {/* Content */}
+          <div className='row justify-content-center w-100 position-relative' style={{ zIndex: 1 }}>
+            <div className='col-lg-10 col-md-12 col-12'>
+              <div className='bg-text mt-5'>
+                <h3 className="text-center ">Shaping the Future of Global Trade & Services</h3>
               </div>
               <div className='para-text'>
                 <p >Explore our solutions in Infrastructure, Logistics, Energy, and Trading.</p>
@@ -73,11 +119,37 @@ const Home = () => {
       </section>
 
       {/* Future Section */}
-      <section className="position-relative d-flex flex-column">
+      {/* Desktop */}
+      <section className="position-relative d-flex flex-column d-none d-md-block">
         <div className="oval">
           <div className="container">
             <div className="popular text-center">
-              <h2 className="fs-1 fw-bold text-center ">We Featured on Popular Partners Like</h2>
+              <h2 className="text-center ">We Featured on Popular Partners Like</h2>
+            </div>
+            <div className="row text-center mt-5 justify-content-center align-items-center">
+              <div className="col-lg-3 col-md-4 col-12 mb-4">
+                <img src="Fortune.png" className="img-fluid partner-logo" alt="Fortune" />
+              </div>
+              <div className="col-lg-3 col-md-4 col-12 mb-4">
+                <img src="Forbes.png" className="img-fluid partner-logo" alt="Forbes" />
+              </div>
+              <div className="col-lg-3 col-md-4 col-12 mb-4">
+                <img src="invest-detroit.png" className="img-fluid partner-logo" alt="Invest Detroit" />
+              </div>
+              <div className="col-lg-3 col-md-4 col-12 mb-4">
+                <img src="Robinhood.png" className="img-fluid partner-logo" alt="Robinhood" />
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+{/* Mobile */}
+      <section className="position-relative d-flex flex-column d-block d-md-none">
+        <div className="">
+          <div className="container">
+            <div className="popular text-center">
+              <h2 className="text-center ">We Featured on Popular Partners Like</h2>
             </div>
             <div className="row text-center mt-5 justify-content-center align-items-center">
               <div className="col-lg-3 col-md-4 col-12 mb-4">
@@ -307,7 +379,7 @@ const Home = () => {
       {/* Desktop */}
       {/* Third Section */}
       <section className="position-relative d-flex flex-column bg-gray d-none d-md-block">
-        <div className="container py-5">
+        <div className="container pb-5">
           <div className="row justify-content-center align-items-center text-center text-md-start">
             {/* Background Image Section */}
             <div className="col-lg-12 col-md-12 col-12">
@@ -325,19 +397,19 @@ const Home = () => {
                   <div className="vector w-100">
                     <ul className="list-unstyled d-flex flex-column align-items-center align-items-md-start w-100">
                       <li className="d-flex align-items-center mb-2 w-100">
-                        <img src="vector.png" className="vector-icon img-fluid me-2" style={{ width: '24px', height: '24px' }} />
+                        <img src="vector.png" className="vector-icon me-2"/>
                         <span className="vector-text flex-grow-1 text-center text-md-start">Global Ambition</span>
                       </li>
                       <li className="d-flex align-items-center mb-2 w-100">
-                        <img src="vector.png" className="vector-icon img-fluid me-2" style={{ width: '24px', height: '24px' }} />
+                        <img src="vector.png" className="vector-icon me-2"/>
                         <span className="vector-text flex-grow-1 text-center text-md-start">Integrated Solutions</span>
                       </li>
                       <li className="d-flex align-items-center mb-2 w-100">
-                        <img src="vector.png" className="vector-icon img-fluid me-2" style={{ width: '24px', height: '24px' }} />
+                        <img src="vector.png" className="vector-icon me-2"/>
                         <span className="vector-text flex-grow-1 text-center text-md-start">Emphasis on Expertise</span>
                       </li>
                       <li className="d-flex align-items-center mb-2 w-100">
-                        <img src="vector.png" className="vector-icon img-fluid me-2" style={{ width: '24px', height: '24px' }} />
+                        <img src="vector.png" className="vector-icon me-2"/>
                         <span className="vector-text flex-grow-1 text-center text-md-start">Focus on Innovation & Sustainability</span>
                       </li>
                     </ul>
@@ -376,19 +448,19 @@ const Home = () => {
                     <ul className="list-unstyled d-flex flex-column align-items-center align-items-md-start w-100">
                       <li className="d-flex align-items-center mb-2 w-100">
                         <img src="vector.png" className="vector-icon img-fluid me-2" style={{ width: '24px', height: '24px' }} />
-                        <span className="vector-text flex-grow-1 text-center text-md-start">Global Ambition</span>
+                        <span className="vector-text text-md-start">Global Ambition</span>
                       </li>
                       <li className="d-flex align-items-center mb-2 w-100">
                         <img src="vector.png" className="vector-icon img-fluid me-2" style={{ width: '24px', height: '24px' }} />
-                        <span className="vector-text flex-grow-1 text-center text-md-start">Integrated Solutions</span>
+                        <span className="vector-text text-md-start">Integrated Solutions</span>
                       </li>
                       <li className="d-flex align-items-center mb-2 w-100">
                         <img src="vector.png" className="vector-icon img-fluid me-2" style={{ width: '24px', height: '24px' }} />
-                        <span className="vector-text flex-grow-1 text-center text-md-start">Emphasis on Expertise</span>
+                        <span className="vector-text text-md-start">Emphasis on Expertise</span>
                       </li>
                       <li className="d-flex align-items-center mb-2 w-100">
                         <img src="vector.png" className="vector-icon img-fluid me-2" style={{ width: '24px', height: '24px' }} />
-                        <span className="vector-text flex-grow-1 text-center text-md-start">Focus on Innovation & Sustainability</span>
+                        <span className="vector-text text-md-start">Focus on Innovation & Sustainability</span>
                       </li>
                     </ul>
                   </div>
@@ -408,16 +480,16 @@ const Home = () => {
 
       {/* Testimonial Section */}
       <section className='position-relative d-flex flex-column'>
-        <div className="container py-5">
+        <div className="container">
           {/* Logo Row */}
-          <div className="row  mt-5">
-            <div className="col-lg-12 ">
+          <div className="row">
+            <div className="col-lg-12 load">
               <img src="swaram.png" className="img-fluid" alt="Logo" style={{ maxWidth: '100%', height: 'auto' }} />
             </div>
           </div>
 
           {/* Heading Section */}
-          <div className="row align-items-center mt-4">
+          <div className="row align-items-center mt-4 mb-4">
             <div className="col-auto content">
               <h4>TESTIMONIALS</h4>
             </div>
@@ -447,19 +519,21 @@ const Home = () => {
                 <div className="row">
                   <div className="col-lg-4 col-md-6 col-12">
 
+                
                     <div className="testimonial-card p-4 shadow">
                       <div className="row">
                         <div className="col-3">
-                          <img src="test-1.png" className="testimonial-img" alt="User 3" />
+                          <img src="test-2.png" className="testimonial-img" alt="User 2" />
                         </div>
                         <div className="col-6">
                           <h5 className="fw-bold">Grace Turner</h5>
-                          <p className="text-muted">Director</p>
+                          <p className="text-muted">Analyst</p>
                         </div>
                       </div>
-                      <p>Financial expertise has made a significant impact on our nonprofit financial stability, allowing us to better serve our community.</p>
+                      <p>Financial planning and investment advice I received from this team completely transformed my future. I couldn't be happier with the results.</p>
                       <span className="quote-icon">❝</span>
                     </div>
+                  
                   </div>
 
                   <div className="col-lg-4 col-md-6 col-12">
@@ -477,18 +551,20 @@ const Home = () => {
                       <span className="quote-icon">❝</span>
                     </div>
                   </div>
+                  
+
                   <div className="col-lg-4 col-md-6 col-12">
                     <div className="testimonial-card p-4 shadow">
                       <div className="row">
                         <div className="col-3">
-                          <img src="test-1.png" className="testimonial-img" alt="User 3" />
+                          <img src="test-2.png" className="testimonial-img" alt="User 2" />
                         </div>
                         <div className="col-6">
                           <h5 className="fw-bold">Grace Turner</h5>
-                          <p className="text-muted">Director</p>
+                          <p className="text-muted">Analyst</p>
                         </div>
                       </div>
-                      <p>Financial expertise has made a significant impact on our nonprofit financial stability, allowing us to better serve our community.</p>
+                      <p>Financial planning and investment advice I received from this team completely transformed my future. I couldn't be happier with the results.</p>
                       <span className="quote-icon">❝</span>
                     </div>
                   </div>
@@ -498,19 +574,18 @@ const Home = () => {
               {/* Slide 2 */}
               <div className="carousel-item">
                 <div className="row">
-                  <div className="col-lg-4 col-md-6 col-12">
-
+                <div className="col-lg-4 col-md-6 col-12">
                     <div className="testimonial-card p-4 shadow">
                       <div className="row">
                         <div className="col-3">
-                          <img src="test-1.png" className="testimonial-img" alt="User 3" />
+                          <img src="test-2.png" className="testimonial-img" alt="User 2" />
                         </div>
                         <div className="col-6">
                           <h5 className="fw-bold">Grace Turner</h5>
-                          <p className="text-muted">Director</p>
+                          <p className="text-muted">Analyst</p>
                         </div>
                       </div>
-                      <p>Financial expertise has made a significant impact on our nonprofit financial stability, allowing us to better serve our community.</p>
+                      <p>Financial planning and investment advice I received from this team completely transformed my future. I couldn't be happier with the results.</p>
                       <span className="quote-icon">❝</span>
                     </div>
                   </div>
@@ -534,14 +609,14 @@ const Home = () => {
                     <div className="testimonial-card p-4 shadow">
                       <div className="row">
                         <div className="col-3">
-                          <img src="test-1.png" className="testimonial-img" alt="User 3" />
+                          <img src="test-2.png" className="testimonial-img" alt="User 2" />
                         </div>
                         <div className="col-6">
                           <h5 className="fw-bold">Grace Turner</h5>
-                          <p className="text-muted">Director</p>
+                          <p className="text-muted">Analyst</p>
                         </div>
                       </div>
-                      <p>Financial expertise has made a significant impact on our nonprofit financial stability, allowing us to better serve our community.</p>
+                      <p>Financial planning and investment advice I received from this team completely transformed my future. I couldn't be happier with the results.</p>
                       <span className="quote-icon">❝</span>
                     </div>
                   </div>

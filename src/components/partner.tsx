@@ -7,8 +7,28 @@ import ConnectForm from './mailer-us';
 const Partner = () => {
   return (
     <>
-{/* Desktop */}
-      <section className='partner-bg d-none d-md-block'>
+      {/* Desktop */}
+      <div className='back d-none d-md-block'>
+        <div className="container mt-4">
+          <div className="row">
+            <div className="col-lg-5 col-md-6 col-12 partner-title mt-5">
+              <h2><span className='better-1'>Partner with Swaram:</span> Driving Growth & Innovation Together</h2>
+              <p>Join us in shaping the future of global trade, infrastructure, energy, and healthcare through strategic partnerships and innovation</p>
+            </div>
+             <div className="col-lg-4 col-md-6 col-12">
+                <img src="ship.png"/>
+             </div>
+             <div className="col-lg-2 col-md-6 col-12">
+                <img src="sea.png"/>
+             </div>
+             <div className="col-1">
+
+             </div>
+          </div>
+        </div>
+      </div>
+      {/* Mobile */}
+      <div className='partnerwithus d-block d-md-none'>
         <div className="container mt-5">
           <div className="row">
             <div className="col-lg-6 col-md-6 col-12 partner-title">
@@ -19,30 +39,17 @@ const Partner = () => {
             </div>
           </div>
         </div>
-      </section>
-{/* Mobile */}
-      <section className='partnerwithus d-block d-md-none'>
-        <div className="container mt-5">
-          <div className="row">
-            <div className="col-lg-6 col-md-6 col-12 partner-title">
-              <h2><span className='better-1'>Partner with Swaram:</span> Driving Growth & Innovation Together</h2>
-              <p>Join us in shaping the future of global trade, infrastructure, energy, and healthcare through strategic partnerships and innovation</p>
-            </div>
-            <div>
-            </div>
-          </div>
-        </div>
-      </section>
+      </div>
 
       <section className='home-section position-relative d-flex flex-column'>
         <div className="container">
-          <div className="row align-items-center mt-4">
-          <div className="col-5"></div>
+          <div className="row align-items-center mt-4 mb-4">
+            <div className="col-4"></div>
             <div className="col-auto">
               <div className="content">
                 <h4>Key Themes and Take aways</h4>
               </div>
-              
+
             </div>
             <div className="col d-none d-md-block">
               <div className="border border-success border-1"></div>
@@ -91,8 +98,8 @@ const Partner = () => {
 
       <section>
         <div className="container">
-          <div className="row align-items-center mt-4">
-          <div className="col-5"></div>
+          <div className="row align-items-center mt-4 mb-4">
+            <div className="col-4"></div>
             <div className="col-auto">
               <div className="content">
                 <h4>Market Potential & Outlook</h4>
@@ -103,37 +110,37 @@ const Partner = () => {
             </div>
           </div>
           <div className="row">
-            <div className="col-lg-6 col-md-6 col-12">
+            <div className="col-lg-7 col-md-6 col-12">
               <div className="vector ">
-                <ul className="align list-unstyled">
-                  <li className="d-flex align-items-center">
-                    <img src="growth.png" className="vector-icon" />
+                <ul className="align type">
+                  <li>
+                    {/* <img src="growth.png" className="vector-icon" /> */}
                     <p>Swaram is well-positioned to attract large-scale, international clients due to its diverse service offerings and global presence.</p>
                   </li>
-                  <li className="d-flex align-items-center">
-                    <img src="growth.png" className="vector-icon" />
+                  <li>
+                    {/* <img src="growth.png" className="vector-icon" /> */}
                     <p>The combination of financial and technical leadership allows for a holistic approach to projects, from conception through to completion.</p>
                   </li>
-                  <li className="d-flex align-items-center">
-                    <img src="growth.png" className="vector-icon" />
+                  <li>
+                    {/* <img src="growth.png" className="vector-icon" /> */}
                     <p>Our commitment to sustainability resonates with increasingly environmentally conscious markets.</p>
                   </li>
                 </ul>
               </div>
             </div>
-            <div className="col-lg-6 col-md-6 col-12">
+            <div className="col-lg-5 col-md-6 col-12">
               <img src="data.png" alt="description" className='img-fluid' />
             </div>
           </div>
         </div>
       </section>
 
-{/* Desktop */}
+      {/* Desktop */}
 
       <section className='position-relative d-flex flex-column bg-gray d-none d-md-block'>
         <div className="container">
           <div className="row align-items-center mb-3">
-          <div className="col-5"></div>
+            <div className="col-5"></div>
             <div className="col-auto">
               <div className="content">
                 <h4>Partner With Us</h4>
@@ -154,7 +161,7 @@ const Partner = () => {
                       Let’s Work Together
                     </h2>
                   </div>
-                  
+
                   <div className='text-start'>
                     <p className='success' >🤝 Our Success in Numbers</p>
                   </div>
@@ -177,7 +184,7 @@ const Partner = () => {
       <section className='position-relative d-flex flex-column bg-gray d-block d-md-none'>
         <div className="container">
           <div className="row align-items-center mb-3">
-          <div className="col-5"></div>
+            <div className="col-5"></div>
             <div className="col-auto">
               <div className="content">
                 <h4>Partner With Us</h4>
@@ -198,7 +205,7 @@ const Partner = () => {
                       Let’s Work Together
                     </h2>
                   </div>
-                  
+
                   <div className='text-start'>
                     <p className='success' >🤝 Our Success in Numbers</p>
                   </div>

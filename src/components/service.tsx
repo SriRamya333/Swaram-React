@@ -10,14 +10,14 @@ const Service = () => {
       <section className='home-section position-relative d-flex flex-column' id="service-bg">
         <img src="service-green-tri.png" alt=""
           className="green-tri-1 position-absolute top-0 end-0"
-          style={{ width: '30%', maxWidth: '280px', height: 'auto', objectFit: 'contain' }}
+
         />
         <img src="bg-green-1.png" alt=""
           className="color-img position-absolute top-0 end-0"
           style={{ width: '50%', maxWidth: '280px', height: 'auto', objectFit: 'contain' }}
         />
         <div className="container mt-5">
-          <div className="row">
+          <div className="row mt-3">
             <div className="col-lg-4 col-md-4 col-12 first-image">
               <img src="service-image1.png" alt="description" />
             </div>
@@ -30,11 +30,12 @@ const Service = () => {
           </div>
         </div>
       </section>
-{/* Desktop */}
+      {/* Desktop */}
       <section className='home-section position-relative d-flex flex-column d-none d-md-block' >
         <div className="container-fluid">
           <div className="row align-items-center">
-          <div className="col-5"></div>
+
+            <div className="col-5"></div>
             <div className="content col-lg-12 col-md-12 mx-auto col-sm-12">
               <h4>Global Trading</h4>
             </div>
@@ -43,7 +44,8 @@ const Service = () => {
             </div>
           </div>
           <div className="row">
-            <div className="col-lg-6 col-md-6 col-12 solution gb">
+            <div className='col-lg-1 col-md-2 col-12'></div>
+            <div className="col-lg-5 col-md-6 col-12 solution gb">
               <div className="global-trade"><img className="service-sol" src="globe.png" /></div>
               <div className="icon-content mt-2"><h6>Global Trading</h6>
                 <ul className='space'>
@@ -54,15 +56,18 @@ const Service = () => {
                 </ul>
               </div>
             </div>
-            <div className="trading-text col-lg-6 col-md-6 col-12 p-0">
+            <div className='col-lg-2 col-md-2 col-12'></div>
+            <div className="trading-text col-lg-4 col-md-6 col-12 p-0">
               <img src="trading.png" alt="description" />
             </div>
+
           </div>
-          <div className="row">
-            <div className="trading-text col-lg-6 col-md-6 col-12 p-0">
+          <div className="row mt-5">
+            <div className='col-lg-1 col-md-1 col-12'></div>
+            <div className="trading-text col-lg-3 col-md-3 col-12 p-0">
               <img src="site.png" alt="description" />
             </div>
-
+            <div className='col-lg-2 col-md-2 col-12'></div>
             <div className="col-lg-6 col-md-6 col-12 solution">
               <div className="global-trade"><img className="infra" src="infrastructure.png" /></div>
               <div className="icon-content mt-2"><h6>Infrastructure & Construction</h6>
@@ -75,8 +80,9 @@ const Service = () => {
               </div>
             </div>
           </div>
-          <div className="row">
-            <div className="col-lg-6 col-md-6 col-12 solution gb">
+          <div className="row mt-5">
+            <div className='col-lg-1 col-md-1 col-12'></div>
+            <div className="col-lg-5 col-md-5 col-12 solution gb">
               <div className="global-trade"><img className="truck" src="truck.png" /></div>
               <div className="icon-content mt-2"><h6>Logistics & Supply Chain Management</h6>
                 <ul className='space'>
@@ -87,16 +93,18 @@ const Service = () => {
                 </ul>
               </div>
             </div>
-            <div className="trading-text col-lg-6 col-md-6 col-12 p-0">
+            <div className='col-lg-2 col-md-2 col-12'></div>
+            <div className="trading-text col-lg-4 col-md-4 col-12 p-0">
               <img src="supply.png" alt="description" />
             </div>
           </div>
-          <div className="row">
-            <div className="trading-text col-lg-6 col-md-6 col-12 p-0">
+          <div className="row mt-5">
+            <div className='col-lg-1 col-md-1 col-12'></div>
+            <div className="trading-text col-lg-3 col-md-3 col-12 p-0">
               <img src="world.png" alt="description" />
             </div>
-
-            <div className="col-lg-6 col-md-6 col-12 solution">
+            <div className='col-lg-3 col-md-3 col-12'></div>
+            <div className="col-lg-4 col-md-6 col-12 solution">
               <div className="global-trade"><img className="world" src="renewable-energy.png" /></div>
               <div className="icon-content mt-2"><h6>Energy Solutions</h6>
                 <ul className='space'>
@@ -111,11 +119,11 @@ const Service = () => {
         </div>
       </section>
 
-{/* Mobile */}
+      {/* Mobile */}
       <section className='home-section position-relative d-flex flex-column d-block d-md-none' >
         <div className="container-fluid">
           <div className="row align-items-center">
-          <div className="col-5"></div>
+            <div className="col-5"></div>
             <div className="content col-lg-12 col-md-12 mx-auto col-sm-12">
               <h4>Global Trading</h4>
             </div>
@@ -192,8 +200,8 @@ const Service = () => {
 
       <section className='service-last-section'>
         <div className="container-fluid">
-        <div className="row align-items-center">
-        <div className="col-5"></div>
+          <div className="row align-items-center">
+            <div className="col-5"></div>
             <div className="content col-lg-12 col-md-12 mx-auto col-sm-12">
               <h4>Healthcare</h4>
             </div>
@@ -202,7 +210,7 @@ const Service = () => {
             </div>
           </div>
           <div className="row">
-            <div className="col-lg-6 col-md-6 col-12 solution gb">
+            <div className="col-lg-8 col-md-6 col-12 solution gb">
               <div className="icon-content mt-2"><h6>Preventive & Supportive Solutions</h6>
                 <ul className='space'>
                   <li>· Medical equipment and healthcare supplies trading</li>
@@ -212,7 +220,8 @@ const Service = () => {
                 </ul>
               </div>
             </div>
-            <div className="trading-text col-lg-6 col-md-6 col-12 p-0">
+            <div className="col-lg-1"></div>
+            <div className="trading-text col-lg-3 col-md-6 col-12 p-0">
               <img src="building.png" alt="description" />
             </div>
           </div>

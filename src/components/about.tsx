@@ -6,10 +6,7 @@ import 'bootstrap/dist/css/bootstrap.min.css';
 const About = () => {
   return (
     <>
-      <img src="green-tri.png" alt=""
-        className="green-tri position-absolute top-0 start-0"
-        style={{ width: '30%', maxWidth: '280px', height: 'auto', objectFit: 'contain' }}
-      />
+      <img alt="" className="position-absolute top-0 end-0 d-none d-md-block" src="contact-green.png" />
 
       <section className='about-first-section mt-5'>
         <div className="container position-relative">
@@ -107,7 +104,7 @@ const About = () => {
                           <div className="p-2" style={{ background: card.bgColor, borderRadius: "5px" }}>
                             <img src={card.img} alt={card.title} />
                           </div>
-                          <div className="flex-grow-1 ps-2">
+                          <div className="ps-2">
                             <h6 className="fw-bold mb-0">{card.title}</h6>
                           </div>
                         </div>
@@ -143,7 +140,7 @@ const About = () => {
                           <div className="p-2" style={{ background: card.bgColor, borderRadius: "5px" }}>
                             <img src={card.img} alt={card.title} />
                           </div>
-                          <div className="flex-grow-1 ps-2">
+                          <div className="ps-2">
                             <h6 className="fw-bold mb-0">{card.title}</h6>
                           </div>
                         </div>
@@ -167,7 +164,7 @@ const About = () => {
               <h4>Core values</h4>
             </div>
             <div className="col-2 d-none d-md-block">
-              <div className="border border-success border-1 w-100 "></div>
+              <div className="border border-success border-1"></div>
             </div>
           </div>
           <div className="row mt-4 d-flex align-items-center text-center text-md-start">
@@ -272,7 +269,7 @@ const About = () => {
         <div className="container">
           <div className="row  align-items-center">
             <div className="col-lg-6 col-md-6 col-12">
-              <div className="row align-items-center mt-4">
+              <div className="row align-items-center mt-4 mb-4">
                 <div className="col-auto content">
                   <h4>Mission Statement</h4>
                 </div>
@@ -286,22 +283,26 @@ const About = () => {
               <img src='system.png' className="img-fluid" alt="System" />
             </div>
           </div>
+        </div>
+      </section>
+
+      <section className='d-none d-md-block'>
+        <div className="container">
           <div className="row  align-items-center mt-4">
-            <div className="col-lg-4 col-md-4 col-12 text-center">
+            <div className="col-lg-3 col-md-3 col-12 text-center">
               <img src="plant.png" className="img-fluid" alt="Plant" />
             </div>
+            <div className='col-lg-1 col-md-1 col-12'></div>
             <div className="col-lg-6 col-md-8 col-12">
-              <div className="d-flex align-items-center mt-4">
-                <div className="row">
-                  <div className="col-auto content">
-                    <h4>Vision Statement</h4>
-                  </div>
-                  <div className="col d-none d-md-block">
-                    <div className="border border-success border-1"></div>
-                  </div>
-                  To become a globally recognized leader in general trading, infrastructure development, energy solutions, and healthcare, known for our commitment to reliability, innovation, and excellence. We aspire to contribute to the development of industries and the betterment of communities through sustainable, cutting-edge solutions and impactful operations
+              <div className="row align-items-center mt-4 mb-4">
+                <div className="col-auto content">
+                  <h4>Vission Statement</h4>
+                </div>
+                <div className="col d-none d-md-block">
+                  <div className="border border-success border-1"></div>
                 </div>
               </div>
+              <p> To become a globally recognized leader in general trading, infrastructure development, energy solutions, and healthcare, known for our commitment to reliability, innovation, and excellence. We aspire to contribute to the development of industries and the betterment of communities through sustainable, cutting-edge solutions and impactful operations</p>
             </div>
           </div>
         </div>
@@ -311,7 +312,7 @@ const About = () => {
         <div className="container">
           <div className="row  align-items-center">
             <div className="col-lg-6 col-md-6 col-12">
-              <div className="row align-items-center mt-4">
+              <div className="row align-items-center mt-4 mb-4">
                 <div className="col-auto content">
                   <h4>Mission Statement</h4>
                 </div>
@@ -325,23 +326,24 @@ const About = () => {
               <img src='system.png' className="img-fluid" alt="System" />
             </div>
           </div>
+        </div>
+      </section>
+      <section className='d-block d-md-none'>
+        <div className="container">
           <div className="row  align-items-center mt-4">
-
-            <div className="col-lg-6 col-md-8 col-12">
-              <div className="d-flex align-items-center mt-4">
-                <div className="row">
-                  <div className="col-auto content">
-                    <h4>Vision Statement</h4>
-                  </div>
-                  <div className="col d-none d-md-block">
-                    <div className="border border-success border-1"></div>
-                  </div>
-                  To become a globally recognized leader in general trading, infrastructure development, energy solutions, and healthcare, known for our commitment to reliability, innovation, and excellence. We aspire to contribute to the development of industries and the betterment of communities through sustainable, cutting-edge solutions and impactful operations
-                </div>
-              </div>
-            </div>
             <div className="col-lg-4 col-md-4 col-12 text-center">
               <img src="plant.png" className="img-fluid" alt="Plant" />
+            </div>
+            <div className="col-lg-6 col-md-8 col-12">
+              <div className="row align-items-center">
+                <div className="col-auto content">
+                  <h4>Vission Statement</h4>
+                </div>
+                <div className="col d-none d-md-block">
+                  <div className="border border-success border-1"></div>
+                </div>
+              </div>
+              <p> To become a globally recognized leader in general trading, infrastructure development, energy solutions, and healthcare, known for our commitment to reliability, innovation, and excellence. We aspire to contribute to the development of industries and the betterment of communities through sustainable, cutting-edge solutions and impactful operations</p>
             </div>
           </div>
         </div>
@@ -350,7 +352,7 @@ const About = () => {
       {/* Desktop */}
       <section className='bg-gray d-none d-md-block'>
         <div className="container">
-          <div className="row align-items-center mt-4">
+          <div className="row align-items-center">
             <div className="col-lg-5"></div>
             <div className="col-auto content">
               <h4>Founders</h4>
@@ -360,90 +362,75 @@ const About = () => {
             </div>
           </div>
           <div className="row mt-4">
-            <div className="col">
-              <div className="col-lg-12 col-md-12 col-12 text-center mr-5">
-                <div className="founder d-flex flex-column align-items-middle">
-                  <div className="overall">
-                    <div className="connect-content">
-                      <h2>The Finance Leader  <span className='leader'>(Founder)</span></h2>
-                    </div>
-
-                    {/* List Section */}
-                    <div className="vector">
-                      <ul className="align list-unstyled">
-                        <li className="d-flex align-items-center">
-                          <img src="vector.png" className="vector-icon me-2" alt="icon" />
-                          <span className="vector-text">Nearly 40 years of experience across various regions (India, Nigeria, Gabon, and Dubai)</span>
-                        </li>
-                        <li className="d-flex align-items-center">
-                          <img src="vector.png" className="vector-icon me-2" alt="icon" />
-                          <span className="vector-text">Expertise in financial leadership, strategic planning, and risk management.</span>
-                        </li>
-                        <li className="d-flex align-items-center">
-                          <img src="vector.png" className="vector-icon me-2" alt="icon" />
-                          <span className="vector-text">Successful management of multi-billion-dollar investments and large-scale infrastructure projects.</span>
-                        </li>
-                        <li className="d-flex align-items-center">
-                          <img src="vector.png" className="vector-icon me-2" alt="icon" />
-                          <span className="vector-text">Known for implementing financial systems, optimizing supply chains, and ensuring effective governance.</span>
-                        </li>
-                      </ul>
-                    </div>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-
-        <div className="container mt-5">
-          <div className="row align-items-center mt-4">
-            <div className="col-lg-5"></div>
-            <div className="col-auto content">
-              <h4>Co-Founder</h4>
-            </div>
-            <div className="col d-none d-md-block">
-              <div className="border border-success border-1"></div>
-            </div>
-          </div>
-          <div className="row mt-4">
-            <div className="col-lg-12 col-md-12 col-12">
-              <div className="co-founder d-flex flex-column align-items-middle">
+            <div className="col-lg-8 col-md-12 col-12 text-center mr-5">
+              <div className="">
                 <div className="overall">
-                  <div className="about">
-                    <h2>The Power and Energy Leader <span className='leader'>(Co-Founder)</span></h2>
+                  <div className="connect-content">
+                    <h2>The Finance Leader  <span className='leader'>(Founder)</span></h2>
                   </div>
-
-                  {/* List Section */}
-                  <div className="vector ">
-                    <ul className="list-unstyled">
-                      <li className="d-flex align-items-center justify-content-between">
-                        <span className="vector-text">Over 34 years of experience in power, energy, and infrastructure sectors.</span>
-                        <img src="right-vector.png" className="vector-icon ms-2" alt="icon" />
-
+                  <div className="vector w-100">
+                    <ul className="list-unstyled d-flex flex-column align-items-center align-items-md-start w-100">
+                      <li className="d-flex align-items-center mb-4 w-100">
+                        <img src="vector.png" className="vector-icon me-2"/>
+                        <span className="vector-text flex-grow-1 text-center text-md-start">Nearly 40 years of experience across various regions (India, Nigeria, Gabon, and Dubai)</span>
                       </li>
-                      <li className="d-flex align-items-center justify-content-between">
-                        <span className="vector-text">Experience with Voltas Limited (TATA), Kirloskar Power Equipment, Al Hamad International Trading, FKI plc, Technical Solutions, AADI International Trading FZE, and PRANSA International FZC.</span>
-                        <img src="right-vector.png" className="vector-icon ms-2" alt="icon" />
-
+                      <li className="d-flex align-items-center mb-4 w-100">
+                        <img src="vector.png" className="vector-icon me-2"/>
+                        <span className="vector-text flex-grow-1 text-center text-md-start">Expertise in financial leadership, strategic planning, and risk management.</span>
                       </li>
-                      <li className="d-flex">
-                        <span className="vector-text">Extensive experience in energy solutions, infrastructure development, and global market expansion, particularly in the MEA region.</span>
-                        <img src="right-vector.png" className="vector-icon ms-2" alt="icon" />
-
+                      <li className="d-flex align-items-center mb-4 w-100">
+                        <img src="vector.png" className="vector-icon me-2"/>
+                        <span className="vector-text flex-grow-1 text-center text-md-start">Successful management of multi-billion-dollar investments and large-scale infrastructure projects.</span>
+                      </li>
+                      <li className="d-flex align-items-center mb-4 w-100">
+                        <img src="vector.png" className="vector-icon me-2"/>
+                        <span className="vector-text flex-grow-1 text-center text-md-start">Known for implementing financial systems, optimizing supply chains, and ensuring effective governance.</span>
                       </li>
                     </ul>
                   </div>
+                  
+                </div>
+              </div>
+              <div className="row mt-4">
+            <div className="col-lg-12 col-md-12 col-12">
+              <div className="d-flex flex-column align-items-middle">
+                <div className="overall">
+                <div className="connect-content">
+                <h2>The Power and Energy Leader <span className='leader'>(Co-Founder)</span></h2>
+                  </div>
+                  
+                  <div className="vector w-100">
+                    <ul className="list-unstyled d-flex flex-column align-items-center align-items-md-start w-100">
+                      <li className="d-flex align-items-center mb-4 w-100">
+                        <img src="vector.png" className="vector-icon me-2"/>
+                        <span className="vector-text flex-grow-1 text-center text-md-start">Over 34 years of experience in power, energy, and infrastructure sectors.</span>
+                      </li>
+                      <li className="d-flex align-items-center mb-4 w-100">
+                        <img src="vector.png" className="vector-icon me-2"/>
+                        <span className="vector-text flex-grow-1 text-center text-md-start">Experience with Voltas Limited (TATA), Kirloskar Power Equipment, Al Hamad International Trading, FKI plc, Technical Solutions, AADI International Trading FZE, and PRANSA International FZC.</span>
+                      </li>
+                      <li className="d-flex align-items-center mb-4 w-100">
+                        <img src="vector.png" className="vector-icon me-2"/>
+                        <span className="vector-text flex-grow-1 text-center text-md-start">Extensive experience in energy solutions, infrastructure development, and global market expansion, particularly in the MEA region.</span>
+                      </li>
+                    </ul>
+                  </div>
+                
                 </div>
               </div>
             </div>
+          </div>
+            </div>
+            <div className="col-lg-4 col-md-4 col-12">
+                <img src="man.png"/>
+              </div>
           </div>
         </div>
       </section>
       {/* Mobile */}
       <section className='bg-gray d-block d-md-none'>
         <div className="container">
-          <div className="row align-items-center mt-4">
+          <div className="row align-items-center">
             <div className="col-lg-5"></div>
             <div className="col-auto content">
               <h4>Founders</h4>
@@ -453,80 +440,66 @@ const About = () => {
             </div>
           </div>
           <div className="row mt-4">
-            <div className="col">
-              <div className="col-lg-12 col-md-12 col-12 text-center mr-5">
-                <div className="d-flex flex-column align-items-middle">
-                  <div className="overall">
-                    <div className="connect-content">
-                      <h2>The Finance Leader  <span className='leader'>(Founder)</span></h2>
-                    </div>
-
-                    {/* List Section */}
-                    <div className="vector">
-                      <ul className="align list-unstyled">
-                        <li className="d-flex align-items-center">
-                          <img src="vector.png" className="vector-icon me-2" alt="icon" />
-                          <span className="vector-text">Nearly 40 years of experience across various regions (India, Nigeria, Gabon, and Dubai)</span>
-                        </li>
-                        <li className="d-flex align-items-center">
-                          <img src="vector.png" className="vector-icon me-2" alt="icon" />
-                          <span className="vector-text">Expertise in financial leadership, strategic planning, and risk management.</span>
-                        </li>
-                        <li className="d-flex align-items-center">
-                          <img src="vector.png" className="vector-icon me-2" alt="icon" />
-                          <span className="vector-text">Successful management of multi-billion-dollar investments and large-scale infrastructure projects.</span>
-                        </li>
-                        <li className="d-flex align-items-center">
-                          <img src="vector.png" className="vector-icon me-2" alt="icon" />
-                          <span className="vector-text">Known for implementing financial systems, optimizing supply chains, and ensuring effective governance.</span>
-                        </li>
-                      </ul>
-                    </div>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-
-        <div className="container mt-5">
-          <div className="row align-items-center mt-4">
-            <div className="col-lg-5"></div>
-            <div className="col-auto content">
-              <h4>Co-Founder</h4>
-            </div>
-            <div className="col d-none d-md-block">
-              <div className="border border-success border-1"></div>
-            </div>
-          </div>
-          <div className="row mt-4">
-            <div className="col-lg-12 col-md-12 col-12">
-              <div className="d-flex flex-column align-items-middle">
+            <div className="col-lg-8 col-md-12 col-12 text-center mr-5">
+              <div className="">
                 <div className="overall">
-                  <div className="about">
-                    <h2>The Power and Energy Leader <span className='leader'>(Co-Founder)</span></h2>
+                  <div className="connect-content">
+                    <h2>The Finance Leader  <span className='leader'>(Founder)</span></h2>
                   </div>
-
-                  {/* List Section */}
-                  <div className="vector ">
-                    <ul className="list-unstyled">
-                      <li className="d-flex align-items-center justify-content-between">
-                      <img src="vector.png" className="vector-icon me-2" alt="icon" />
-                        <span className="vector-text">Over 34 years of experience in power, energy, and infrastructure sectors.</span>
+                  <div className="vector w-100">
+                    <ul className="list-unstyled d-flex flex-column align-items-center align-items-md-start w-100">
+                      <li className="d-flex align-items-center mb-4 w-100">
+                        <img src="vector.png" className="vector-icon me-2"/>
+                        <span className="vector-text flex-grow-1 text-center text-md-start">Nearly 40 years of experience across various regions (India, Nigeria, Gabon, and Dubai)</span>
                       </li>
-                      <li className="d-flex align-items-center justify-content-between">
-                      <img src="vector.png" className="vector-icon me-2" alt="icon" />
-                        <span className="vector-text">Experience with Voltas Limited (TATA), Kirloskar Power Equipment, Al Hamad International Trading, FKI plc, Technical Solutions, AADI International Trading FZE, and PRANSA International FZC.</span>
+                      <li className="d-flex align-items-center mb-4 w-100">
+                        <img src="vector.png" className="vector-icon me-2"/>
+                        <span className="vector-text flex-grow-1 text-center text-md-start">Expertise in financial leadership, strategic planning, and risk management.</span>
                       </li>
-                      <li className="d-flex">
-                      <img src="vector.png" className="vector-icon me-2" alt="icon" />
-                        <span className="vector-text">Extensive experience in energy solutions, infrastructure development, and global market expansion, particularly in the MEA region.</span>
+                      <li className="d-flex align-items-center mb-4 w-100">
+                        <img src="vector.png" className="vector-icon me-2"/>
+                        <span className="vector-text flex-grow-1 text-center text-md-start">Successful management of multi-billion-dollar investments and large-scale infrastructure projects.</span>
+                      </li>
+                      <li className="d-flex align-items-center mb-4 w-100">
+                        <img src="vector.png" className="vector-icon me-2"/>
+                        <span className="vector-text flex-grow-1 text-center text-md-start">Known for implementing financial systems, optimizing supply chains, and ensuring effective governance.</span>
                       </li>
                     </ul>
                   </div>
+                  
+                </div>
+              </div>
+              <div className="row mt-4">
+            <div className="col-lg-12 col-md-12 col-12">
+              <div className="d-flex flex-column align-items-middle">
+                <div className="overall">
+                <div className="connect-content">
+                <h2>The Power and Energy Leader <span className='leader'>(Co-Founder)</span></h2>
+                  </div>
+                  
+                  <div className="vector w-100">
+                    <ul className="list-unstyled d-flex flex-column align-items-center align-items-md-start w-100">
+                      <li className="d-flex align-items-center mb-4 w-100">
+                        <img src="vector.png" className="vector-icon me-2"/>
+                        <span className="vector-text flex-grow-1 text-center text-md-start">Over 34 years of experience in power, energy, and infrastructure sectors.</span>
+                      </li>
+                      <li className="d-flex align-items-center mb-4 w-100">
+                        <img src="vector.png" className="vector-icon me-2"/>
+                        <span className="vector-text flex-grow-1 text-center text-md-start">Experience with Voltas Limited (TATA), Kirloskar Power Equipment, Al Hamad International Trading, FKI plc, Technical Solutions, AADI International Trading FZE, and PRANSA International FZC.</span>
+                      </li>
+                      <li className="d-flex align-items-center mb-4 w-100">
+                        <img src="vector.png" className="vector-icon me-2"/>
+                        <span className="vector-text flex-grow-1 text-center text-md-start">Extensive experience in energy solutions, infrastructure development, and global market expansion, particularly in the MEA region.</span>
+                      </li>
+                    </ul>
+                  </div>
+                
                 </div>
               </div>
             </div>
+          </div>
+            </div>
+           
           </div>
         </div>
       </section>

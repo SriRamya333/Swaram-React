@@ -9,7 +9,7 @@ const Footer = () => {
         <div className="row d-flex flex-wrap">
             <div className="col-12 col-md-3 d-flex flex-column">
                 <div className="foot-img">
-                    <img src="logo.svg" alt="Logo" className="img-fluid" />
+                    <img src="footer-logo.svg" alt="Logo" className="img-fluid" />
                 </div>
                 <div className="foot-links mt-2">
                     <p>Swaram continues to grow as a trusted global partner, driving impactful solutions across multiple industries.</p>
@@ -20,7 +20,7 @@ const Footer = () => {
                     <h2>LINKS</h2>
                 </div>
                 <div className="foot-links">
-                    <ul className="list-unstyled">
+                    <ul className="">
                         <li><a href="#" className="footer-navlink">How it works</a></li>
                         <li><a href="#" className="footer-navlink">Trading</a></li>
                         <li><a href="#" className="footer-navlink">Features</a></li>
@@ -34,7 +34,7 @@ const Footer = () => {
                     <h2>LEGAL</h2>
                 </div>
                 <div className="foot-links">
-                    <ul className="list-unstyled">
+                    <ul className="">
                         <li><a href="#" className="footer-navlink">Terms of use</a></li>
                         <li><a href="#" className="footer-navlink">Terms of conditions</a></li>
                         <li><a href="#" className="footer-navlink">Privacy policy</a></li>
@@ -60,7 +60,7 @@ const Footer = () => {
                 </div>
             </div>
         </div>
-        <div className="row">
+        <div className="row mt-4">
             <div className="border w-100"></div>
         </div>
         <div className="row mt-2 d-flex flex-wrap text-center">

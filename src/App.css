@@ -1,7 +1,21 @@
 body {
+  overflow-x: hidden;
   font-family: 'Noto Sans';
 }
-
+p{
+  font-size:15px;
+  font-family: 'Noto Sans';
+}
+@media (min-width: 690px) {
+  p{
+    font-size:16px;
+  }
+}
+@media (min-width: 1020px) {
+  p{
+    font-size:16px;
+  }
+}
 #navbarNav .nav-item {
   font-family: "Poppins";
   padding-right: 20px;
@@ -15,12 +29,7 @@ li {
   list-style-type: none;
 }
 
-h1,
-h2,
-h3,
-h4,
-h5,
-h6 {
+h1, h2, h3, h4, h5, h6{
   font-family: "Poppins";
 }
 
@@ -29,19 +38,17 @@ h6 {
 } */
 
 
-section {
-  padding: 20px;
+section{
+  padding:5px 0px;
 }
-
-@media (min-width:690px) {
-  section {
-    padding: 10px 0px;
+@media (min-width:690px){
+  section{
+    padding:10px 0px;
   }
 }
-
-@media (min-width:1020px) {
-  section {
-    padding: 25px 0px;
+@media (min-width:1020px){
+  section{
+    padding:20px 0px;
   }
 }
 
@@ -103,19 +110,30 @@ section {
 
 .bg-text h3 {
   text-align: center;
-  font-size: 55px;
+  font-size: 24px;
   font-weight: 700;
   color: #000;
-
 }
-
+@media(min-width:320px){
+  .bg-text h3{
+    font-size:24px;
+  }
+}
+@media(min-width:690px){
+  .bg-text h3{
+    font-size:55px;
+  }
+}
+@media(min-width:1020px){
+  .bg-text h3{
+    font-size:55px;
+  }
+}
 .green-tri {
   position: absolute;
   /* Enables absolute positioning */
   top: 0;
   /* Positions it at the top */
-  left: 0;
-  /* Positions it at the right */
 
 }
 
@@ -184,9 +202,12 @@ section {
   margin-top: 100px;
 }
 .btn{
-  background-color: transparent;
-  color:#184A92;
-  border: 2px solid #184A92;
+  background-color: #184A92;
+  color: #ffff;
+ 
+}
+.btn:hover{
+  border: 1px solid #184A92;
 }
 .content {
   background-color: #0CAE4B2B;
@@ -249,7 +270,7 @@ section {
     text-align: center;
   }
 }
-@media (min-width:720px){
+@media (min-width:690px){
   .mob p{
     text-align: left;
   }
@@ -262,7 +283,7 @@ section {
 
 .trade {
   font-weight: 500;
-  font-size: 18px;
+  font-size: 16px;
 }
 
 .bg-gray {
@@ -271,7 +292,7 @@ section {
 
 /* Set background image */
 .connect-image {
-  background: url('connect.png') no-repeat center center;
+  background: url('../connect.png') no-repeat center center;
   background-size: cover;
   width: 100%;
   height: 440px;
@@ -302,11 +323,7 @@ section {
 }
 
 /* Icon styling */
-.vector-icon {
-  width: 20px;
-  height: 20px;
-  margin-right: 10px;
-}
+
 
 /* List spacing */
 .vector ul {
@@ -325,6 +342,7 @@ section {
 
 /* Testimonial Card Styling */
 .testimonial-card {
+  border: 1px solid #D5DDDD;
   background: #fff;
   border-radius: 10px;
   transition: transform 0.3s ease-in-out;
@@ -332,9 +350,9 @@ section {
   position: relative;
 }
 
-.testimonial-card:hover {
+/* .testimonial-card:hover {
   transform: scale(1.05);
-}
+} */
 
 /* Profile Image */
 .testimonial-img {
@@ -344,7 +362,26 @@ section {
   object-fit: cover;
   margin-bottom: 10px;
 }
-
+.load{
+  text-align: center;
+  margin:-85px;
+}
+@media(min-width:320px){
+  .load{
+    margin:0px;
+  }
+}
+@media(min-width:690px){
+  .load{
+    margin:0px;
+  }
+}
+@media(min-width:1020px){
+  .load{
+    text-align: center;
+    margin:-85px;
+  }
+}
 /* Quote Icon */
 .quote-icon {
   font-size: 51px;
@@ -412,19 +449,20 @@ section {
   border-top-left-radius: 45px;
   border-top-right-radius: 45px;
 }
-
-.foot-img img {
-  width: 174px;
-  height: 40px;
-
+.form-control:focus{
+  box-shadow: 0 0 0 !important;
+  outline:none;
 }
+
 
 .foot-head {
   font-weight: 500;
   font-size: 24px;
   color: #000;
 }
-
+.foot-links{
+  line-height:30px;
+}
 .foot-links ul {
   padding: 0px;
   margin: 0px;
@@ -497,7 +535,7 @@ section {
   font-size: 24px;
   font-weight: 600;
   text-align: center;
-  padding-top: 30px;
+  padding-top: 15px;
 }
 
 /* .partner {
@@ -575,7 +613,7 @@ section {
     padding-left:10px;
   }
 }
-@media (min-width:720px){
+@media (min-width:690px){
   .icon-content h6{
     padding-left:0px;
   }
@@ -583,6 +621,7 @@ section {
 @media (min-width:1020px){
   .icon-content h6{
     padding-left:0px;
+    line-height:20px;
   }
 }
 .icon-content p {
@@ -609,7 +648,7 @@ section {
     font-size: 18px;
   }
 }
-@media(min-width:720px){
+@media(min-width:690px){
   .connect-content h2{
     text-align: left;
     font-size: 24px;
@@ -641,7 +680,9 @@ section {
   padding-bottom: 5px;
   color: #184A92;
 }
-
+.bg-light{
+  border-bottom: 1px solid #D5DDDD;
+}
 
 .overall1 {
   left: 13%;
@@ -660,6 +701,9 @@ section {
 
 .align {
   padding-left: 0px;
+}
+.type{
+  list-style-image: url(growth.png);
 }
 
 .test h2 {
@@ -742,7 +786,7 @@ section {
     text-align: center;
   }
 }
-@media (min-width:720px){
+@media (min-width:690px){
   .about-para p{
     text-align: right;
   }
@@ -799,7 +843,7 @@ section {
     font-size: 20px;
   }
 }
-@media(min-width:720px){
+@media(min-width:690px){
   .about h2{
     text-align: right;
     font-size: 24px;
@@ -850,7 +894,7 @@ section {
     top: 8rem;
   }
 }
-@media(min-width:720px){
+@media(min-width:690px){
   .social-buttons{
     right:60px;
     top: 7rem;
@@ -1018,6 +1062,7 @@ section {
   font-weight: 400;
 }
 .space{
+  line-height:35px;
   padding:0;
 }
 .trading-text img{
@@ -1062,21 +1107,13 @@ section {
   background-color: #F4F4F4;
 }
 
-.partner-logo {
-  max-width: 150px; /* Limits logo size */
-  height: auto; /* Keeps aspect ratio */
-  filter: grayscale(100%); /* Optional: Makes logos grayscale */
-  transition: 0.3s ease-in-out;
-}
-
-.partner-logo:hover {
-  filter: grayscale(0%); /* Color back on hover */
-  transform: scale(1.1); /* Slight zoom effect */
-}
 
 
 
 /* Partner Page Start */
+.back{
+  background-color: #fffdf2;
+}
 .partner-bg{
   background-image: url(../partner-background.png);
   background-position: center;
@@ -1091,9 +1128,11 @@ section {
   font-size: 22px;
 }
 .partner-title p{
-  font-size: 18px;
+  line-height: 30px;
+  font-size: 16px;
 }
 .better-1{
+  line-height: 55px;
     font-weight: 700;
     font-size: 22px;
     background-color: #dd633a;
@@ -1108,14 +1147,14 @@ section {
     font-size:18px;
   }
 }
-@media(min-width:720px){
+@media(min-width:690px){
   .part{
-    font-size:28px;
+    font-size:24px;
   }
 }
 @media(min-width:1020px){
   .part{
-    font-size:28px;
+    font-size:24px;
   }
 }
 .success{
@@ -1136,7 +1175,7 @@ section {
     font-size: 14px;
   }
 }
-@media(min-width:720px){
+@media(min-width:690px){
   .success{
     margin-left: 45px;
     padding: 4px;

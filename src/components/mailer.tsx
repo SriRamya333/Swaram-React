@@ -45,7 +45,7 @@ const ContactForm = () => {
 
   return (
     <div className="container">
-      <form ref={formRef} onSubmit={handleSubmit(onSubmit)} className="rounded">
+      <form ref={formRef} onSubmit={handleSubmit(onSubmit)} className="rounded mb-5">
         {/* Inline Fields */}
         <div className="row mb-3">
           {/* Name */}
