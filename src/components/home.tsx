@@ -38,10 +38,10 @@ const Home = () => {
               {/* Buttons */}
               <div className='d-flex flex-wrap justify-content-center gap-3 mt-3'>
                 <div className="para-button">
-                  <a href='#' className='btn px-4 py-2'>Discover More</a>
+                  <a href='service' target="_blank" className='btn px-4 py-2' rel="noopener noreferrer">Discover More</a>
                 </div>
                 <div className="para-button1">
-                  <a href='#' className='btn px-4 py-2'>Contact Us</a>
+                  <a href='contact-us' target="_blank" className='btn px-4 py-2'  rel="noopener noreferrer">Contact Us</a>
                 </div>
               </div>
 
@@ -86,10 +86,10 @@ const Home = () => {
               {/* Buttons */}
               <div className='d-flex flex-wrap justify-content-center gap-3 mt-3'>
                 <div className="para-button">
-                  <a href='#' className='btn px-4 py-2'>Discover More</a>
+                  <a href='service' className='btn px-4 py-2'>Discover More</a>
                 </div>
                 <div className="para-button1">
-                  <a href='#' className='btn px-4 py-2'>Contact Us</a>
+                  <a href='contact-us' className='btn px-4 py-2'>Contact Us</a>
                 </div>
               </div>
 
@@ -152,16 +152,16 @@ const Home = () => {
               <h2 className="text-center ">We Featured on Popular Partners Like</h2>
             </div>
             <div className="row text-center mt-5 justify-content-center align-items-center">
-              <div className="col-lg-3 col-md-4 col-12 mb-4">
+              <div className="col-lg-3 col-md-4 col-6 mb-4">
                 <img src="Fortune.png" className="img-fluid partner-logo" alt="Fortune" />
               </div>
-              <div className="col-lg-3 col-md-4 col-12 mb-4">
+              <div className="col-lg-3 col-md-4 col-6 mb-4">
                 <img src="Forbes.png" className="img-fluid partner-logo" alt="Forbes" />
               </div>
-              <div className="col-lg-3 col-md-4 col-12 mb-4">
+              <div className="col-lg-3 col-md-4 col-6 mb-4">
                 <img src="invest-detroit.png" className="img-fluid partner-logo" alt="Invest Detroit" />
               </div>
-              <div className="col-lg-3 col-md-4 col-12 mb-4">
+              <div className="col-lg-3 col-md-4 col-6 mb-4">
                 <img src="Robinhood.png" className="img-fluid partner-logo" alt="Robinhood" />
               </div>
             </div>
@@ -228,7 +228,7 @@ const Home = () => {
 
                 {/* Explore Button */}
                 <div className="explore d-flex justify-content-center justify-content-md-start mt-4">
-                  <a href="#" className="btn mt-2 px-4 py-2">Explore Services</a>
+                  <a href="service" target="_blank" className="btn mt-2 px-4 py-2">Explore Services</a>
                 </div>
               </div>
             </div>
@@ -300,7 +300,7 @@ const Home = () => {
 
                 {/* Explore Button */}
                 <div className="explore d-flex justify-content-center justify-content-md-start mt-4">
-                  <a href="#" className="btn mt-2 px-4 py-2">Explore Services</a>
+                  <a href="service" className="btn mt-2 px-4 py-2">Explore Services</a>
                 </div>
               </div>
             </div>
@@ -383,7 +383,7 @@ const Home = () => {
         </div>
         <div className="container">
           {/* Title Section */}
-          <div className="row align-items-center">
+          <div className="row align-items-center mt-4">
             <div className="col-1">
             </div>
             <div className="content col-lg-12 col-md-12 mx-auto col-sm-12">
@@ -481,7 +481,7 @@ const Home = () => {
 
                   {/* Button Section */}
                   <div className="connect-btn text-center text-md-start">
-                    <a href="#" className="btn2 px-4 py-2">Connect Us</a>
+                    <a href="partner" target="_blank" className="btn2 px-4 py-2">Connect Us</a>
                   </div>
                 </div>
               </div>
@@ -532,7 +532,7 @@ const Home = () => {
 
                   {/* Button Section */}
                   <div className="connect-btn text-center text-md-start">
-                    <a href="#" className="btn2">Connect Us</a>
+                    <a href="partner" className="btn2">Connect Us</a>
                   </div>
                 </div>
               </div>

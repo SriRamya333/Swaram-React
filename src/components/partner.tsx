@@ -95,8 +95,8 @@ const Partner = () => {
         />
       </section>
 
-
-      <section>
+{/* Desktop */}
+      <section className='d-none d-md-block'>
         <div className="container">
           <div className="row align-items-center mt-4 mb-4">
             <div className="col-4"></div>
@@ -121,6 +121,42 @@ const Partner = () => {
                   </li>
                   <li>
                     <p>Our commitment to sustainability resonates with increasingly environmentally conscious markets.</p>
+                  </li>
+                </ul>
+              </div>
+            </div>
+            <div className="col-lg-5 col-md-6 col-12">
+              <img src="data.png" alt="description" className='img-fluid' />
+            </div>
+          </div>
+        </div>
+      </section>
+      {/* Mobile */}
+      <section className='d-block d-md-none'>
+        <div className="container">
+          <div className="row align-items-center mt-4 mb-4">
+            <div className="col-4"></div>
+            <div className="col-auto">
+              <div className="content">
+                <h4>Market Potential & Outlook</h4>
+              </div>
+            </div>
+            <div className="col d-none d-md-block">
+              <div className="border border-success border-1"></div>
+            </div>
+          </div>
+          <div className="row">
+            <div className="col-lg-7 col-md-6 col-12">
+              <div className="vector ">
+                <ul className="align">
+                  <li>
+                    <p>· Swaram is well-positioned to attract large-scale, international clients due to its diverse service offerings and global presence.</p>
+                  </li>
+                  <li>
+                    <p>· The combination of financial and technical leadership allows for a holistic approach to projects, from conception through to completion.</p>
+                  </li>
+                  <li>
+                    <p>· Our commitment to sustainability resonates with increasingly environmentally conscious markets.</p>
                   </li>
                 </ul>
               </div>

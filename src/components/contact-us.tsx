@@ -134,8 +134,8 @@ const Contact = () => {
             <div className="col-lg-3 col-md-6 mt-4 mt-md-0 address">
               <h4>Phone Number</h4>
               <div className="contact-border"></div>
-              <p><a href="tel:+971 56 360 1260">+971 56 360 1260 </a></p>
-              <p>Address:<br /> 342 IDS Group bldg. <br/>Al Karama DUBAI UAE</p>
+              <p><a href="tel:+971563601260">+971 56 360 1260 </a></p>
+              <p><h4>Address:</h4>342 IDS Group bldg. <br/>Al Karama DUBAI UAE</p>
             </div>
           </div>
         </div>

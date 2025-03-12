@@ -492,19 +492,19 @@ const About = () => {
                     <ul className="list-unstyled d-flex flex-column align-items-center align-items-md-start w-100">
                       <li className="d-flex align-items-center mb-4 w-100">
                         <img src="vector.png" className="vector-icon me-2" />
-                        <span className="vector-text flex-grow-1 text-center text-md-start">Nearly 40 years of experience across various regions (India, Nigeria, Gabon, and Dubai)</span>
+                        <span className="vector-text1 text-md-start">Nearly 40 years of experience across various regions (India, Nigeria, Gabon, and Dubai)</span>
                       </li>
                       <li className="d-flex align-items-center mb-4 w-100">
                         <img src="vector.png" className="vector-icon me-2" />
-                        <span className="vector-text flex-grow-1 text-center text-md-start">Expertise in financial leadership, strategic planning, and risk management.</span>
+                        <span className="vector-text1 text-md-start">Expertise in financial leadership, strategic planning, and risk management.</span>
                       </li>
                       <li className="d-flex align-items-center mb-4 w-100">
                         <img src="vector.png" className="vector-icon me-2" />
-                        <span className="vector-text flex-grow-1 text-center text-md-start">Successful management of multi-billion-dollar investments and large-scale infrastructure projects.</span>
+                        <span className="vector-text1 text-md-start">Successful management of multi-billion-dollar investments and large-scale infrastructure projects.</span>
                       </li>
                       <li className="d-flex align-items-center mb-4 w-100">
                         <img src="vector.png" className="vector-icon me-2" />
-                        <span className="vector-text flex-grow-1 text-center text-md-start">Known for implementing financial systems, optimizing supply chains, and ensuring effective governance.</span>
+                        <span className="vector-text1 text-md-start">Known for implementing financial systems, optimizing supply chains, and ensuring effective governance.</span>
                       </li>
                     </ul>
                   </div>
@@ -524,15 +524,15 @@ const About = () => {
                         <ul className="list-unstyled d-flex flex-column align-items-center align-items-md-start w-100">
                           <li className="d-flex align-items-center mb-4 w-100">
                             <img src="vector.png" className="vector-icon me-2" />
-                            <span className="vector-text flex-grow-1 text-center text-md-start">Over 34 years of experience in power, energy, and infrastructure sectors.</span>
+                            <span className="vector-text1 text-md-start">Over 34 years of experience in power, energy, and infrastructure sectors.</span>
                           </li>
                           <li className="d-flex align-items-center mb-4 w-100">
                             <img src="vector.png" className="vector-icon me-2" />
-                            <span className="vector-text flex-grow-1 text-center text-md-start">Experience with Voltas Limited (TATA), Kirloskar Power Equipment, Al Hamad International Trading, FKI plc, Technical Solutions, AADI International Trading FZE, and PRANSA International FZC.</span>
+                            <span className="vector-text1 text-md-start">Experience with Voltas Limited (TATA), Kirloskar Power Equipment, Al Hamad International Trading, FKI plc, Technical Solutions, AADI International Trading FZE, and PRANSA International FZC.</span>
                           </li>
                           <li className="d-flex align-items-center mb-4 w-100">
                             <img src="vector.png" className="vector-icon me-2" />
-                            <span className="vector-text flex-grow-1 text-center text-md-start">Extensive experience in energy solutions, infrastructure development, and global market expansion, particularly in the MEA region.</span>
+                            <span className="vector-text1 text-md-start">Extensive experience in energy solutions, infrastructure development, and global market expansion, particularly in the MEA region.</span>
                           </li>
                         </ul>
                       </div>
