@@ -49,7 +49,7 @@ const ContactForm = () => {
       <form ref={formRef} onSubmit={handleSubmit(onSubmit)} className="rounded">
         <div className="row mb-3">
           {/* First Name */}
-          <div className="col-md-6">
+          <div className="col-md-6 mb-2">
             <input
               type="text"
               {...register("firstName", { required: "First name is required" })}
@@ -60,7 +60,7 @@ const ContactForm = () => {
           </div>
 
           {/* Last Name */}
-          <div className="col-md-6">
+          <div className="col-md-6 mb-2">
             <input
               type="text"
               {...register("lastName", { required: "Last name is required" })}
@@ -73,7 +73,7 @@ const ContactForm = () => {
 
         <div className="row mb-3">
           {/* Email */}
-          <div className="col-md-6">
+          <div className="col-md-6 mb-2">
             <input
               type="email"
               {...register("email", {
@@ -87,7 +87,7 @@ const ContactForm = () => {
           </div>
 
           {/* Phone */}
-          <div className="col-md-6">
+          <div className="col-md-6 mb-2">
             <input
               type="tel"
               {...register("phone", {
@@ -100,7 +100,7 @@ const ContactForm = () => {
           </div>
         </div>
 
-        <div className="row mb-3">
+        <div className="row mb-2">
           {/* Industry */}
           <div className="col-md-12">
             <input
@@ -114,7 +114,7 @@ const ContactForm = () => {
         </div>
 
         {/* Message */}
-        <div className="mb-3">
+        <div className="mb-2">
           <textarea
             {...register("message", { required: "Message is required" })}
             className="form-control border-0 border-bottom"

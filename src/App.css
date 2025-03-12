@@ -209,11 +209,38 @@ section{
 .btn:hover{
   border: 1px solid #184A92;
 }
+.content1 h4 {
+  font-size: 16px;
+  border-radius: 4px;
+  font-weight: 600;
+  color: #0CAE4B;
+  padding: 8px;
+}
+.content1 {
+  background-color: #0CAE4B2B;
+  border-radius: 4px;
+  width: fit-content;
+}
 .content {
   background-color: #0CAE4B2B;
   border-radius: 4px;
   width: fit-content;
-
+}
+@media(min-width:320px){
+  .content1{
+    
+    margin:0 auto;
+  }
+}
+@media(min-width:690px){
+  .content1{
+   width:fit-content;
+  }
+}
+@media(min-width:1020px){
+  .content1{
+    width:fit-content;
+  }
 }
 .half-circle {
   background: linear-gradient(#A1C4FD, #fff);
@@ -452,6 +479,7 @@ section{
 .form-control:focus{
   box-shadow: 0 0 0 !important;
   outline:none;
+  background-color: transparent !important;
 }
 
 
@@ -562,6 +590,21 @@ section{
 .together{
   margin-top:25px;
 }
+@media(min-width:320px){
+  .together{
+    margin-top:0;
+  }
+}
+@media(min-width:690px){
+  .together{
+    margin-top:25px;
+  }
+}
+@media(min-width:1020px){
+  .together{
+    margin-top:25px;
+  }
+}
 .decade h2 {
   line-height: 36px;
   font-size: 20px;
@@ -646,6 +689,7 @@ section{
   .connect-content h2{
     text-align: center;
     font-size: 18px;
+    line-height:25px;
   }
 }
 @media(min-width:690px){
@@ -1010,7 +1054,21 @@ section{
   border-radius: 8px;
   overflow: hidden;
 }
-
+@media(min-width:320px){
+  .subscribe-container{
+    width: 230px;
+  }
+}
+@media(min-width:690px){
+  .subscribe-container{
+    width:300px;
+  }
+}
+@media(min-width:1020px){
+  .subscribe-container{
+    width:300px;
+  }
+}
 .subscribe-container input {
   flex: 1;
   border: none;

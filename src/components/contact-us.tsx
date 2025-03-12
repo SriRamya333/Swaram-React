@@ -2,8 +2,45 @@ import "bootstrap/dist/css/bootstrap.min.css";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faFacebookF, faTwitter, faInstagram } from "@fortawesome/free-brands-svg-icons";
 import ContactForm from "./mailer";
+import { useState } from "react";
+import emailjs from "emailjs-com";
 
 const Contact = () => {
+
+  const [email, setEmail] = useState("");
+
+  const sendEmail = (e :any) => {
+      e.preventDefault();
+
+      emailjs.send(
+          "service_ifopmdt",   // Replace with your EmailJS Service ID
+          "template_0x47ntp",  // Replace with your EmailJS Template ID
+          { 
+              user_email: email, 
+              message: `
+                  Newsletter Subscription
+                  Hello,
+                  You have a new subscriber!
+                  Email:* ${email}*
+                  Best regards,
+                  Your Website Team
+              ` 
+          },
+          "3kiu5MP7z5FDKcjXT"    // Replace with your EmailJS Public Key
+      )
+      
+      .then((response) => {
+          console.log("SUCCESS!", response.status, response.text);
+          alert("Subscription Successful!");
+          setEmail(""); // Reset input field
+      })
+      .catch((err) => {
+          console.error("FAILED...", err);
+          alert("Subscription Failed. Try Again.");
+      });
+  };
+
+
   return (
     <>
       {/* Top Decorative Image */}
@@ -26,7 +63,7 @@ const Contact = () => {
         <div className="container mt-5">
           {/* Header */}
           <div className="row text-center text-md-start">
-            <div className="col-12">
+            <div className="col-12 mt-3">
               <p className=" ">Get Started</p>
             </div>
           </div>
@@ -119,10 +156,17 @@ const Contact = () => {
                     </p>
                   </div>
                   <div className="col-lg-6 d-flex justify-content-center">
+                    <form  onSubmit={sendEmail}>
                     <div className="subscribe-container">
-                      <input type="email" placeholder="Enter your email" />
-                      <button>Subscribe</button>
+                      <input type="email" 
+                                        className="form-control input-lg" 
+                                        placeholder="Enter Your Email" 
+                                        value={email}
+                                        onChange={(e) => setEmail(e.target.value)}
+                                        required />
+                      <button type="submit">Subscribe</button>
                     </div>
+                    </form>
                   </div>
                 </div>
               </div>

@@ -311,9 +311,9 @@ const Home = () => {
         <div className="bg-overlay"></div>
 
       </section>
-
+{/* Desktop */}
       {/* Why Section */}
-      <section className="why position-relative d-flex flex-column why-bg">
+      <section className="why position-relative d-flex flex-column why-bg d-none d-md-block">
         <div className="side-tri d-lg-block d-md-none d-none">
           <img src="side-tri.png" className="img-fluid" />
         </div>
@@ -321,6 +321,70 @@ const Home = () => {
           {/* Title Section */}
           <div className="row align-items-center">
             <div className="col-5">
+            </div>
+            <div className="content col-lg-12 col-md-12 mx-auto col-sm-12">
+              <h4>Why Choose Us</h4>
+            </div>
+            <div className="col d-none d-md-block">
+              <div className="border border-success border-1 opacity-100">
+              </div>
+            </div>
+          </div>
+
+          {/* Subtitle Section */}
+          <div className="row mt-3 align-items-center text-center text-md-start">
+            <div className="col-auto d-none d-md-block">
+              <img src="line.svg" className="line1 img-fluid" />
+            </div>
+            <div className="decade col-lg-5 col-md-5 col-12">
+              <h2 className="fw-bold">
+                Decades of experience, global reach, and a commitment to <span className="why-content">excellence</span>
+              </h2>
+            </div>
+          </div>
+
+          {/* Features Section */}
+          <div className="row mt-4 text-center text-md-start">
+            <div className="col-lg-4 col-md-4 col-12">
+              <div className="global">
+                <img src="global.png" className="why-icon img-fluid" />
+              </div>
+              <div className="icon-content mt-2">
+                <h6 className="fw-bold">Global Expertise</h6>
+                <p>Decades of experience across multiple sectors, providing tailored services</p>
+              </div>
+            </div>
+            <div className="col-lg-4 col-md-4 col-12">
+              <div className="global1">
+                <img src="setting.png" className="why-icon1 img-fluid" />
+              </div>
+              <div className="icon-content mt-2">
+                <h6 className="fw-bold">End-to-End Solutions</h6>
+                <p>Integrated services, from sourcing to full-scale development, streamlining operations and enhancing efficiency.</p>
+              </div>
+            </div>
+            <div className="col-lg-4 col-md-4 col-12">
+              <div className="global">
+                <img src="bulb.png" className="why-icon2 img-fluid" />
+              </div>
+              <div className="icon-content mt-2">
+                <h6 className="fw-bold">Cutting-Edge Innovation</h6>
+                <p>Adoption of the latest technologies to offer cutting-edge solutions.</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      {/* Mobile */}
+      <section className="why position-relative d-flex flex-column why-bg d-block d-md-none">
+        <div className="side-tri d-lg-block d-md-none d-none">
+          <img src="side-tri.png" className="img-fluid" />
+        </div>
+        <div className="container">
+          {/* Title Section */}
+          <div className="row align-items-center">
+            <div className="col-1">
             </div>
             <div className="content col-lg-12 col-md-12 mx-auto col-sm-12">
               <h4>Why Choose Us</h4>
@@ -429,12 +493,12 @@ const Home = () => {
 
       {/* Mobile */}
       <section className="position-relative d-flex flex-column bg-gray d-block d-md-none">
-        <div className="container py-5">
+        <div className="container">
           <div className="row justify-content-center align-items-center text-center text-md-start">
             {/* Background Image Section */}
             <div className="col-lg-12 col-md-12 col-12">
               <div className="d-flex flex-column justify-content-center align-items-center w-100">
-                <div className="overall w-100 px-3 px-md-5 d-flex flex-column align-items-center align-items-md-start">
+                <div className="w-100 px-3 px-md-5 d-flex flex-column align-items-center align-items-md-start">
 
                   {/* Heading Section */}
                   <div className="connect-content mb-3 text-center text-md-start">
@@ -447,19 +511,20 @@ const Home = () => {
                   <div className="vector w-100">
                     <ul className="list-unstyled d-flex flex-column align-items-center align-items-md-start w-100">
                       <li className="d-flex align-items-center mb-2 w-100">
-                        <img src="vector.png" className="vector-icon img-fluid me-2" style={{ width: '24px', height: '24px' }} />
+                        <img src="vector.png" className="vector-icon img-fluid me-2"  />
                         <span className="vector-text text-md-start">Global Ambition</span>
                       </li>
                       <li className="d-flex align-items-center mb-2 w-100">
-                        <img src="vector.png" className="vector-icon img-fluid me-2" style={{ width: '24px', height: '24px' }} />
+                        <img src="vector.png" className="vector-icon img-fluid me-2"  />
                         <span className="vector-text text-md-start">Integrated Solutions</span>
                       </li>
                       <li className="d-flex align-items-center mb-2 w-100">
-                        <img src="vector.png" className="vector-icon img-fluid me-2" style={{ width: '24px', height: '24px' }} />
+                        <img src="vector.png" className="vector-icon img-fluid me-2"  />
                         <span className="vector-text text-md-start">Emphasis on Expertise</span>
                       </li>
+                      
                       <li className="d-flex align-items-center mb-2 w-100">
-                        <img src="vector.png" className="vector-icon img-fluid me-2" style={{ width: '24px', height: '24px' }} />
+                        <img src="vector.png" className="vector-icon img-fluid me-2"  />
                         <span className="vector-text text-md-start">Focus on Innovation & Sustainability</span>
                       </li>
                     </ul>
@@ -490,7 +555,7 @@ const Home = () => {
 
           {/* Heading Section */}
           <div className="row align-items-center mt-4 mb-4">
-            <div className="col-auto content">
+            <div className="col-auto content1">
               <h4>TESTIMONIALS</h4>
             </div>
             <div className="col d-none d-md-block">

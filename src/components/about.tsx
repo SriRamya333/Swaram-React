@@ -7,12 +7,47 @@ const About = () => {
   return (
     <>
       <img alt="" className="position-absolute top-0 end-0 d-none d-md-block" src="contact-green.png" />
-
-      <section className='about-first-section mt-5'>
+{/* Desktop */}
+      <section className='about-first-section mt-5 d-none d-md-block'>
         <div className="container position-relative">
           <div className="row align-items-center mt-4">
             <div className="col-auto">
               <div className="content">
+                <h4>About Us</h4>
+              </div>
+            </div>
+            <div className="col-lg-1 col-md-1 col-12 d-none d-md-block">
+              <div className="border border-success border-1"></div>
+            </div>
+          </div>
+          <div className="row">
+            <div className="col-md-1 d-none d-md-block class_child_div d-none d-md-block">
+              <span className="line"><img src="line.svg" /></span>
+            </div>
+            <div className="col-lg-5 col-md-6 col-12 mob">
+              <h2 className="logic text-center text-md-start mt-3">
+                Global Trading, Infrastructure, and Healthcare Solutions
+              </h2>
+              <p>Swaram is a global trading and service solutions company founded by industry veterans with 70 years of combined experience. Specializing in infrastructure, construction, logistics, energy, and healthcare, Swaram offers import/export, sourcing, project management, and renewable energy solutions across the Middle East, Asia, and Africa. Committed to integrity, innovation, sustainability, and excellence, the company thrives on its founders' expertise in finance and technical solutions.</p>
+            </div>
+            <div className="col-lg-2 col-md-3 col-12 text-center text-md-start">
+              <div className="counter">70<span>+</span></div>
+              <p className="text-muted">Year of Combined Experience</p>
+              <div className="counter">25<span>+</span></div>
+              <p className="text-muted">Winning award best shipping company</p>
+            </div>
+            <div className="col-lg-4 col-md-4 col-12 text-center">
+              <img src="cal.png" className="img-fluid" />
+            </div>
+          </div>
+        </div>
+      </section>
+      {/* Mobile */}
+      <section className='about-first-section mt-5 d-block d-md-none'>
+        <div className="container position-relative">
+          <div className="row align-items-center mt-4">
+            <div className="col-12 text-center">
+              <div className="content1">
                 <h4>About Us</h4>
               </div>
             </div>
@@ -160,7 +195,7 @@ const About = () => {
         <div className="container" >
           <div className="row align-items-center mt-4 text-center text-md-start" >
             <div className="col-lg-5 col-md-5"></div>
-            <div className="col-auto content">
+            <div className="col-auto content1">
               <h4>Core values</h4>
             </div>
             <div className="col-2 d-none d-md-block">
@@ -313,7 +348,7 @@ const About = () => {
           <div className="row  align-items-center">
             <div className="col-lg-6 col-md-6 col-12">
               <div className="row align-items-center mt-4 mb-4">
-                <div className="col-auto content">
+                <div className="col-auto content1">
                   <h4>Mission Statement</h4>
                 </div>
                 <div className="col d-none d-md-block">
@@ -331,12 +366,10 @@ const About = () => {
       <section className='d-block d-md-none'>
         <div className="container">
           <div className="row  align-items-center mt-4">
-            <div className="col-lg-4 col-md-4 col-12 text-center">
-              <img src="plant.png" className="img-fluid" alt="Plant" />
-            </div>
+            
             <div className="col-lg-6 col-md-8 col-12">
               <div className="row align-items-center">
-                <div className="col-auto content">
+                <div className="col-auto content1">
                   <h4>Vission Statement</h4>
                 </div>
                 <div className="col d-none d-md-block">
@@ -344,6 +377,9 @@ const About = () => {
                 </div>
               </div>
               <p> To become a globally recognized leader in general trading, infrastructure development, energy solutions, and healthcare, known for our commitment to reliability, innovation, and excellence. We aspire to contribute to the development of industries and the betterment of communities through sustainable, cutting-edge solutions and impactful operations</p>
+            </div>
+            <div className="col-lg-4 col-md-4 col-12 text-center">
+              <img src="plant.png" className="img-fluid" alt="Plant" />
             </div>
           </div>
         </div>
@@ -432,7 +468,7 @@ const About = () => {
         <div className="container">
           <div className="row align-items-center">
             <div className="col-lg-5"></div>
-            <div className="col-auto content">
+            <div className="col-auto content1">
               <h4>Founders</h4>
             </div>
             <div className="col d-none d-md-block">

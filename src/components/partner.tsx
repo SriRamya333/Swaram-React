@@ -31,7 +31,7 @@ const Partner = () => {
       <div className='partnerwithus d-block d-md-none'>
         <div className="container mt-5">
           <div className="row">
-            <div className="col-lg-6 col-md-6 col-12 partner-title">
+            <div className="col-lg-6 col-md-6 col-12 partner-title mt-3">
               <h2><span className='better-1'>Partner with Swaram:</span> Driving Growth & Innovation Together</h2>
               <p>Join us in shaping the future of global trade, infrastructure, energy, and healthcare through strategic partnerships and innovation</p>
             </div>
@@ -114,15 +114,12 @@ const Partner = () => {
               <div className="vector ">
                 <ul className="align type">
                   <li>
-                    {/* <img src="growth.png" className="vector-icon" /> */}
                     <p>Swaram is well-positioned to attract large-scale, international clients due to its diverse service offerings and global presence.</p>
                   </li>
                   <li>
-                    {/* <img src="growth.png" className="vector-icon" /> */}
                     <p>The combination of financial and technical leadership allows for a holistic approach to projects, from conception through to completion.</p>
                   </li>
                   <li>
-                    {/* <img src="growth.png" className="vector-icon" /> */}
                     <p>Our commitment to sustainability resonates with increasingly environmentally conscious markets.</p>
                   </li>
                 </ul>
@@ -183,8 +180,8 @@ const Partner = () => {
 
       <section className='position-relative d-flex flex-column bg-gray d-block d-md-none'>
         <div className="container">
-          <div className="row align-items-center mb-3">
-            <div className="col-5"></div>
+          <div className="row align-items-center mb-3 mt-3">
+            <div className="col-3"></div>
             <div className="col-auto">
               <div className="content">
                 <h4>Partner With Us</h4>

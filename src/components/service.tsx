@@ -6,8 +6,8 @@ import 'bootstrap/dist/css/bootstrap.min.css';
 const Service = () => {
   return (
     <>
-
-      <section className='home-section position-relative d-flex flex-column' id="service-bg">
+{/* Desktop */}
+      <section className='home-section position-relative d-flex flex-column d-none d-md-block' id="service-bg">
         <img src="service-green-tri.png" alt=""
           className="green-tri-1 position-absolute top-0 end-0"
 
@@ -16,6 +16,24 @@ const Service = () => {
           className="color-img position-absolute top-0 end-0"
           style={{ width: '50%', maxWidth: '280px', height: 'auto', objectFit: 'contain' }}
         />
+        <div className="container mt-5">
+          <div className="row mt-3">
+            <div className="col-lg-4 col-md-4 col-12 first-image">
+              <img src="service-image1.png" alt="description" />
+            </div>
+            <div className="col-lg-8 col-md-8 col-12 service-text">
+              <h2>Comprehensive Global Solutions for a</h2><span className='better'>Better Tomorrow</span>
+              <div className='context'>
+                <p>Empowering industries worldwide with tailored solutions—from global trading and infrastructure to renewable energy and healthcare. Partner with us for seamless operations and sustainable growth.</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      {/* Mobile */}
+
+      <section className='home-section position-relative d-flex flex-column d-block d-md-none' id="service-bg">
         <div className="container mt-5">
           <div className="row mt-3">
             <div className="col-lg-4 col-md-4 col-12 first-image">
@@ -123,8 +141,8 @@ const Service = () => {
       <section className='home-section position-relative d-flex flex-column d-block d-md-none' >
         <div className="container-fluid">
           <div className="row align-items-center">
-            <div className="col-5"></div>
-            <div className="content col-lg-12 col-md-12 mx-auto col-sm-12">
+            <div className="col-1"></div>
+            <div className="content col-lg-12 col-md-12 mx-auto col-sm-12 mt-3">
               <h4>Global Trading</h4>
             </div>
             <div className="col d-none d-md-block">
@@ -198,11 +216,43 @@ const Service = () => {
         </div>
       </section>
 
-      <section className='service-last-section'>
+
+    {/* Desktop */}
+      <section className='service-last-section d-none d-md-block'>
         <div className="container-fluid">
           <div className="row align-items-center">
             <div className="col-5"></div>
             <div className="content col-lg-12 col-md-12 mx-auto col-sm-12">
+              <h4>Healthcare</h4>
+            </div>
+            <div className="col d-none d-md-block">
+              <div className="border border-success border-1 opacity-100"></div>
+            </div>
+          </div>
+          <div className="row">
+            <div className="col-lg-8 col-md-6 col-12 solution gb">
+              <div className="icon-content mt-2"><h6>Preventive & Supportive Solutions</h6>
+                <ul className='space'>
+                  <li>· Medical equipment and healthcare supplies trading</li>
+                  <li>· Preventive healthcare solutions</li>
+                  <li>· Telemedicine and digital healthcare integration</li>
+                  <li>· Health and wellness consultancy</li>
+                </ul>
+              </div>
+            </div>
+            <div className="col-lg-1"></div>
+            <div className="trading-text col-lg-3 col-md-6 col-12 p-0">
+              <img src="building.png" alt="description" />
+            </div>
+          </div>
+        </div>
+      </section>
+      {/* Mobile */}
+      <section className='service-last-section d-block d-md-none'>
+        <div className="container-fluid">
+          <div className="row align-items-center">
+            <div className="col-1"></div>
+            <div className="content col-lg-12 col-md-12 mx-auto col-sm-12 mt-3">
               <h4>Healthcare</h4>
             </div>
             <div className="col d-none d-md-block">
