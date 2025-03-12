@@ -587,15 +587,15 @@ const Home = () => {
                 
                     <div className="testimonial-card p-4 shadow">
                       <div className="row">
-                        <div className="col-3">
+                        {/* <div className="col-3">
                           <img src="test-2.png" className="testimonial-img" alt="User 2" />
-                        </div>
+                        </div> */}
                         <div className="col-6">
-                          <h5 className="fw-bold">Grace Turner</h5>
-                          <p className="text-muted">Analyst</p>
+                          <h5 className="fw-bold">Rahul Mehta</h5>
+                          <p className="text-muted"> ⭐⭐⭐⭐⭐</p>
                         </div>
                       </div>
-                      <p>Financial planning and investment advice I received from this team completely transformed my future. I couldn't be happier with the results.</p>
+                      <p>I've been using Swaram Logistics for over a year now, and they never disappoint! My shipments always arrive on time, and their team is super professional. Highly recommend them!</p>
                       <span className="quote-icon">❝</span>
                     </div>
                   
@@ -604,15 +604,15 @@ const Home = () => {
                   <div className="col-lg-4 col-md-6 col-12">
                     <div className="testimonial-card p-4 shadow">
                       <div className="row">
-                        <div className="col-3">
+                        {/* <div className="col-3">
                           <img src="test-2.png" className="testimonial-img" alt="User 2" />
-                        </div>
+                        </div> */}
                         <div className="col-6">
-                          <h5 className="fw-bold">Linda Carter</h5>
-                          <p className="text-muted">Analyst</p>
+                          <h5 className="fw-bold">Priya Sharma</h5>
+                          <p className="text-muted"> ⭐⭐⭐⭐⭐</p>
                         </div>
                       </div>
-                      <p>Financial planning and investment advice I received from this team completely transformed my future. I couldn't be happier with the results.</p>
+                      <p>I’ve been using Swaram Logistics for months now, and they’ve never let me down. Whether it's local deliveries or interstate shipments, they handle everything seamlessly. Great job, team!</p>
                       <span className="quote-icon">❝</span>
                     </div>
                   </div>
@@ -621,15 +621,15 @@ const Home = () => {
                   <div className="col-lg-4 col-md-6 col-12">
                     <div className="testimonial-card p-4 shadow">
                       <div className="row">
-                        <div className="col-3">
+                        {/* <div className="col-3">
                           <img src="test-2.png" className="testimonial-img" alt="User 2" />
-                        </div>
+                        </div> */}
                         <div className="col-6">
-                          <h5 className="fw-bold">Grace Turner</h5>
-                          <p className="text-muted">Analyst</p>
+                          <h5 className="fw-bold">Arjun Verma</h5>
+                          <p className="text-muted">⭐⭐⭐⭐⭐</p>
                         </div>
                       </div>
-                      <p>Financial planning and investment advice I received from this team completely transformed my future. I couldn't be happier with the results.</p>
+                      <p>Had an urgent delivery that I was worried about, but Swaram Logistics handled it perfectly. Their support team kept me updated throughout. Truly impressive!</p>
                       <span className="quote-icon">❝</span>
                     </div>
                   </div>
@@ -642,15 +642,15 @@ const Home = () => {
                 <div className="col-lg-4 col-md-6 col-12">
                     <div className="testimonial-card p-4 shadow">
                       <div className="row">
-                        <div className="col-3">
+                        {/* <div className="col-3">
                           <img src="test-2.png" className="testimonial-img" alt="User 2" />
-                        </div>
+                        </div> */}
                         <div className="col-6">
-                          <h5 className="fw-bold">Grace Turner</h5>
-                          <p className="text-muted">Analyst</p>
+                          <h5 className="fw-bold">Neha Patel</h5>
+                          <p className="text-muted">⭐⭐⭐⭐⭐</p>
                         </div>
                       </div>
-                      <p>Financial planning and investment advice I received from this team completely transformed my future. I couldn't be happier with the results.</p>
+                      <p>Great service at a great price! Swaram Logistics delivered my package earlier than expected, and the staff was incredibly courteous.</p>
                       <span className="quote-icon">❝</span>
                     </div>
                   </div>
@@ -658,30 +658,30 @@ const Home = () => {
                   <div className="col-lg-4 col-md-6 col-12">
                     <div className="testimonial-card p-4 shadow">
                       <div className="row">
-                        <div className="col-3">
+                        {/* <div className="col-3">
                           <img src="test-2.png" className="testimonial-img" alt="User 2" />
-                        </div>
+                        </div> */}
                         <div className="col-6">
-                          <h5 className="fw-bold">Linda Carter</h5>
-                          <p className="text-muted">Analyst</p>
+                          <h5 className="fw-bold">Vikram Nair</h5>
+                          <p className="text-muted">⭐⭐⭐⭐⭐</p>
                         </div>
                       </div>
-                      <p>Financial planning and investment advice I received from this team completely transformed my future. I couldn't be happier with the results.</p>
+                      <p>I was amazed by their attention to detail. The driver was polite, and my fragile items arrived safely. Swaram Logistics is now my top choice.</p>
                       <span className="quote-icon">❝</span>
                     </div>
                   </div>
                   <div className="col-lg-4 col-md-6 col-12">
                     <div className="testimonial-card p-4 shadow">
                       <div className="row">
-                        <div className="col-3">
+                        {/* <div className="col-3">
                           <img src="test-2.png" className="testimonial-img" alt="User 2" />
-                        </div>
+                        </div> */}
                         <div className="col-6">
-                          <h5 className="fw-bold">Grace Turner</h5>
-                          <p className="text-muted">Analyst</p>
+                          <h5 className="fw-bold">Kavita Iyer</h5>
+                          <p className="text-muted">⭐⭐⭐⭐⭐</p>
                         </div>
                       </div>
-                      <p>Financial planning and investment advice I received from this team completely transformed my future. I couldn't be happier with the results.</p>
+                      <p>I run a small business, and Swaram Logistics has been a game-changer. Their reliable service has improved my delivery timelines significantly.</p>
                       <span className="quote-icon">❝</span>
                     </div>
                   </div>

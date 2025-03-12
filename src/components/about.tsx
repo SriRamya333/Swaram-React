@@ -7,7 +7,7 @@ const About = () => {
   return (
     <>
       <img alt="" className="position-absolute top-0 end-0 d-none d-md-block" src="contact-green.png" />
-{/* Desktop */}
+      {/* Desktop */}
       <section className='about-first-section mt-5 d-none d-md-block'>
         <div className="container position-relative">
           <div className="row align-items-center mt-4">
@@ -366,7 +366,7 @@ const About = () => {
       <section className='d-block d-md-none'>
         <div className="container">
           <div className="row  align-items-center mt-4">
-            
+
             <div className="col-lg-6 col-md-8 col-12">
               <div className="row align-items-center">
                 <div className="col-auto content1">
@@ -398,68 +398,72 @@ const About = () => {
             </div>
           </div>
           <div className="row mt-4">
+           
             <div className="col-lg-8 col-md-12 col-12 text-center mr-5">
               <div className="">
                 <div className="overall">
                   <div className="connect-content">
                     <h2>The Finance Leader  <span className='leader'>(Founder)</span></h2>
+                    <h2> <span className='leader'>Mr K Swaminathan
+                    </span></h2>
                   </div>
                   <div className="vector w-100">
                     <ul className="list-unstyled d-flex flex-column align-items-center align-items-md-start w-100">
                       <li className="d-flex align-items-center mb-4 w-100">
-                        <img src="vector.png" className="vector-icon me-2"/>
+                        <img src="vector.png" className="vector-icon me-2" />
                         <span className="vector-text flex-grow-1 text-center text-md-start">Nearly 40 years of experience across various regions (India, Nigeria, Gabon, and Dubai)</span>
                       </li>
                       <li className="d-flex align-items-center mb-4 w-100">
-                        <img src="vector.png" className="vector-icon me-2"/>
+                        <img src="vector.png" className="vector-icon me-2" />
                         <span className="vector-text flex-grow-1 text-center text-md-start">Expertise in financial leadership, strategic planning, and risk management.</span>
                       </li>
                       <li className="d-flex align-items-center mb-4 w-100">
-                        <img src="vector.png" className="vector-icon me-2"/>
+                        <img src="vector.png" className="vector-icon me-2" />
                         <span className="vector-text flex-grow-1 text-center text-md-start">Successful management of multi-billion-dollar investments and large-scale infrastructure projects.</span>
                       </li>
                       <li className="d-flex align-items-center mb-4 w-100">
-                        <img src="vector.png" className="vector-icon me-2"/>
+                        <img src="vector.png" className="vector-icon me-2" />
                         <span className="vector-text flex-grow-1 text-center text-md-start">Known for implementing financial systems, optimizing supply chains, and ensuring effective governance.</span>
                       </li>
                     </ul>
                   </div>
-                  
                 </div>
               </div>
               <div className="row mt-4">
-            <div className="col-lg-12 col-md-12 col-12">
-              <div className="d-flex flex-column align-items-middle">
-                <div className="overall">
-                <div className="connect-content">
-                <h2>The Power and Energy Leader <span className='leader'>(Co-Founder)</span></h2>
+             
+                <div className="col-lg-12 col-md-12 col-12">
+                  <div className="d-flex flex-column align-items-middle">
+                    <div className="overall">
+                      <div className="connect-content">
+                        <h2>The Power and Energy Leader <span className='leader'>(Co-Founder)</span></h2>
+                        <h2> <span className='leader'>Mr K Ramasubramanian</span></h2>
+                      </div>
+
+                      <div className="vector w-100">
+                        <ul className="list-unstyled d-flex flex-column align-items-center align-items-md-start w-100">
+                          <li className="d-flex align-items-center mb-4 w-100">
+                            <img src="vector.png" className="vector-icon me-2" />
+                            <span className="vector-text flex-grow-1 text-center text-md-start">Over 34 years of experience in power, energy, and infrastructure sectors.</span>
+                          </li>
+                          <li className="d-flex align-items-center mb-4 w-100">
+                            <img src="vector.png" className="vector-icon me-2" />
+                            <span className="vector-text flex-grow-1 text-center text-md-start">Experience with Voltas Limited (TATA), Kirloskar Power Equipment, Al Hamad International Trading, FKI plc, Technical Solutions, AADI International Trading FZE, and PRANSA International FZC.</span>
+                          </li>
+                          <li className="d-flex align-items-center mb-4 w-100">
+                            <img src="vector.png" className="vector-icon me-2" />
+                            <span className="vector-text flex-grow-1 text-center text-md-start">Extensive experience in energy solutions, infrastructure development, and global market expansion, particularly in the MEA region.</span>
+                          </li>
+                        </ul>
+                      </div>
+
+                    </div>
                   </div>
-                  
-                  <div className="vector w-100">
-                    <ul className="list-unstyled d-flex flex-column align-items-center align-items-md-start w-100">
-                      <li className="d-flex align-items-center mb-4 w-100">
-                        <img src="vector.png" className="vector-icon me-2"/>
-                        <span className="vector-text flex-grow-1 text-center text-md-start">Over 34 years of experience in power, energy, and infrastructure sectors.</span>
-                      </li>
-                      <li className="d-flex align-items-center mb-4 w-100">
-                        <img src="vector.png" className="vector-icon me-2"/>
-                        <span className="vector-text flex-grow-1 text-center text-md-start">Experience with Voltas Limited (TATA), Kirloskar Power Equipment, Al Hamad International Trading, FKI plc, Technical Solutions, AADI International Trading FZE, and PRANSA International FZC.</span>
-                      </li>
-                      <li className="d-flex align-items-center mb-4 w-100">
-                        <img src="vector.png" className="vector-icon me-2"/>
-                        <span className="vector-text flex-grow-1 text-center text-md-start">Extensive experience in energy solutions, infrastructure development, and global market expansion, particularly in the MEA region.</span>
-                      </li>
-                    </ul>
-                  </div>
-                
                 </div>
               </div>
             </div>
-          </div>
+            <div className="col-lg-3 col-md-4 col-12">
+              <img src="man.png" />
             </div>
-            <div className="col-lg-4 col-md-4 col-12">
-                <img src="man.png"/>
-              </div>
           </div>
         </div>
       </section>
@@ -481,61 +485,64 @@ const About = () => {
                 <div className="overall">
                   <div className="connect-content">
                     <h2>The Finance Leader  <span className='leader'>(Founder)</span></h2>
+                    <h2> <span className='leader'>Mr K Swaminathan
+                    </span></h2>
                   </div>
                   <div className="vector w-100">
                     <ul className="list-unstyled d-flex flex-column align-items-center align-items-md-start w-100">
                       <li className="d-flex align-items-center mb-4 w-100">
-                        <img src="vector.png" className="vector-icon me-2"/>
+                        <img src="vector.png" className="vector-icon me-2" />
                         <span className="vector-text flex-grow-1 text-center text-md-start">Nearly 40 years of experience across various regions (India, Nigeria, Gabon, and Dubai)</span>
                       </li>
                       <li className="d-flex align-items-center mb-4 w-100">
-                        <img src="vector.png" className="vector-icon me-2"/>
+                        <img src="vector.png" className="vector-icon me-2" />
                         <span className="vector-text flex-grow-1 text-center text-md-start">Expertise in financial leadership, strategic planning, and risk management.</span>
                       </li>
                       <li className="d-flex align-items-center mb-4 w-100">
-                        <img src="vector.png" className="vector-icon me-2"/>
+                        <img src="vector.png" className="vector-icon me-2" />
                         <span className="vector-text flex-grow-1 text-center text-md-start">Successful management of multi-billion-dollar investments and large-scale infrastructure projects.</span>
                       </li>
                       <li className="d-flex align-items-center mb-4 w-100">
-                        <img src="vector.png" className="vector-icon me-2"/>
+                        <img src="vector.png" className="vector-icon me-2" />
                         <span className="vector-text flex-grow-1 text-center text-md-start">Known for implementing financial systems, optimizing supply chains, and ensuring effective governance.</span>
                       </li>
                     </ul>
                   </div>
-                  
+
                 </div>
               </div>
               <div className="row mt-4">
-            <div className="col-lg-12 col-md-12 col-12">
-              <div className="d-flex flex-column align-items-middle">
-                <div className="overall">
-                <div className="connect-content">
-                <h2>The Power and Energy Leader <span className='leader'>(Co-Founder)</span></h2>
+                <div className="col-lg-12 col-md-12 col-12">
+                  <div className="d-flex flex-column align-items-middle">
+                    <div className="overall">
+                      <div className="connect-content">
+                        <h2>The Power and Energy Leader <span className='leader'>(Co-Founder)</span></h2>
+                        <h2> <span className='leader'>Mr K Ramasubramanian</span></h2>
+                      </div>
+
+                      <div className="vector w-100">
+                        <ul className="list-unstyled d-flex flex-column align-items-center align-items-md-start w-100">
+                          <li className="d-flex align-items-center mb-4 w-100">
+                            <img src="vector.png" className="vector-icon me-2" />
+                            <span className="vector-text flex-grow-1 text-center text-md-start">Over 34 years of experience in power, energy, and infrastructure sectors.</span>
+                          </li>
+                          <li className="d-flex align-items-center mb-4 w-100">
+                            <img src="vector.png" className="vector-icon me-2" />
+                            <span className="vector-text flex-grow-1 text-center text-md-start">Experience with Voltas Limited (TATA), Kirloskar Power Equipment, Al Hamad International Trading, FKI plc, Technical Solutions, AADI International Trading FZE, and PRANSA International FZC.</span>
+                          </li>
+                          <li className="d-flex align-items-center mb-4 w-100">
+                            <img src="vector.png" className="vector-icon me-2" />
+                            <span className="vector-text flex-grow-1 text-center text-md-start">Extensive experience in energy solutions, infrastructure development, and global market expansion, particularly in the MEA region.</span>
+                          </li>
+                        </ul>
+                      </div>
+
+                    </div>
                   </div>
-                  
-                  <div className="vector w-100">
-                    <ul className="list-unstyled d-flex flex-column align-items-center align-items-md-start w-100">
-                      <li className="d-flex align-items-center mb-4 w-100">
-                        <img src="vector.png" className="vector-icon me-2"/>
-                        <span className="vector-text flex-grow-1 text-center text-md-start">Over 34 years of experience in power, energy, and infrastructure sectors.</span>
-                      </li>
-                      <li className="d-flex align-items-center mb-4 w-100">
-                        <img src="vector.png" className="vector-icon me-2"/>
-                        <span className="vector-text flex-grow-1 text-center text-md-start">Experience with Voltas Limited (TATA), Kirloskar Power Equipment, Al Hamad International Trading, FKI plc, Technical Solutions, AADI International Trading FZE, and PRANSA International FZC.</span>
-                      </li>
-                      <li className="d-flex align-items-center mb-4 w-100">
-                        <img src="vector.png" className="vector-icon me-2"/>
-                        <span className="vector-text flex-grow-1 text-center text-md-start">Extensive experience in energy solutions, infrastructure development, and global market expansion, particularly in the MEA region.</span>
-                      </li>
-                    </ul>
-                  </div>
-                
                 </div>
               </div>
             </div>
-          </div>
-            </div>
-           
+
           </div>
         </div>
       </section>

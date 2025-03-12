@@ -119,13 +119,14 @@ const Contact = () => {
           <div className="row align-items-start">
             <div className="col-lg-6 assist">
               <h2>We are always happy to assist you</h2>
+              
             </div>
 
             {/* Email Info */}
             <div className="col-lg-3 col-md-6 mt-4 mt-md-0 address">
               <h4>Email Address</h4>
               <div className="contact-border"></div>
-              <p><a href="mailto:help@info.com">help@info.com</a></p>
+              <p><a href="mailto:info@swaram.ae">info@swaram.ae</a></p>
               <p>Assistance hours:<br /> Mon - Fri: 6 AM - 8 <br /> PM EST</p>
             </div>
 
@@ -133,8 +134,8 @@ const Contact = () => {
             <div className="col-lg-3 col-md-6 mt-4 mt-md-0 address">
               <h4>Phone Number</h4>
               <div className="contact-border"></div>
-              <p><a href="tel:+180899834256">(808) 998-34256</a></p>
-              <p>Assistance hours:<br /> Mon - Fri: 6 AM - 8 <br /> PM EST</p>
+              <p><a href="tel:+971 56 360 1260">+971 56 360 1260 </a></p>
+              <p>Address:<br /> 342 IDS Group bldg. <br/>Al Karama DUBAI UAE</p>
             </div>
           </div>
         </div>
