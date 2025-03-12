@@ -32,7 +32,7 @@ const ContactForm = () => {
         "service_ifopmdt",
         "template_3vqxwb8",
         formRef.current,
-        "8gedBgL76aZrLchbY"
+        "lZ9vmAHXtWvPqZZgJ"
       );
       alert("Message sent successfully!");
       reset();

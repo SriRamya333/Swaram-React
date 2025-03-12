@@ -22,11 +22,9 @@ const Contact = () => {
                   Hello,
                   You have a new subscriber!
                   Email:* ${email}*
-                  Best regards,
-                  Your Website Team
               ` 
           },
-          "8gedBgL76aZrLchbY"    // Replace with your EmailJS Public Key
+          "lZ9vmAHXtWvPqZZgJ"    // Replace with your EmailJS Public Key
       )
       
       .then((response) => {
