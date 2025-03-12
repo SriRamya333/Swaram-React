@@ -111,7 +111,7 @@ const Partner = () => {
           </div>
           <div className="row">
             <div className="col-lg-7 col-md-6 col-12">
-              <div className="vector ">
+              <div className="vector">
                 <ul className="align type">
                   <li>
                     <p>Swaram is well-positioned to attract large-scale, international clients due to its diverse service offerings and global presence.</p>

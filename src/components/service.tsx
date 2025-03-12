@@ -149,6 +149,12 @@ const Service = () => {
               <div className="border border-success border-1 opacity-100"></div>
             </div>
           </div>
+          {/* <div className="col-lg-4 col-md-4 col-12">
+            <div className="col d-flex align-items-center">
+              <img className="me-2" src="dollar.png" style={{width:30 , height:30 }}/>
+              <p className="part mb-0">Global Trading</p>
+              </div><p>Swaram is positioned as a globally oriented company with aspirations to be a leader in its chosen sectors</p></div> */}
+
           <div className="row">
             <div className="col-lg-6 d-flex col-md-6 col-12 solution gb">
               <div className="global-trade"><img className="service-sol" src="globe.png" /></div>
