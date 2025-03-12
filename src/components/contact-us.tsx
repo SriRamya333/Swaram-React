@@ -26,7 +26,7 @@ const Contact = () => {
                   Your Website Team
               ` 
           },
-          "3kiu5MP7z5FDKcjXT"    // Replace with your EmailJS Public Key
+          "8gedBgL76aZrLchbY"    // Replace with your EmailJS Public Key
       )
       
       .then((response) => {
