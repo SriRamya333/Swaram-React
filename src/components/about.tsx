@@ -403,9 +403,9 @@ const About = () => {
               <div className="">
                 <div className="overall">
                   <div className="connect-content">
-                    <h2>The Finance Leader  <span className='leader'>(Founder)</span></h2>
-                    <h2> <span className='leader'>Mr K Swaminathan
-                    </span></h2>
+                    <h2>The Finance Leader</h2>
+                    <h2> <span className='leader'>Mr K Swaminathan</span></h2>
+                    <h5>Founder & Chairman</h5>
                   </div>
                   <div className="vector w-100">
                     <ul className="list-unstyled d-flex flex-column align-items-center align-items-md-start w-100">
@@ -435,8 +435,10 @@ const About = () => {
                   <div className="d-flex flex-column align-items-middle">
                     <div className="overall">
                       <div className="connect-content">
-                        <h2>The Power and Energy Leader <span className='leader'>(Co-Founder)</span></h2>
+                        <h2>The Power and Energy Leader</h2>
                         <h2> <span className='leader'>Mr K Ramasubramanian</span></h2>
+                        <h5> Founder & CEO</h5>
+                      
                       </div>
 
                       <div className="vector w-100">
@@ -484,9 +486,10 @@ const About = () => {
               <div className="">
                 <div className="overall">
                   <div className="connect-content">
-                    <h2>The Finance Leader  <span className='leader'>(Founder)</span></h2>
+                    <h2>The Finance Leader  <span className='leader'>(Founder) & Chairman</span></h2>
                     <h2> <span className='leader'>Mr K Swaminathan
                     </span></h2>
+                    <h5>Founder & Chairman</h5>
                   </div>
                   <div className="vector w-100">
                     <ul className="list-unstyled d-flex flex-column align-items-center align-items-md-start w-100">
@@ -516,8 +519,9 @@ const About = () => {
                   <div className="d-flex flex-column align-items-middle">
                     <div className="overall">
                       <div className="connect-content">
-                        <h2>The Power and Energy Leader <span className='leader'>(Co-Founder)</span></h2>
+                        <h2>The Power and Energy Leader <span className='leader'>(Founder) & CEO</span></h2>
                         <h2> <span className='leader'>Mr K Ramasubramanian</span></h2>
+                        <h5> Founder & CEO</h5>
                       </div>
 
                       <div className="vector w-100">

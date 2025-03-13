@@ -1,38 +1,38 @@
 import 'bootstrap/dist/css/bootstrap.min.css';
-import { FaFacebook, FaTwitter, FaInstagram, FaLinkedin } from "react-icons/fa";
+import { FaFacebook, FaXTwitter, FaInstagram, FaLinkedin } from "react-icons/fa6";
 import { useState } from "react";
 import emailjs from "emailjs-com";
 
 const Footer = () => {
     const [email, setEmail] = useState("");
 
-    const sendEmail = (e :any) => {
+    const sendEmail = (e: any) => {
         e.preventDefault();
 
         emailjs.send(
             "service_ifopmdt",   // Replace with your EmailJS Service ID
             "template_0x47ntp",  // Replace with your EmailJS Template ID
-            { 
-                user_email: email, 
+            {
+                user_email: email,
                 message: `
                     Newsletter Subscription
                     Hello,
                     You have a new subscriber!
                     Email:* ${email}*
-                ` 
+                `
             },
             "lZ9vmAHXtWvPqZZgJ"    // Replace with your EmailJS Public Key
         )
-        
-        .then((response) => {
-            console.log("SUCCESS!", response.status, response.text);
-            alert("Subscription Successful!");
-            setEmail(""); // Reset input field
-        })
-        .catch((err) => {
-            console.error("FAILED...", err);
-            alert("Subscription Failed. Try Again.");
-        });
+
+            .then((response) => {
+                console.log("SUCCESS!", response.status, response.text);
+                alert("Subscription Successful!");
+                setEmail(""); // Reset input field
+            })
+            .catch((err) => {
+                console.error("FAILED...", err);
+                alert("Subscription Failed. Try Again.");
+            });
     };
 
     return (
@@ -82,10 +82,10 @@ const Footer = () => {
                         <div className="subscription-form w-100">
                             <form className="form-subscribe" onSubmit={sendEmail}>
                                 <div className="input-group">
-                                    <input 
-                                        type="email" 
-                                        className="form-control input-lg" 
-                                        placeholder="Enter Your Email" 
+                                    <input
+                                        type="email"
+                                        className="form-control input-lg"
+                                        placeholder="Enter Your Email"
                                         value={email}
                                         onChange={(e) => setEmail(e.target.value)}
                                         required
@@ -104,18 +104,20 @@ const Footer = () => {
                 </div>
                 <div className="row mt-2 d-flex flex-wrap text-center">
                     <div className="col-12 col-md-4">
-                        <p className="copyright-title">Privacy & Terms Contact Us</p>
+                        <p className="copyright-title">Copyright @ 2025 Swaram</p>
                     </div>
                     <div className="col-12 col-md-4">
-                        <p className="copyright-title">Copyright @ 2025 Swaram</p>
+                        <p className="copyright-title">Designed & Developed by<a href="https://ayatiworks.com/" target="_blank"><img className="ayati-logo" src="ayati-copyright-logo.png" alt="ayati logo"/></a>
+                        </p>
                     </div>
                     <div className="col-12 col-md-4 footer-icon">
                         <div className="d-flex justify-content-center space-x-6">
                             <a href="https://facebook.com" target="_blank" rel="noopener noreferrer">
                                 <FaFacebook className="icon" />
                             </a>
+
                             <a href="https://twitter.com" target="_blank" rel="noopener noreferrer">
-                                <FaTwitter className="icon" />
+                                <FaXTwitter className="icon" />
                             </a>
                             <a href="https://instagram.com" target="_blank" rel="noopener noreferrer">
                                 <FaInstagram className="icon" />

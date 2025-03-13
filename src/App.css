@@ -510,7 +510,9 @@ section{
   background-repeat: no-repeat;
   background-size: cover;
 }
-
+.ayati-logo{
+  width:50px;
+}
 .foot-head p {
   font-size: 16px;
 }
@@ -904,7 +906,9 @@ section{
 }
 
 
-
+.connect-content h5{
+  text-align: left;
+}
 /* contact us page */
 .contact h2{
   font-weight: 700;
