@@ -69,9 +69,26 @@ section{
 }
 
 .img img {
-  width: 500px;
+  width: 650px;
+  margin-top: -70px;
 }
-
+@media(min-width:320px){
+  .img img{
+    margin-top:-50px;
+  }
+}
+@media(min-width:690px){
+  .img img{
+    margin-top:-50px;
+    width:335px;
+  }
+}
+@media(min-width:1020px){
+  .img img{
+    margin-top:-70px;
+    width: 650px;
+  }
+}
 .img-service {
   background-repeat: no-repeat;
 }

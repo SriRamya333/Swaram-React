@@ -37,7 +37,7 @@ const About = () => {
               <p className="text-muted">Winning award best shipping company</p>
             </div>
             <div className="col-lg-4 col-md-4 col-12 text-center">
-              <img src="cal.png" className="img-fluid" />
+              <img src="About.png" className="img-fluid" />
             </div>
           </div>
         </div>
@@ -72,7 +72,7 @@ const About = () => {
               <p className="text-muted">Winning award best shipping company</p>
             </div>
             <div className="col-lg-4 col-md-4 col-12 text-center">
-              <img src="cal.png" className="img-fluid" />
+              <img src="About.png" className="img-fluid" />
             </div>
           </div>
         </div>
@@ -404,7 +404,7 @@ const About = () => {
                 <div className="overall">
                   <div className="connect-content">
                     <h2>The Finance Leader</h2>
-                    <h2> <span className='leader'>Mr K Swaminathan</span></h2>
+                    <h2> <span className='leader'>K Swaminathan</span></h2>
                     <h5>Founder & Chairman</h5>
                   </div>
                   <div className="vector w-100">
@@ -436,7 +436,7 @@ const About = () => {
                     <div className="overall">
                       <div className="connect-content">
                         <h2>The Power and Energy Leader</h2>
-                        <h2> <span className='leader'>Mr K Ramasubramanian</span></h2>
+                        <h2> <span className='leader'>K Ramasubramanian</span></h2>
                         <h5> Founder & CEO</h5>
                       
                       </div>
@@ -487,7 +487,7 @@ const About = () => {
                 <div className="overall">
                   <div className="connect-content">
                     <h2>The Finance Leader  <span className='leader'>(Founder) & Chairman</span></h2>
-                    <h2> <span className='leader'>Mr K Swaminathan
+                    <h2> <span className='leader'>K Swaminathan
                     </span></h2>
                     <h5>Founder & Chairman</h5>
                   </div>
@@ -520,7 +520,7 @@ const About = () => {
                     <div className="overall">
                       <div className="connect-content">
                         <h2>The Power and Energy Leader <span className='leader'>(Founder) & CEO</span></h2>
-                        <h2> <span className='leader'>Mr K Ramasubramanian</span></h2>
+                        <h2> <span className='leader'>K Ramasubramanian</span></h2>
                         <h5> Founder & CEO</h5>
                       </div>
 
