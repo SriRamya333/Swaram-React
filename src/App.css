@@ -860,6 +860,7 @@ section{
   }
 }
 .sys img{
+  border-radius: 12px;
   width:100%;
 }
 .founder{
@@ -1156,11 +1157,17 @@ section{
 .solution{
   padding-top:10px;
 }
-.gb{
+/* .gb{
   padding-left:40px;
-}
+} */
 .service-sol {
   background-color:#F15A2959;
+  padding: 7px;
+  border-radius: 4px;
+  width: 100px;
+}
+.prevention{
+  background-color:#ffc10757;
   padding: 7px;
   border-radius: 4px;
   width: 100px;
@@ -1203,6 +1210,9 @@ section{
 }
 .partnerwithus{
   background-color: #fffdf2;
+}
+.partner-title{
+  margin-top: 8rem;
 }
 .partner-title h2{
   font-weight: 700;
@@ -1280,4 +1290,21 @@ section{
   justify-content: center;
   align-items: center;
   position: relative;
+}
+.img-fluid-1{
+  width: 100%;
+    border-radius: 10px;
+    height: auto;
+}
+.health{
+  padding:0;
+}
+.health li{
+list-style-type: disc;
+}
+
+.dist{
+  margin-top: 35px;
+  width: 100%;
+  border-radius: 10px;
 }

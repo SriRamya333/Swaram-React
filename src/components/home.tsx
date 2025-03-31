@@ -4,7 +4,7 @@ import 'bootstrap/dist/css/bootstrap.min.css';
 const Home = () => {
   return (
     <>
-{/* Desktop */}
+      {/* Desktop */}
       <section className='home-section position-relative d-flex flex-column d-none d-md-block'>
         <img src="bg-green-1.png" alt=""
           className="color-img position-absolute top-0 end-0"
@@ -16,12 +16,12 @@ const Home = () => {
 
         <img src="Frame-3.png" alt=""
           className="img-frame position-absolute bottom-0 start-0"
-          
+
         />
 
         <img src="Frame-4.png" alt=""
           className="img-frame1 position-absolute bottom-0 end-0"
-          
+
         />
         {/* Container for Content */}
         <div className='container position-relative d-flex flex-column align-items-center text-center py-5'>
@@ -32,7 +32,7 @@ const Home = () => {
                 <h3 className="text-center ">Shaping the Future of Global Trade & Services</h3>
               </div>
               <div className='para-text'>
-                <p >Explore our solutions in Infrastructure, Logistics, Energy, and Trading.</p>
+                <p >Explore our solutions in Infrastructure, Healthcare, Logistics, Energy, and Trading</p>
               </div>
 
               {/* Buttons */}
@@ -41,7 +41,7 @@ const Home = () => {
                   <a href='service' target="_blank" className='btn px-4 py-2' rel="noopener noreferrer">Discover More</a>
                 </div>
                 <div className="para-button1">
-                  <a href='contact-us' target="_blank" className='btn px-4 py-2'  rel="noopener noreferrer">Contact Us</a>
+                  <a href='contact-us' target="_blank" className='btn px-4 py-2' rel="noopener noreferrer">Contact Us</a>
                 </div>
               </div>
 
@@ -69,8 +69,8 @@ const Home = () => {
           />
         </div>
       </section>
-{/* Mobile */}
-<section className='home-section position-relative d-flex flex-column d-block d-md-none'>
+      {/* Mobile */}
+      <section className='home-section position-relative d-flex flex-column d-block d-md-none'>
         {/* Container for Content */}
         <div className='container position-relative d-flex flex-column align-items-center text-center pt-4'>
           {/* Content */}
@@ -80,7 +80,7 @@ const Home = () => {
                 <h3 className="text-center ">Shaping the Future of Global Trade & Services</h3>
               </div>
               <div className='para-text'>
-                <p >Explore our solutions in Infrastructure, Logistics, Energy, and Trading.</p>
+                <p >Explore our solutions in Infrastructure, Healthcare, Logistics, Energy, and Trading</p>
               </div>
 
               {/* Buttons */}
@@ -120,7 +120,7 @@ const Home = () => {
 
       {/* Future Section */}
       {/* Desktop */}
-      <section className="position-relative d-flex flex-column d-none d-md-block">
+      {/* <section className="position-relative d-flex flex-column d-none d-md-block">
         <div className="oval">
           <div className="container">
             <div className="popular text-center">
@@ -142,10 +142,10 @@ const Home = () => {
             </div>
           </div>
         </div>
-      </section>
+      </section> */}
 
-{/* Mobile */}
-      <section className="position-relative d-flex flex-column d-block d-md-none">
+      {/* Mobile */}
+      {/* <section className="position-relative d-flex flex-column d-block d-md-none">
         <div className="">
           <div className="container">
             <div className="popular text-center">
@@ -167,9 +167,9 @@ const Home = () => {
             </div>
           </div>
         </div>
-      </section>
+      </section> */}
 
-{/* Desktop */}
+      {/* Desktop */}
       {/* Our Services Section */}
       <section className="position-relative d-flex flex-column d-none d-md-block">
         <div className="container-fluid bg position-relative py-5">
@@ -199,7 +199,7 @@ const Home = () => {
                   </div>
                   <div className="col-11">
                     <h2 className="logic text-center text-md-start mt-3 responsive-heading">
-                      Explore our expertise in Trading, Infrastructure, Logistics, and Energy
+                      Explore our expertise in Infrastructure, Healthcare, Logistics, Energy, and Trading
                     </h2>
                   </div>
                 </div>
@@ -208,8 +208,12 @@ const Home = () => {
                 <div className="mt-4">
                   <div className="row row-cols-1 row-cols-md-2 g-3">
                     <div className="col d-flex align-items-center">
-                      <img src="dollar.png" className="me-2 service-icon" alt="Dollar Icon" />
-                      <p className="trade mb-0">Global Trading</p>
+                      <img src="office.png" className="me-2 service-icon" alt="Office Icon" />
+                      <p className="trade mb-0">Infrastructure & Construction</p>
+                    </div>
+                    <div className="col d-flex align-items-center">
+                      <img src="health.png" className="me-2 service-icon" alt="Coin Icon" />
+                      <p className="trade mb-0">Healthcare Services</p>
                     </div>
                     <div className="col d-flex align-items-center">
                       <img src="coin.png" className="me-2 service-icon" alt="Coin Icon" />
@@ -220,8 +224,8 @@ const Home = () => {
                       <p className="trade mb-0">Energy Solutions</p>
                     </div>
                     <div className="col d-flex align-items-center">
-                      <img src="office.png" className="me-2 service-icon" alt="Office Icon" />
-                      <p className="trade mb-0">Infrastructure & Construction</p>
+                      <img src="dollar.png" className="me-2 service-icon" alt="Dollar Icon" />
+                      <p className="trade mb-0">Global Trading</p>
                     </div>
                   </div>
                 </div>
@@ -240,14 +244,14 @@ const Home = () => {
 
       </section>
 
-{/* Mobile */}
+      {/* Mobile */}
 
-<section className="position-relative d-flex flex-column d-block d-md-none">
+      <section className="position-relative d-flex flex-column d-block d-md-none">
         <div className="container-fluid position-relative">
           <div className="container">
             <div className="row align-items-center">
               {/* Image Section */}
-             
+
 
               {/* Content Section */}
               <div className="col-lg-6 col-md-6 col-12 mt-4 mt-md-0">
@@ -268,20 +272,24 @@ const Home = () => {
                   </div>
                   <div className="col-11">
                     <h2 className="logic text-center text-md-start mt-3 responsive-heading">
-                      Explore our expertise in Trading, Infrastructure, Logistics, and Energy
+                      Explore our expertise in Infrastructure, Healthcare, Logistics, Trading, and Energy 
                     </h2>
                   </div>
                 </div>
                 <div className="col-lg-6 col-md-6 col-12 text-center text-md-start mt-3">
-                <img src="graph.png" className="img-fluid w-75" alt="Graph" />
-              </div>
+                  <img src="graph.png" className="img-fluid w-75" alt="Graph" />
+                </div>
 
                 {/* Service List */}
                 <div className="mt-4">
                   <div className="row row-cols-1 row-cols-md-2 g-3">
                     <div className="col d-flex align-items-center">
-                      <img src="dollar.png" className="me-2 service-icon" alt="Dollar Icon" />
-                      <p className="trade mb-0">Global Trading</p>
+                      <img src="office.png" className="me-2 service-icon" alt="Office Icon" />
+                      <p className="trade mb-0">Infrastructure & Construction</p>
+                    </div>
+                    <div className="col d-flex align-items-center">
+                      <img src="health.png" className="me-2 service-icon" alt="Coin Icon" />
+                      <p className="trade mb-0">Healthcare Services</p>
                     </div>
                     <div className="col d-flex align-items-center">
                       <img src="coin.png" className="me-2 service-icon" alt="Coin Icon" />
@@ -292,8 +300,8 @@ const Home = () => {
                       <p className="trade mb-0">Energy Solutions</p>
                     </div>
                     <div className="col d-flex align-items-center">
-                      <img src="office.png" className="me-2 service-icon" alt="Office Icon" />
-                      <p className="trade mb-0">Infrastructure & Construction</p>
+                      <img src="dollar.png" className="me-2 service-icon" alt="Dollar Icon" />
+                      <p className="trade mb-0">Global Trading</p>
                     </div>
                   </div>
                 </div>
@@ -311,7 +319,7 @@ const Home = () => {
         <div className="bg-overlay"></div>
 
       </section>
-{/* Desktop */}
+      {/* Desktop */}
       {/* Why Section */}
       <section className="why position-relative d-flex flex-column why-bg d-none d-md-block">
         <div className="side-tri d-lg-block d-md-none d-none">
@@ -461,19 +469,19 @@ const Home = () => {
                   <div className="vector w-100">
                     <ul className="list-unstyled d-flex flex-column align-items-center align-items-md-start w-100">
                       <li className="d-flex align-items-center mb-2 w-100">
-                        <img src="vector.png" className="vector-icon me-2"/>
+                        <img src="vector.png" className="vector-icon me-2" />
                         <span className="vector-text flex-grow-1 text-center text-md-start">Global Ambition</span>
                       </li>
                       <li className="d-flex align-items-center mb-2 w-100">
-                        <img src="vector.png" className="vector-icon me-2"/>
+                        <img src="vector.png" className="vector-icon me-2" />
                         <span className="vector-text flex-grow-1 text-center text-md-start">Integrated Solutions</span>
                       </li>
                       <li className="d-flex align-items-center mb-2 w-100">
-                        <img src="vector.png" className="vector-icon me-2"/>
+                        <img src="vector.png" className="vector-icon me-2" />
                         <span className="vector-text flex-grow-1 text-center text-md-start">Emphasis on Expertise</span>
                       </li>
                       <li className="d-flex align-items-center mb-2 w-100">
-                        <img src="vector.png" className="vector-icon me-2"/>
+                        <img src="vector.png" className="vector-icon me-2" />
                         <span className="vector-text flex-grow-1 text-center text-md-start">Focus on Innovation & Sustainability</span>
                       </li>
                     </ul>
@@ -511,20 +519,20 @@ const Home = () => {
                   <div className="vector w-100">
                     <ul className="list-unstyled d-flex flex-column align-items-center align-items-md-start w-100">
                       <li className="d-flex align-items-center mb-2 w-100">
-                        <img src="vector.png" className="vector-icon img-fluid me-2"  />
+                        <img src="vector.png" className="vector-icon img-fluid me-2" />
                         <span className="vector-text text-md-start">Global Ambition</span>
                       </li>
                       <li className="d-flex align-items-center mb-2 w-100">
-                        <img src="vector.png" className="vector-icon img-fluid me-2"  />
+                        <img src="vector.png" className="vector-icon img-fluid me-2" />
                         <span className="vector-text text-md-start">Integrated Solutions</span>
                       </li>
                       <li className="d-flex align-items-center mb-2 w-100">
-                        <img src="vector.png" className="vector-icon img-fluid me-2"  />
+                        <img src="vector.png" className="vector-icon img-fluid me-2" />
                         <span className="vector-text text-md-start">Emphasis on Expertise</span>
                       </li>
-                      
+
                       <li className="d-flex align-items-center mb-2 w-100">
-                        <img src="vector.png" className="vector-icon img-fluid me-2"  />
+                        <img src="vector.png" className="vector-icon img-fluid me-2" />
                         <span className="vector-text text-md-start">Focus on Innovation & Sustainability</span>
                       </li>
                     </ul>
@@ -541,19 +549,27 @@ const Home = () => {
         </div>
       </section>
 
-
-
-      {/* Testimonial Section */}
       <section className='position-relative d-flex flex-column'>
         <div className="container">
-          {/* Logo Row */}
+          <div className="row">
+            <div className="col-lg-12 load">
+              <img src="swaram.png" className="img-fluid" alt="Logo" style={{ maxWidth: '100%', height: 'auto' }} />
+            </div>
+          </div>
+        </div>
+      </section>
+
+      {/* Testimonial Section */}
+      {/* <section className='position-relative d-flex flex-column'>
+        <div className="container">
+        
           <div className="row">
             <div className="col-lg-12 load">
               <img src="swaram.png" className="img-fluid" alt="Logo" style={{ maxWidth: '100%', height: 'auto' }} />
             </div>
           </div>
 
-          {/* Heading Section */}
+          
           <div className="row align-items-center mt-4 mb-4">
             <div className="col-auto content1">
               <h4>TESTIMONIALS</h4>
@@ -576,10 +592,10 @@ const Home = () => {
           </div>
 
 
-          {/* Bootstrap Carousel */}
+        
           <div id="testimonialCarousel" className="carousel slide mt-5" data-bs-ride="carousel">
             <div className="carousel-inner">
-              {/* Slide 1 */}
+            
               <div className="carousel-item active">
                 <div className="row">
                   <div className="col-lg-4 col-md-6 col-12">
@@ -587,9 +603,7 @@ const Home = () => {
                 
                     <div className="testimonial-card p-4 shadow">
                       <div className="row">
-                        {/* <div className="col-3">
-                          <img src="test-2.png" className="testimonial-img" alt="User 2" />
-                        </div> */}
+                       
                         <div className="col-6">
                           <h5 className="fw-bold">Rahul Mehta</h5>
                           <p className="text-muted"> ⭐⭐⭐⭐⭐</p>
@@ -604,9 +618,7 @@ const Home = () => {
                   <div className="col-lg-4 col-md-6 col-12">
                     <div className="testimonial-card p-4 shadow">
                       <div className="row">
-                        {/* <div className="col-3">
-                          <img src="test-2.png" className="testimonial-img" alt="User 2" />
-                        </div> */}
+                        
                         <div className="col-6">
                           <h5 className="fw-bold">Priya Sharma</h5>
                           <p className="text-muted"> ⭐⭐⭐⭐⭐</p>
@@ -621,9 +633,7 @@ const Home = () => {
                   <div className="col-lg-4 col-md-6 col-12">
                     <div className="testimonial-card p-4 shadow">
                       <div className="row">
-                        {/* <div className="col-3">
-                          <img src="test-2.png" className="testimonial-img" alt="User 2" />
-                        </div> */}
+                      
                         <div className="col-6">
                           <h5 className="fw-bold">Arjun Verma</h5>
                           <p className="text-muted">⭐⭐⭐⭐⭐</p>
@@ -636,15 +646,13 @@ const Home = () => {
                 </div>
               </div>
 
-              {/* Slide 2 */}
+              
               <div className="carousel-item">
                 <div className="row">
                 <div className="col-lg-4 col-md-6 col-12">
                     <div className="testimonial-card p-4 shadow">
                       <div className="row">
-                        {/* <div className="col-3">
-                          <img src="test-2.png" className="testimonial-img" alt="User 2" />
-                        </div> */}
+                       
                         <div className="col-6">
                           <h5 className="fw-bold">Neha Patel</h5>
                           <p className="text-muted">⭐⭐⭐⭐⭐</p>
@@ -658,9 +666,7 @@ const Home = () => {
                   <div className="col-lg-4 col-md-6 col-12">
                     <div className="testimonial-card p-4 shadow">
                       <div className="row">
-                        {/* <div className="col-3">
-                          <img src="test-2.png" className="testimonial-img" alt="User 2" />
-                        </div> */}
+                       
                         <div className="col-6">
                           <h5 className="fw-bold">Vikram Nair</h5>
                           <p className="text-muted">⭐⭐⭐⭐⭐</p>
@@ -673,9 +679,7 @@ const Home = () => {
                   <div className="col-lg-4 col-md-6 col-12">
                     <div className="testimonial-card p-4 shadow">
                       <div className="row">
-                        {/* <div className="col-3">
-                          <img src="test-2.png" className="testimonial-img" alt="User 2" />
-                        </div> */}
+                        
                         <div className="col-6">
                           <h5 className="fw-bold">Kavita Iyer</h5>
                           <p className="text-muted">⭐⭐⭐⭐⭐</p>
@@ -689,7 +693,7 @@ const Home = () => {
               </div>
             </div>
 
-            {/* Carousel Controls */}
+            
             <button className="carousel-control-prev" type="button" data-bs-target="#testimonialCarousel" data-bs-slide="prev">
               <span className="carousel-control-prev-icon" aria-hidden="true"></span>
             </button>
@@ -698,7 +702,7 @@ const Home = () => {
             </button>
           </div>
         </div>
-      </section>
+      </section> */}
     </>
 
   )

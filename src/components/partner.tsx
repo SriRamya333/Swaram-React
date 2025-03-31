@@ -11,16 +11,16 @@ const Partner = () => {
       <div className='back d-none d-md-block'>
         <div className="container mt-4">
           <div className="row">
-            <div className="col-lg-5 col-md-6 col-12 partner-title mt-5">
+            <div className="col-lg-5 col-md-6 col-12 partner-title">
               <h2><span className='better-1'>Partner with Swaram:</span> Driving Growth & Innovation Together</h2>
               <p>Join us in shaping the future of global trade, infrastructure, energy, and healthcare through strategic partnerships and innovation</p>
             </div>
-             <div className="col-lg-4 col-md-6 col-12">
-                <img src="ship.png"/>
+             <div className="col-lg-6 col-md-6 col-12">
+                <img src="part-bg.png"/>
              </div>
-             <div className="col-lg-2 col-md-6 col-12">
+             {/* <div className="col-lg-2 col-md-6 col-12">
                 <img src="sea.png"/>
-             </div>
+             </div> */}
              <div className="col-1">
 
              </div>
@@ -126,7 +126,7 @@ const Partner = () => {
               </div>
             </div>
             <div className="col-lg-5 col-md-6 col-12">
-              <img src="data.png" alt="description" className='img-fluid' />
+              <img src="data.jpg" alt="description" className='img-fluid-1' />
             </div>
           </div>
         </div>
@@ -162,7 +162,7 @@ const Partner = () => {
               </div>
             </div>
             <div className="col-lg-5 col-md-6 col-12">
-              <img src="data.png" alt="description" className='img-fluid' />
+              <img src="data.jpg" alt="description" className='img-fluid-1' />
             </div>
           </div>
         </div>

@@ -6,7 +6,7 @@ import 'bootstrap/dist/css/bootstrap.min.css';
 const Service = () => {
   return (
     <>
-{/* Desktop */}
+      {/* Desktop */}
       <section className='home-section position-relative d-flex flex-column d-none d-md-block' id="service-bg">
         <img src="service-green-tri.png" alt=""
           className="green-tri-1 position-absolute top-0 end-0"
@@ -30,6 +30,8 @@ const Service = () => {
           </div>
         </div>
       </section>
+
+
 
       {/* Mobile */}
 
@@ -78,14 +80,39 @@ const Service = () => {
             <div className="trading-text col-lg-4 col-md-6 col-12 p-0">
               <img src="trading.png" alt="description" />
             </div>
+          </div>
+          <div className="row align-items-center">
+            <div className="col-5"></div>
+            <div className="content col-lg-12 col-md-12 mx-auto col-sm-12">
+              <h4>Healthcare</h4>
+            </div>
+            <div className="col d-none d-md-block">
+              <div className="border border-success border-1 opacity-100"></div>
+            </div>
+          </div>
+          <div className="row">
+            <div className='col-lg-1 col-md-1 col-12'></div>
+            <div className="trading-text col-lg-4 col-md-6 col-12 p-0">
+              <img src="building.png" alt="description" />
+            </div>
+            <div className="col-lg-2 col-md-2 col-12"></div>
+
+            <div className="col-lg-5 col-md-6 col-12 solution gb">
+              <div className="global-trade"><img className="prevention" src="prevention.png" /></div>
+              <div className="icon-content mt-2"><h6>Preventive & Supportive Solutions</h6>
+                <ul className='space'>
+                  <li>· Medical equipment and healthcare supplies trading</li>
+                  <li>· Preventive healthcare solutions</li>
+                  <li>· Telemedicine and digital healthcare integration</li>
+                  <li>· Health and wellness consultancy</li>
+                </ul>
+              </div>
+            </div>
+
 
           </div>
           <div className="row mt-5">
             <div className='col-lg-1 col-md-1 col-12'></div>
-            <div className="trading-text col-lg-3 col-md-3 col-12 p-0">
-              <img src="site.png" alt="description" />
-            </div>
-            <div className='col-lg-2 col-md-2 col-12'></div>
             <div className="col-lg-6 col-md-6 col-12 solution">
               <div className="global-trade"><img className="infra" src="infrastructure.png" /></div>
               <div className="icon-content mt-2"><h6>Infrastructure & Construction</h6>
@@ -97,9 +124,17 @@ const Service = () => {
                 </ul>
               </div>
             </div>
+            <div className='col-lg-2 col-md-2 col-12'></div>
+            <div className="trading-text col-lg-3 col-md-3 col-12 p-0">
+              <img src="site.png" alt="description" />
+            </div>
           </div>
           <div className="row mt-5">
             <div className='col-lg-1 col-md-1 col-12'></div>
+            <div className="trading-text col-lg-4 col-md-4 col-12 p-0">
+              <img src="supply.png" alt="description" />
+            </div>
+            <div className='col-lg-2 col-md-2 col-12'></div>
             <div className="col-lg-5 col-md-5 col-12 solution gb">
               <div className="global-trade"><img className="truck" src="truck.png" /></div>
               <div className="icon-content mt-2"><h6>Logistics & Supply Chain Management</h6>
@@ -111,17 +146,10 @@ const Service = () => {
                 </ul>
               </div>
             </div>
-            <div className='col-lg-2 col-md-2 col-12'></div>
-            <div className="trading-text col-lg-4 col-md-4 col-12 p-0">
-              <img src="supply.png" alt="description" />
-            </div>
+
           </div>
           <div className="row mt-5">
             <div className='col-lg-1 col-md-1 col-12'></div>
-            <div className="trading-text col-lg-3 col-md-3 col-12 p-0">
-              <img src="world.png" alt="description" />
-            </div>
-            <div className='col-lg-3 col-md-3 col-12'></div>
             <div className="col-lg-4 col-md-6 col-12 solution">
               <div className="global-trade"><img className="world" src="renewable-energy.png" /></div>
               <div className="icon-content mt-2"><h6>Energy Solutions</h6>
@@ -133,6 +161,11 @@ const Service = () => {
                 </ul>
               </div>
             </div>
+            <div className='col-lg-3 col-md-3 col-12'></div>
+            <div className="trading-text col-lg-4 col-md-3 col-12 p-0">
+              <img src="world.png" alt="description" />
+            </div>
+
           </div>
         </div>
       </section>
@@ -149,12 +182,6 @@ const Service = () => {
               <div className="border border-success border-1 opacity-100"></div>
             </div>
           </div>
-          {/* <div className="col-lg-4 col-md-4 col-12">
-            <div className="col d-flex align-items-center">
-              <img className="me-2" src="dollar.png" style={{width:30 , height:30 }}/>
-              <p className="part mb-0">Global Trading</p>
-              </div><p>Swaram is positioned as a globally oriented company with aspirations to be a leader in its chosen sectors</p></div> */}
-
           <div className="row">
             <div className="col-lg-6 d-flex col-md-6 col-12 solution gb">
               <div className="global-trade"><img className="service-sol" src="globe.png" /></div>
@@ -169,6 +196,35 @@ const Service = () => {
             </div>
             <div className="trading-text col-lg-6 col-md-6 col-12 p-0">
               <img src="trading.png" alt="description" />
+            </div>
+          </div>
+          <div className="row align-items-center mt-2">
+          <div className="col-1"></div>
+           
+            <div className="content col-lg-12 col-md-12 mx-auto col-sm-12">
+              <h4>Healthcare</h4>
+            </div>
+            <div className="col d-none d-md-block">
+              <div className="border border-success border-1 opacity-100"></div>
+            </div>
+          </div>
+          <div className="row">
+            <div className="col-lg-1"></div>
+            <div className="col-lg-5  d-flex col-md-5 col-12 solution gb">
+            <div className="global-trade"><img className="prevention" src="prevention.png" /></div>
+              <div className="icon-content mt-2"><h6>Preventive & Supportive Solutions</h6>
+                <ul className='space'>
+                  <li>· Medical equipment and healthcare supplies trading</li>
+                  <li>· Preventive healthcare solutions</li>
+                  <li>· Telemedicine and digital healthcare integration</li>
+                  <li>· Health and wellness consultancy</li>
+                </ul>
+              </div>
+            </div>
+            <div className="col-lg-2 col-md-2 col-12"></div>
+
+            <div className="trading-text col-lg-4 col-md-6 col-12 p-0">
+              <img src="building.png" alt="description" />
             </div>
           </div>
           <div className="row">
@@ -222,67 +278,7 @@ const Service = () => {
         </div>
       </section>
 
-
-    {/* Desktop */}
-      <section className='service-last-section d-none d-md-block'>
-        <div className="container-fluid">
-          <div className="row align-items-center">
-            <div className="col-5"></div>
-            <div className="content col-lg-12 col-md-12 mx-auto col-sm-12">
-              <h4>Healthcare</h4>
-            </div>
-            <div className="col d-none d-md-block">
-              <div className="border border-success border-1 opacity-100"></div>
-            </div>
-          </div>
-          <div className="row">
-            <div className="col-lg-8 col-md-6 col-12 solution gb">
-              <div className="icon-content mt-2"><h6>Preventive & Supportive Solutions</h6>
-                <ul className='space'>
-                  <li>· Medical equipment and healthcare supplies trading</li>
-                  <li>· Preventive healthcare solutions</li>
-                  <li>· Telemedicine and digital healthcare integration</li>
-                  <li>· Health and wellness consultancy</li>
-                </ul>
-              </div>
-            </div>
-            <div className="col-lg-1"></div>
-            <div className="trading-text col-lg-3 col-md-6 col-12 p-0">
-              <img src="building.png" alt="description" />
-            </div>
-          </div>
-        </div>
-      </section>
-      {/* Mobile */}
-      <section className='service-last-section d-block d-md-none'>
-        <div className="container-fluid">
-          <div className="row align-items-center">
-            <div className="col-1"></div>
-            <div className="content col-lg-12 col-md-12 mx-auto col-sm-12 mt-3">
-              <h4>Healthcare</h4>
-            </div>
-            <div className="col d-none d-md-block">
-              <div className="border border-success border-1 opacity-100"></div>
-            </div>
-          </div>
-          <div className="row">
-            <div className="col-lg-8 col-md-6 col-12 solution gb">
-              <div className="icon-content mt-2"><h6>Preventive & Supportive Solutions</h6>
-                <ul className='space'>
-                  <li>· Medical equipment and healthcare supplies trading</li>
-                  <li>· Preventive healthcare solutions</li>
-                  <li>· Telemedicine and digital healthcare integration</li>
-                  <li>· Health and wellness consultancy</li>
-                </ul>
-              </div>
-            </div>
-            <div className="col-lg-1"></div>
-            <div className="trading-text col-lg-3 col-md-6 col-12 p-0">
-              <img src="building.png" alt="description" />
-            </div>
-          </div>
-        </div>
-      </section>
+     
 
 
     </>

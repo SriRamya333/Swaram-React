@@ -77,7 +77,7 @@ const Footer = () => {
                     <div className="col-12 col-md-4 d-flex flex-column align-items-center text-center">
                         <div className="foot-head">
                             <h2>NEWSLETTER</h2>
-                            <p>Over 25000 people have subscribed</p>
+                            {/* <p>Over 25000 people have subscribed</p> */}
                         </div>
                         <div className="subscription-form w-100">
                             <form className="form-subscribe" onSubmit={sendEmail}>

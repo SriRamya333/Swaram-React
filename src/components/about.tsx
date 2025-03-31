@@ -77,6 +77,135 @@ const About = () => {
           </div>
         </div>
       </section>
+{/* Desktop */}
+      <section className='d-none d-md-block'>
+        <div className="container">
+          <div className="row">
+            <div className="col-lg-4 col-md-6 mx-auto col-12">
+              <img className="dist" src='distribution.png' />
+            </div>
+            <div className="col-lg-6 col-md-6 mx-auto col-12">
+              <h2 className="logic text-center text-md-start mt-3">Healthcare Trading & Distribution</h2>
+              <ul className='health'>
+                <li>Supply & distribution of medical equipment, pharmaceuticals, and healthcare consumables (including Ayurvedic, naturopathy, and herbal products)</li>
+                <li>Import/export of diagnostic devices, surgical tools, and wellness products</li>
+                <li>Procurement & supply chain solutions for hospitals, clinics, and wellness centers</li>
+                <li>Blockchain-enabled healthcare supply chain solutions for enhanced transparency and efficiency</li>
+              </ul>
+            </div>
+          </div>
+          <div className="row">
+            <div className="col-lg-6 col-md-6 mx-auto col-12">
+              <h2 className="logic text-center text-md-start mt-3">Healthcare Solutions & Services</h2>
+              <ul className='health'>
+                <li>Hospital & clinic setup consultation (design, planning, and procurement, including holistic wellness centers)</li>
+                <li>Medical Tourism & Patient Facilitation, including advanced treatments, alternative therapies (Ayurveda, naturopathy), and wellness retreats</li>
+                <li>Preventive healthcare & wellness programs, integrating modern and alternative medicine</li>
+                <li>Telemedicine & remote healthcare solutions, including Ayurvedic and naturopathy-based consultations</li>
+                <li>Training & skill development programs for healthcare professionals and wellness practitioners</li>
+              </ul>
+            </div>
+            <div className="col-lg-4 col-md-6 mx-auto col-12">
+              <img className="dist" src='health-solution.jpg' />
+            </div>
+          </div>
+          <div className="row">
+            <div className="col-lg-4 col-md-6 mx-auto col-12">
+              <img className="dist" src='health-business.jpg' />
+            </div>
+            <div className="col-lg-6 col-md-6 mx-auto col-12">
+              <h2 className="logic text-center text-md-start mt-3">Healthcare Representation & Business Development</h2>
+              <ul className='health'>
+                <li>Regional representation & distribution for global healthcare brands (medical, herbal, and wellness)</li>
+                <li>Regulatory & licensing support for pharmaceuticals, medical devices, and alternative healthcare products</li>
+                <li>Strategic partnerships & institutional collaborations in healthcare infrastructure and holistic wellness</li>
+                <li>Healthcare financing & insurance facilitation to support patients and institutions in accessing medical care</li>
+                <li>Strategic investments in healthcare startups, fostering innovation in medical technology, AI, and digital health</li>
+              </ul>
+            </div>
+          </div>
+          <div className="row">
+            <div className="col-lg-6 col-md-6 mx-auto col-12">
+              <h2 className="logic text-center text-md-start mt-3">AI & Digital Health Technologies</h2>
+              <ul className='health'>
+                <li>AI-powered diagnostics & predictive analytics for both modern and alternative medicine</li>
+                <li>Remote patient monitoring & health tech solutions, including Ayurveda-integrated platforms</li>
+                <li>Blockchain-based healthcare products trading platform for secure, transparent, and efficient transactions</li>
+                <li>Smart data management & interoperability using blockchain for secure medical and wellness records</li>
+                <li>Clinical research & biotech innovation support leveraging AI and digital platforms</li>
+              </ul>
+            </div>
+            <div className="col-lg-4 col-md-6 mx-auto col-12">
+              <img className="dist" src='ai-digital.jpg' />
+            </div>
+          </div>
+        </div>
+      </section>
+      {/* Mobile */}
+      <section className='d-block d-md-none'>
+        <div className="container">
+          <div className="row">
+            <div className="col-lg-6 col-md-6 mx-auto col-12">
+              <h2 className="logic text-center text-md-start mt-3">Healthcare Trading & Distribution</h2>
+              <ul className='health'>
+                <li>Supply & distribution of medical equipment, pharmaceuticals, and healthcare consumables (including Ayurvedic, naturopathy, and herbal products)</li>
+                <li>Import/export of diagnostic devices, surgical tools, and wellness products</li>
+                <li>Procurement & supply chain solutions for hospitals, clinics, and wellness centers</li>
+                <li>Blockchain-enabled healthcare supply chain solutions for enhanced transparency and efficiency</li>
+              </ul>
+            </div>
+            <div className="col-lg-4 col-md-6 mx-auto col-12">
+              <img className="dist" src='distribution.png' />
+            </div>
+          </div>
+          <div className="row">
+            <div className="col-lg-6 col-md-6 mx-auto col-12">
+              <h2 className="logic text-center text-md-start mt-3">Healthcare Solutions & Services</h2>
+              <ul className='health'>
+                <li>Hospital & clinic setup consultation (design, planning, and procurement, including holistic wellness centers)</li>
+                <li>Medical Tourism & Patient Facilitation, including advanced treatments, alternative therapies (Ayurveda, naturopathy), and wellness retreats</li>
+                <li>Preventive healthcare & wellness programs, integrating modern and alternative medicine</li>
+                <li>Telemedicine & remote healthcare solutions, including Ayurvedic and naturopathy-based consultations</li>
+                <li>Training & skill development programs for healthcare professionals and wellness practitioners</li>
+              </ul>
+            </div>
+            <div className="col-lg-4 col-md-6 mx-auto col-12">
+              <img className="dist" src='health-solution.jpg' />
+            </div>
+          </div>
+          <div className="row">
+            <div className="col-lg-6 col-md-6 mx-auto col-12">
+              <h2 className="logic text-center text-md-start mt-3">Healthcare Representation & Business Development</h2>
+              <ul className='health'>
+                <li>Regional representation & distribution for global healthcare brands (medical, herbal, and wellness)</li>
+                <li>Regulatory & licensing support for pharmaceuticals, medical devices, and alternative healthcare products</li>
+                <li>Strategic partnerships & institutional collaborations in healthcare infrastructure and holistic wellness</li>
+                <li>Healthcare financing & insurance facilitation to support patients and institutions in accessing medical care</li>
+                <li>Strategic investments in healthcare startups, fostering innovation in medical technology, AI, and digital health</li>
+              </ul>
+            </div>
+            <div className="col-lg-4 col-md-6 mx-auto col-12">
+              <img className="dist" src='health-business.jpg' />
+            </div>
+          </div>
+          <div className="row">
+            <div className="col-lg-6 col-md-6 mx-auto col-12">
+              <h2 className="logic text-center text-md-start mt-3">AI & Digital Health Technologies</h2>
+              <ul className='health'>
+                <li>AI-powered diagnostics & predictive analytics for both modern and alternative medicine</li>
+                <li>Remote patient monitoring & health tech solutions, including Ayurveda-integrated platforms</li>
+                <li>Blockchain-based healthcare products trading platform for secure, transparent, and efficient transactions</li>
+                <li>Smart data management & interoperability using blockchain for secure medical and wellness records</li>
+                <li>Clinical research & biotech innovation support leveraging AI and digital platforms</li>
+              </ul>
+            </div>
+            <div className="col-lg-4 col-md-6 mx-auto col-12">
+              <img className="dist" src='ai-digital.jpg' />
+            </div>
+          </div>
+        </div>
+      </section>
+
       {/* Desktop */}
       <section className='mt-4 d-none d-md-block' style={{
         backgroundImage: "linear-gradient(to bottom, #B6D4FF, #FFFFFF)",
@@ -315,7 +444,7 @@ const About = () => {
               <p>Swaram aims to lead the global trading industry by providing high-quality solutions that meet the diverse needs of businesses worldwide. Through innovation, collaboration, and sustainability, we bridge markets, foster international partnerships, and drive growth across sectors.</p>
             </div>
             <div className="sys col-lg-4 col-md-4 mx-auto col-12">
-              <img src='system.png' className="img-fluid" alt="System" />
+              <img src='system.jpg' className="img-fluid" alt="System" />
             </div>
           </div>
         </div>
@@ -358,7 +487,7 @@ const About = () => {
               <p>Swaram aims to lead the global trading industry by providing high-quality solutions that meet the diverse needs of businesses worldwide. Through innovation, collaboration, and sustainability, we bridge markets, foster international partnerships, and drive growth across sectors.</p>
             </div>
             <div className="sys col-lg-4 col-md-4 mx-auto col-12">
-              <img src='system.png' className="img-fluid" alt="System" />
+              <img src='system.jpg' className="img-fluid" alt="System" />
             </div>
           </div>
         </div>
@@ -398,7 +527,7 @@ const About = () => {
             </div>
           </div>
           <div className="row mt-4">
-           
+
             <div className="col-lg-8 col-md-12 col-12 text-center mr-5">
               <div className="">
                 <div className="overall">
@@ -430,7 +559,7 @@ const About = () => {
                 </div>
               </div>
               <div className="row mt-4">
-             
+
                 <div className="col-lg-12 col-md-12 col-12">
                   <div className="d-flex flex-column align-items-middle">
                     <div className="overall">
@@ -438,7 +567,7 @@ const About = () => {
                         <h2>The Power and Energy Leader</h2>
                         <h2> <span className='leader'>K Ramasubramanian</span></h2>
                         <h5> Founder & CEO</h5>
-                      
+
                       </div>
 
                       <div className="vector w-100">
